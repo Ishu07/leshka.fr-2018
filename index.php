@@ -31,19 +31,19 @@
 <div class="project">
   <h2>Hogan.com</h2>
   <a href="http://www.hogan.com">visit the website</a>
-  <img src="works/gameofthrones/gameofthrones_thumb.jpg"/>
+  <img class="full" src="works/gameofthrones/gameofthrones_thumb.jpg"/>
 </div>
 
 <div class="project">
   <h2>Hogan.com</h2>
   <a href="http://www.hogan.com">visit the website</a>
-  <img src="works/gameofthrones/gameofthrones_thumb.jpg"/>
+  <img class="full" src="works/gameofthrones/gameofthrones_thumb.jpg"/>
 </div>
 
 <div class="project">
   <h2>Hogan.com</h2>
   <a href="http://www.hogan.com">visit the website</a>
-  <img src="works/gameofthrones/gameofthrones_thumb.jpg"/>
+  <img class="full" src="works/gameofthrones/gameofthrones_thumb.jpg"/>
 </div>
 
 <!-- <?php
