@@ -13,11 +13,13 @@
 <body>
 <script src="js/jquery-2.1.3.min.js"></script>
 <script src="build/less.min.js"></script>
+<script src="build/lazyload.min.js"></script>
 <script>
   var page="home";
   //if (screen.width <= 730) {
   //  window.location = "mobile.php";
   //  }
+
 </script>
 <div class="intro">
   <div class="introwrap">
@@ -28,22 +30,23 @@
     </h1>
   </div>
 </div>
+
 <div class="project">
   <h2>Hogan.com</h2>
   <a href="http://www.hogan.com">visit the website</a>
-  <img class="full" src="works/gameofthrones/gameofthrones_thumb.jpg"/>
+  <img class="lazyload full" src="works/gameofthrones/image1_thumb.jpg" data-src="works/gameofthrones/image1.jpg" />
 </div>
 
 <div class="project">
   <h2>Hogan.com</h2>
   <a href="http://www.hogan.com">visit the website</a>
-  <img class="full" src="works/gameofthrones/gameofthrones_thumb.jpg"/>
+  <img class="lazyload full" src="works/gameofthrones/image1_thumb.jpg" data-src="works/gameofthrones/image2.jpg" />
 </div>
 
 <div class="project">
   <h2>Hogan.com</h2>
   <a href="http://www.hogan.com">visit the website</a>
-  <img class="full" src="works/gameofthrones/gameofthrones_thumb.jpg"/>
+  <img class="lazyload full" src="works/gameofthrones/image1_thumb.jpg" data-src="works/gameofthrones/image3.jpg" />
 </div>
 
 <!-- <?php
@@ -52,3 +55,9 @@
 
 </body>
 </html>
+
+<script>
+window.addEventListener("load", function(event) {
+    lazyload();
+});
+</script>
