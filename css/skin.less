@@ -1,0 +1,91 @@
+/*@font-face {
+    font-family: "grd-bold";
+    src: url(fonts/gothamrnd-bold.ttf) format("truetype");
+}
+@font-face {
+    font-family: "grd-book";
+    src: url(fonts/gothamrnd-book.ttf) format("truetype");
+}
+*/
+
+// @color1: #eeeeee;
+// @color2: #666666;
+
+@width: 80%;
+
+// COLORS
+
+@color1: ~"h1,h2,a:hover";
+@{color1} {
+  color: #eeeeee;
+}
+@color2: ~"a, h3";
+@{color2} {
+  color: #666666;
+}
+
+// CONSTRUCTORS
+
+@wraper: ~".project, .intro";
+@{wraper} {
+  position: relative;
+  display: block;
+  margin: auto;
+  width: @width;
+  max-width: 1440px;
+  margin-bottom: 120px;
+}
+
+@elmts: ~"h2,a,p,img";
+@{elmts} {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.transition(@transition) {
+  -webkit-transition: @transition;
+  -moz-transition: @transition;
+  -o-transition: @transition;
+  transition: @transition;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #17171b;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+// STYLE
+// INTRO
+.intro{
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.introwrap{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+h3{
+  margin: 0;
+  position: relative;
+  display: flex;
+  height: 2em;
+  font-size: 2em;
+}
+h1{
+  margin: 0;
+  position: relative;
+  display: flex;
+  font-size: 4em;
+}
