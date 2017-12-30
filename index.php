@@ -11,9 +11,12 @@
   <link rel="stylesheet/less" href="css/skin.less">
 </head>
 <body>
-<script src="js/jquery-2.1.3.min.js"></script>
+<script src="build/jquery-2.1.3.min.js"></script>
 <script src="build/less.min.js"></script>
 <script src="build/lazyload.min.js"></script>
+<script src="js/init.js"></script>
+<script src="js/inView.js"></script>
+<script src="js/slideshow.js"></script>
 <script>
   var page="home";
   //if (screen.width <= 730) {
@@ -28,6 +31,18 @@
     Art Director & Motion Designer  focussed on uniques identities and  immersive experiences.<br/>
     I do this, and That.
     </h1>
+  </div>
+</div>
+
+<div class="project">
+  <h2>Slideshow</h2>
+  <p>change the speed, timeline, and Autoplay</p>
+  <div class="sequence full" speed="8" timeline="false" autoplay="true" >
+    <img class="lazyload full " src="works/gameofthrones/image1_thumb.jpg" data-src="works/gameofthrones/recipes/001.jpg" />
+    <img class="lazyload full " src="works/gameofthrones/image1_thumb.jpg" data-src="works/gameofthrones/recipes/002.jpg" />
+    <img class="lazyload full " src="works/gameofthrones/image1_thumb.jpg" data-src="works/gameofthrones/recipes/003.jpg" />
+    <img class="lazyload full " src="works/gameofthrones/image1_thumb.jpg" data-src="works/gameofthrones/recipes/004.jpg" />
+    <img class="lazyload full " src="works/gameofthrones/image1_thumb.jpg" data-src="works/gameofthrones/recipes/005.jpg" />
   </div>
 </div>
 
@@ -55,9 +70,3 @@
 
 </body>
 </html>
-
-<script>
-window.addEventListener("load", function(event) {
-    lazyload();
-});
-</script>
