@@ -9,11 +9,13 @@
   <meta name="author" content="le Shka">
 
   <link rel="stylesheet/less" href="css/skin.less">
+  <link rel="stylesheet" href="build/lazyYoutube/lazyYoutube.css">
 </head>
 <body>
 <script src="build/jquery-2.1.3.min.js"></script>
 <script src="build/less.min.js"></script>
 <script src="build/lazyload.min.js"></script>
+<script src="build/lazyYoutube/lazyYoutube.js"></script>
 <script src="js/init.js"></script>
 <script src="js/inView.js"></script>
 <script src="js/slideshow.js"></script>
@@ -37,7 +39,7 @@
 <div class="project">
   <h2>Slideshow</h2>
   <p>change the speed, timeline, and Autoplay</p>
-  <div class="sequence full" speed="8" timeline="false" autoplay="true" >
+  <div class="sequence full" speed="10" timeline="false" autoplay="true" >
     <img class="lazyload full " src="works/gameofthrones/image1_thumb.jpg" data-src="works/gameofthrones/recipes/001.jpg" />
     <img class="lazyload full " src="works/gameofthrones/image1_thumb.jpg" data-src="works/gameofthrones/recipes/002.jpg" />
     <img class="lazyload full " src="works/gameofthrones/image1_thumb.jpg" data-src="works/gameofthrones/recipes/003.jpg" />
@@ -45,6 +47,17 @@
     <img class="lazyload full " src="works/gameofthrones/image1_thumb.jpg" data-src="works/gameofthrones/recipes/005.jpg" />
   </div>
 </div>
+
+<div class="project">
+  <h2>Youtube</h2>
+  <p>Youtube lazyload</p>
+  <div class="wrapper ">
+      <div class="youtube " data-embed="AqcjdkPMPJA">
+          <div class="play-button"></div>
+      </div>
+  </div>
+</div>
+
 
 <div class="project">
   <h2>Hogan.com</h2>
