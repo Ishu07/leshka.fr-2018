@@ -29,42 +29,8 @@
   color: #666666;
 }
 
-// CONSTRUCTORS
-
-@wraper: ~".project, .intro";
-@{wraper} {
-  position: relative;
-  display: block;
-  margin: auto;
-  width: @width;
-  max-width: 1440px;
-  margin-bottom: 120px;
-}
-
-@elmts: ~"h2,a,p,.full";
-@{elmts} {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  width: 100%;
-  text-align: center;
-}
-
-.transition(@transition) {
-  -webkit-transition: @transition;
-  -moz-transition: @transition;
-  -o-transition: @transition;
-  transition: @transition;
-}
-
 body{
-  margin: 0px;
-  padding: 0px;
   background-color: #17171b;
-  overflow-x: hidden;
-  display: flex;
-  flex-direction: column;
 }
 
 // STYLE
@@ -91,6 +57,10 @@ h3{
 h1{
   margin: 0;
   position: relative;
-  display: flex;
   font-size: 4em;
+}
+
+// PROJECTS
+.wrapper{
+  margin-top: 50px;
 }

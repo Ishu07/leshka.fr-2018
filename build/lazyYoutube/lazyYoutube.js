@@ -5,7 +5,7 @@ function initlazyYoutube(){
 
       for (var i = 0; i < youtube.length; i++) {
 
-          var source = "https://img.youtube.com/vi/"+ youtube[i].dataset.embed +"/sddefault.jpg";
+          var source = "https://img.youtube.com/vi/"+ youtube[i].dataset.embed +"/maxresdefault.jpg";
           console.log(source);
           var image = new Image();
                   image.src = source;

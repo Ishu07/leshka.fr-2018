@@ -1,0 +1,36 @@
+// CONSTRUCTORS
+
+@wraper: ~".project, .intro";
+@{wraper} {
+  position: relative;
+  display: block;
+  margin: auto;
+  width: @width;
+  max-width: 1440px;
+  margin-bottom: 120px;
+}
+
+@elmts: ~"h2,p,.full";
+@{elmts} {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.transition(@transition) {
+  -webkit-transition: @transition;
+  -moz-transition: @transition;
+  -o-transition: @transition;
+  transition: @transition;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
