@@ -1,0 +1,28 @@
+
+@keyframes disappear {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+@keyframes appear {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.over{
+  position: absolute;
+  z-index: 1;
+    top: 0;
+    opacity: 0;
+    animation-name: appear;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+.under{
+  z-index: 0;
+    top: 0;
+    opacity: 1;
+    animation-name: disappear;
+    animation-duration: 1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}

@@ -106,7 +106,8 @@
                         if ("img" === entry.target.tagName.toLowerCase()) {
                             if (src) {
                               // HERE //
-                                $( entry.target ).after("<img class='full over' src='"+entry.target.src+"'></img>");
+                                $( entry.target ).after("<img class='full under' src='"+entry.target.src+"'></img>");
+                                $( entry.target ).addClass("over");
                                 entry.target.src = src;
                                 // console.log(entry.target);
                                 console.log("0");

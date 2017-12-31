@@ -11,11 +11,12 @@
   <link rel="stylesheet/less" href="css/disposition.less">
   <link rel="stylesheet/less" href="css/skin.less">
   <link rel="stylesheet" href="build/lazyYoutube/lazyYoutube.css">
+  <link rel="stylesheet" href="build/lazyload/lazyload.css">
 </head>
 <body>
 <script src="build/jquery-2.1.3.min.js"></script>
 <script src="build/less.min.js"></script>
-<script src="build/lazyload.js"></script>
+<script src="build/lazyload/lazyload.js"></script>
 <!-- DELETE ME IF I AM OFFLINE -->
 <script src="build/lazyYoutube/lazyYoutube.js"></script>
 <script src="js/init.js"></script>
@@ -132,20 +133,22 @@ to deconstruct the Olympic Games.</p>
   </div>
 
   <div class="wrapper article">
-    <img class="lazyload big-left" src="projects/hermes/img/hermes_leather_thumb.jpg" data-src="projects/hermes/img/hermes_leather.jpg" />
+    <div class="big-left">
+      <img class="lazyload full" src="projects/hermes/img/hermes_leather_thumb.jpg" data-src="projects/hermes/img/hermes_leather.jpg" />
+    </div>
     <p class="lil-right">The leather-working station shows moments from every step in the creation of a Hermès bag, from leather hide to product. A difficult task was to give people a sense of how the artisan looks at leather, what he or she sees on the skin...<br/>
       Like a magical lens, the digital pictureframe allows a view of the leather as seen through the eyes of the craftsman. Revealed are the life marks, wrinkles and parts of the leather that are not up to the quality standards of Hermès. Based on this reading and knowledge, the artisan decides how to lay out the pattern, what parts to cut and in which way.</p>
   </div>
   <div class="separator"></div>
   <div class="wrapper article">
-    <img class="lazyload big-right" src="projects/hermes/img/hermes_googles_thumb.jpg" data-src="projects/hermes/img/hermes_googles.jpg" />
+    <div class="big-right">
+      <img class="lazyload full" src="projects/hermes/img/hermes_googles_thumb.jpg" data-src="projects/hermes/img/hermes_googles.jpg" />
+    </div>
     <p class="lil-left">Metal-working for jewellery and watches has an even finer degree of detail. The craftsmen use special magnifying goggles to put the precious pieces together. We adapted this archetypal piece of equipment for our display: digital binoculars which peer into a museum-grade vitrine, housing the Hermès piece.<br/>
       Through the goggles, people see the manual fabrication and assembly steps from an artisan’s point of view, at 1-1 scale to make it feel as if you were doing it yourself.</p>
   </div>
 
 </div>
-
-
 
 <!-- SLIDESHOW TEST -->
 
@@ -153,25 +156,25 @@ to deconstruct the Olympic Games.</p>
   <h2>Slideshow</h2>
   <p class="subtitle">change the speed, timeline, and Autoplay</p>
   <div class="sequence wrapper" speed="10" timeline="false" autoplay="true" >
-    <img class="lazyload full " src="projects/jagermeister-recipes/recipes_thumb/000.jpg" data-src="projects/jagermeister-recipes/recipes/000.jpg" />
-    <img class="lazyload full " src="projects/jagermeister-recipes/recipes_thumb/001.jpg" data-src="projects/jagermeister-recipes/recipes/001.jpg" />
-    <img class="lazyload full " src="projects/jagermeister-recipes/recipes_thumb/002.jpg" data-src="projects/jagermeister-recipes/recipes/002.jpg" />
-    <img class="lazyload full " src="projects/jagermeister-recipes/recipes_thumb/003.jpg" data-src="projects/jagermeister-recipes/recipes/003.jpg" />
-    <img class="lazyload full " src="projects/jagermeister-recipes/recipes_thumb/004.jpg" data-src="projects/jagermeister-recipes/recipes/004.jpg" />
-    <img class="lazyload full " src="projects/jagermeister-recipes/recipes_thumb/005.jpg" data-src="projects/jagermeister-recipes/recipes/005.jpg" />
-    <img class="lazyload full " src="projects/jagermeister-recipes/recipes_thumb/006.jpg" data-src="projects/jagermeister-recipes/recipes/006.jpg" />
-    <img class="lazyload full " src="projects/jagermeister-recipes/recipes_thumb/007.jpg" data-src="projects/jagermeister-recipes/recipes/007.jpg" />
-    <img class="lazyload full " src="projects/jagermeister-recipes/recipes_thumb/008.jpg" data-src="projects/jagermeister-recipes/recipes/008.jpg" />
-    <img class="lazyload full " src="projects/jagermeister-recipes/recipes_thumb/009.jpg" data-src="projects/jagermeister-recipes/recipes/009.jpg" />
-    <img class="lazyload full " src="projects/jagermeister-recipes/recipes_thumb/010.jpg" data-src="projects/jagermeister-recipes/recipes/010.jpg" />
-    <img class="lazyload full " src="projects/jagermeister-recipes/recipes_thumb/011.jpg" data-src="projects/jagermeister-recipes/recipes/011.jpg" />
-    <img class="lazyload full " src="projects/jagermeister-recipes/recipes_thumb/012.jpg" data-src="projects/jagermeister-recipes/recipes/012.jpg" />
-    <img class="lazyload full " src="projects/jagermeister-recipes/recipes_thumb/013.jpg" data-src="projects/jagermeister-recipes/recipes/013.jpg" />
-    <img class="lazyload full " src="projects/jagermeister-recipes/recipes_thumb/014.jpg" data-src="projects/jagermeister-recipes/recipes/014.jpg" />
-    <img class="lazyload full " src="projects/jagermeister-recipes/recipes_thumb/015.jpg" data-src="projects/jagermeister-recipes/recipes/015.jpg" />
-    <img class="lazyload full " src="projects/jagermeister-recipes/recipes_thumb/016.jpg" data-src="projects/jagermeister-recipes/recipes/016.jpg" />
-    <img class="lazyload full " src="projects/jagermeister-recipes/recipes_thumb/017.jpg" data-src="projects/jagermeister-recipes/recipes/017.jpg" />
-    <img class="lazyload full " src="projects/jagermeister-recipes/recipes_thumb/018.jpg" data-src="projects/jagermeister-recipes/recipes/018.jpg" />
+    <img class="full " src="projects/jagermeister-recipes/recipes/000.jpg" />
+    <img class="full " src="projects/jagermeister-recipes/recipes/001.jpg" />
+    <img class="full " src="projects/jagermeister-recipes/recipes/002.jpg" />
+    <img class="full " src="projects/jagermeister-recipes/recipes/003.jpg" />
+    <img class="full " src="projects/jagermeister-recipes/recipes/004.jpg" />
+    <img class="full " src="projects/jagermeister-recipes/recipes/005.jpg" />
+    <img class="full " src="projects/jagermeister-recipes/recipes/006.jpg" />
+    <img class="full " src="projects/jagermeister-recipes/recipes/007.jpg" />
+    <img class="full " src="projects/jagermeister-recipes/recipes/008.jpg" />
+    <img class="full " src="projects/jagermeister-recipes/recipes/009.jpg" />
+    <img class="full " src="projects/jagermeister-recipes/recipes/010.jpg" />
+    <img class="full " src="projects/jagermeister-recipes/recipes/011.jpg" />
+    <img class="full " src="projects/jagermeister-recipes/recipes/012.jpg" />
+    <img class="full " src="projects/jagermeister-recipes/recipes/013.jpg" />
+    <img class="full " src="projects/jagermeister-recipes/recipes/014.jpg" />
+    <img class="full " src="projects/jagermeister-recipes/recipes/015.jpg" />
+    <img class="full " src="projects/jagermeister-recipes/recipes/016.jpg" />
+    <img class="full " src="projects/jagermeister-recipes/recipes/017.jpg" />
+    <img class="full " src="projects/jagermeister-recipes/recipes/018.jpg" />
   </div>
 </div>
 
