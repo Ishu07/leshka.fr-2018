@@ -8,8 +8,8 @@
   <meta name="description" content="SHK(le Shka) Designer / Artist based between London - Paris - Amsterdam">
   <meta name="author" content="le Shka">
 
-  <link rel="stylesheet/less" href="css/skin.less">
   <link rel="stylesheet/less" href="css/disposition.less">
+  <link rel="stylesheet/less" href="css/skin.less">
   <link rel="stylesheet" href="build/lazyYoutube/lazyYoutube.css">
 </head>
 <body>
@@ -43,13 +43,13 @@
 
 <div class="project">
   <h2>51 Sprints for Neue Institute</h2>
-  <p>Art Direction, Design & Motion</p>
-  <p>A different take on data visualisation:
+  <p class="subtitle">Art Direction, Design & Motion</p>
+  <p class="subtitle">A different take on data visualisation:
 a run simulator that combines historical footage and
 data from the 100m sprint finals as a starting point
 to deconstruct the Olympic Games.</p>
-<p><a href="http://51sprints.com/">visit the website</a></p>
-  <div class="wrapper ">
+<p class="subtitle"><a href="http://51sprints.com/">visit the website</a></p>
+  <div class="wrapper">
       <div class="youtube " data-embed="kka3v6fJsgI">
           <div class="play-button"></div>
       </div>
@@ -60,9 +60,9 @@ to deconstruct the Olympic Games.</p>
 
 <div class="project">
   <h2>Hogan.com</h2>
-  <p>Art Direction, Design & Motion</p>
-  <p> <a href="#">case study comming soon</a> </p>
-  <p> <a href="http://www.hogan.com">hogan.com </a> </p>
+  <p class="subtitle">Art Direction, Design & Motion</p>
+  <p class="subtitle"> <a href="#">case study comming soon</a> </p>
+  <p class="subtitle"> <a href="http://www.hogan.com">hogan.com </a> </p>
   <div class="wrapper">
     <img class="lazyload full" src="projects/hogan/img/hogan_thumb.png" data-src="projects/hogan/img/hogan.png" />
   </div>
@@ -72,8 +72,8 @@ to deconstruct the Olympic Games.</p>
 
 <div class="project">
   <h2>Nike Infinite</h2>
-  <p>Art Direction, Design</p>
-  <p> <a href="http://www.random.nu/nike-free/">view the case study</a> </p>
+  <p class="subtitle">Art Direction, Design</p>
+  <p class="subtitle"> <a href="http://www.random.nu/nike-free/">view the case study</a> </p>
   <div class="wrapper">
       <div class="youtube " data-embed="1uFOEcmGbIg">
           <div class="play-button"></div>
@@ -85,7 +85,7 @@ to deconstruct the Olympic Games.</p>
 
 <div class="project">
   <h2>Hogan Club</h2>
-  <p>Design & Animations</p>
+  <p class="subtitle">Design & Animations</p>
   <div class="wrapper">
       <div class="youtube " data-embed="UnEeEQFYqN8">
           <div class="play-button"></div>
@@ -97,7 +97,7 @@ to deconstruct the Olympic Games.</p>
 
 <div class="project">
   <h2>Nespresso U</h2>
-  <p>Art Direction, Design & Motion</p>
+  <p class="subtitle">Art Direction, Design & Motion</p>
   <div class="wrapper">
       <div class="youtube " data-embed="TTHdSYNrRSk">
           <div class="play-button"></div>
@@ -109,7 +109,7 @@ to deconstruct the Olympic Games.</p>
 
 <div class="project">
   <h2>Awwwards Conference</h2>
-  <p>Amsterdam 2016 - Conference talk "Make internet great again"</p>
+  <p class="subtitle">Amsterdam 2016 - Conference talk "Make internet great again"</p>
   <div class="wrapper">
     <img class="lazyload full" src="projects/awwwards2016/awwwards_thumb.jpg" data-src="projects/awwwards2016/awwwards_820.jpg" />
   </div>
@@ -119,15 +119,29 @@ to deconstruct the Olympic Games.</p>
 
 <div class="project">
   <h2>Hermes</h2>
-  <p>Art Direction, Design & Motion</p>
+  <p class="subtitle">Art Direction, Design & Motion</p>
   <div class="wrapper">
     <img class="lazyload full" src="projects/hermes/img/hermes_thumb.png" data-src="projects/hermes/img/hermes.png" />
   </div>
+
   <div class="wrapper">
-      <div class="youtube " data-embed="vkeVIn6KEaQ">
+      <div class="youtube" data-embed="vkeVIn6KEaQ">
           <div class="play-button"></div>
       </div>
   </div>
+
+  <div class="wrapper article">
+    <img class="lazyload big-left" src="projects/hermes/img/hermes_leather_thumb.jpg" data-src="projects/hermes/img/hermes_leather.jpg" />
+    <p class="lil-right">The leather-working station shows moments from every step in the creation of a Hermès bag, from leather hide to product. A difficult task was to give people a sense of how the artisan looks at leather, what he or she sees on the skin...<br/>
+      Like a magical lens, the digital pictureframe allows a view of the leather as seen through the eyes of the craftsman. Revealed are the life marks, wrinkles and parts of the leather that are not up to the quality standards of Hermès. Based on this reading and knowledge, the artisan decides how to lay out the pattern, what parts to cut and in which way.</p>
+  </div>
+  <div class="separator"></div>
+  <div class="wrapper article">
+    <img class="lazyload big-right" src="projects/hermes/img/hermes_googles_thumb.jpg" data-src="projects/hermes/img/hermes_googles.jpg" />
+    <p class="lil-left">Metal-working for jewellery and watches has an even finer degree of detail. The craftsmen use special magnifying goggles to put the precious pieces together. We adapted this archetypal piece of equipment for our display: digital binoculars which peer into a museum-grade vitrine, housing the Hermès piece.<br/>
+      Through the goggles, people see the manual fabrication and assembly steps from an artisan’s point of view, at 1-1 scale to make it feel as if you were doing it yourself.</p>
+  </div>
+
 </div>
 
 
@@ -136,8 +150,8 @@ to deconstruct the Olympic Games.</p>
 
 <div class="project">
   <h2>Slideshow</h2>
-  <p>change the speed, timeline, and Autoplay</p>
-  <div class="sequence wrapper full" speed="10" timeline="false" autoplay="true" >
+  <p class="subtitle">change the speed, timeline, and Autoplay</p>
+  <div class="sequence wrapper" speed="10" timeline="false" autoplay="true" >
     <img class="lazyload full " src="projects/jagermeister-recipes/recipes_thumb/000.jpg" data-src="projects/jagermeister-recipes/recipes/000.jpg" />
     <img class="lazyload full " src="projects/jagermeister-recipes/recipes_thumb/001.jpg" data-src="projects/jagermeister-recipes/recipes/001.jpg" />
     <img class="lazyload full " src="projects/jagermeister-recipes/recipes_thumb/002.jpg" data-src="projects/jagermeister-recipes/recipes/002.jpg" />

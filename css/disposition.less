@@ -1,16 +1,25 @@
+@width: 80%;
+
 // CONSTRUCTORS
 
-@wraper: ~".project, .intro";
+@wraper: ~".wrapper, .project h2, .subtitle";
 @{wraper} {
-  position: relative;
-  display: block;
   margin: auto;
   width: @width;
   max-width: 1440px;
+}
+.project {
+  margin: auto;
+  width: 100%;
+  margin-bottom: 120px;
+}
+.intro {
+  margin: auto;
+  width: @width;
   margin-bottom: 120px;
 }
 
-@elmts: ~"h2,p,.full";
+@elmts: ~"h2,.full";
 @{elmts} {
   position: relative;
   display: flex;
@@ -19,6 +28,36 @@
   width: 100%;
   text-align: center;
 }
+
+.big-left{
+  position: relative;
+  display: block;
+  float:left;
+  width: ~"calc(66.66% - 25px)";
+  margin: auto;
+}
+.lil-right{
+  position: relative;
+  display: block;
+  float:right;
+  width: ~"calc(33.33%)";
+  margin: auto;
+}
+.big-right{
+  position: relative;
+  display: block;
+  float:right;
+  width: ~"calc(66.66% - 25px)";
+  margin: auto;
+}
+.lil-left{
+  position: relative;
+  display: block;
+  float:left;
+  width: ~"calc(33.33%)";
+  margin: auto;
+}
+
 
 .transition(@transition) {
   -webkit-transition: @transition;
