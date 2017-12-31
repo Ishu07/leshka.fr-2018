@@ -15,7 +15,8 @@
 <body>
 <script src="build/jquery-2.1.3.min.js"></script>
 <script src="build/less.min.js"></script>
-<script src="build/lazyload.min.js"></script>
+<script src="build/lazyload.js"></script>
+<!-- DELETE ME IF I AM OFFLINE -->
 <script src="build/lazyYoutube/lazyYoutube.js"></script>
 <script src="js/init.js"></script>
 <script src="js/inView.js"></script>
@@ -30,7 +31,7 @@
 <div class="intro">
   <div class="introwrap">
     <h3>Hey!</h3>
-    <h1>I'm a Senior Interactive<br/>
+    <h1>I'm a Senior Interactive
     Art Director & Motion Designer  focussed on <a href="#">uniques identities</a> and  <a href="#">immersive experiences</a>.
     </h1>
   </div>

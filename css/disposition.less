@@ -65,6 +65,19 @@
   -o-transition: @transition;
   transition: @transition;
 }
+@keyframes disapear {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+.over{
+  position: absolute;
+    top: 0;
+    opacity: 1;
+    animation-name: disapear;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
 
 body{
   margin: 0px;
