@@ -19,6 +19,7 @@ function initSeq(){
     var counter=0;
     var autoplay = new Boolean(false);
     autoplay = (elmt.attr('autoplay'));
+    var play = new Boolean(false);
     var delay=0;
     var delayMax=speed;
     elmt.children("img").css("display","none");
@@ -61,15 +62,18 @@ function initSeq(){
 
     // AUTO
     elmt.mouseenter(function(){
-      if (autoplay){
-        autoplay = false;
+      if (autoplay == true){
+        play = false;
       }
     })
     elmt.mouseleave(function(){
-      autoplay = true;
+      if (autoplay == true) {
+        play = true;
+      }
     })
     window.setInterval(function(){
-      if (autoplay && halfView(elmt)){
+      console.log(play);
+      if (play ==true && halfView(elmt)){
         elmt.children("img:eq("+counter+")").css("display","none");
         counter++;
         if (counter > taille-1){

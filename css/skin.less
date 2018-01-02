@@ -1,7 +1,12 @@
-/*@font-face {
-    font-family: "grd-bold";
-    src: url(fonts/gothamrnd-bold.ttf) format("truetype");
+@font-face {
+    font-family: "LarishNeueSemibold-Regular";
+    src: url(fonts/LarishNeueSemibold-Regular.otf);
 }
+@font-face {
+    font-family: "GothamBook";
+    src: url(fonts/GothamBook.otf);
+}
+/*
 @font-face {
     font-family: "grd-book";
     src: url(fonts/gothamrnd-book.ttf) format("truetype");
@@ -15,7 +20,7 @@
 
 // COLORS
 
-@color1: ~"h1,h2,a:hover";
+@color1: ~"h1,h2,a:hover,.heading";
 @{color1} {
   color: #eeeeee;
 }
@@ -28,9 +33,14 @@
 @{color3} {
   color: #666666;
 }
+@columns: ~".big-left,.big-right,.lil-left,.lil-right";
+@{columns}{
+  margin-top: 60px;
+}
 
 body{
   background-color: #17171b;
+  font-family: "GothamBook",sans-serif;
 }
 
 
@@ -48,6 +58,26 @@ body{
   display: flex;
   flex-wrap: wrap;
 }
+.heading{
+  text-align: center;
+  font-family: "LarishNeueSemibold-Regular";
+  font-size: 20em;
+}
+h1{
+  font-family: "LarishNeueSemibold-Regular";
+  margin: 0;
+  position: relative;
+  font-size: 4em;
+  line-height: 1.5em;
+}
+h2{
+  font-family: "LarishNeueSemibold-Regular";
+  margin: auto;
+  position: relative;
+  font-size: 4em;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
 h3{
   margin: 0;
   position: relative;
@@ -55,11 +85,13 @@ h3{
   height: 2em;
   font-size: 2em;
 }
-h1{
-  margin: 0;
-  position: relative;
-  font-size: 4em;
+p{
+  line-height: 1.5em;
 }
+img{
+  margin-bottom: 20px;
+}
+
 
 // PROJECTS
 

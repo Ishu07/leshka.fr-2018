@@ -29,6 +29,9 @@
   //  }
 
 </script>
+
+<!-- INTRO -->
+
 <div class="intro">
   <div class="introwrap">
     <h3>Hey!</h3>
@@ -44,6 +47,7 @@
 <!-- 51 SPRINTS -->
 
 <div class="project">
+  <div class="heading">5</div>
   <h2>51 Sprints for Neue Institute</h2>
   <p class="subtitle">Art Direction, Design & Motion</p>
   <p class="subtitle">A different take on data visualisation:
@@ -61,6 +65,7 @@ to deconstruct the Olympic Games.</p>
 <!-- Hogan.com -->
 
 <div class="project">
+  <div class="heading">H</div>
   <h2>Hogan.com</h2>
   <p class="subtitle">Art Direction, Design & Motion</p>
   <p class="subtitle"> <a href="#">case study comming soon</a> </p>
@@ -73,6 +78,7 @@ to deconstruct the Olympic Games.</p>
 <!-- Nike Infinite -->
 
 <div class="project">
+  <div class="heading">N</div>
   <h2>Nike Infinite</h2>
   <p class="subtitle">Art Direction, Design</p>
   <p class="subtitle"> <a href="http://www.random.nu/nike-free/">view the case study</a> </p>
@@ -86,6 +92,7 @@ to deconstruct the Olympic Games.</p>
 <!-- Hogan Club -->
 
 <div class="project">
+  <div class="heading">C</div>
   <h2>Hogan Club</h2>
   <p class="subtitle">Design & Animations</p>
   <div class="wrapper">
@@ -98,6 +105,7 @@ to deconstruct the Olympic Games.</p>
 <!-- NESPRESSO U -->
 
 <div class="project">
+  <div class="heading">U</div>
   <h2>Nespresso U</h2>
   <p class="subtitle">Art Direction, Design & Motion</p>
   <div class="wrapper">
@@ -120,6 +128,7 @@ to deconstruct the Olympic Games.</p>
 <!-- Hermes -->
 
 <div class="project">
+  <div class="heading">H</div>
   <h2>Hermes</h2>
   <p class="subtitle">Art Direction, Design & Motion</p>
   <div class="wrapper">
@@ -153,9 +162,10 @@ to deconstruct the Olympic Games.</p>
 <!-- SLIDESHOW TEST -->
 
 <div class="project">
-  <h2>Slideshow</h2>
+  <div class="heading">J</div>
+  <h2>Jagermeister</h2>
   <p class="subtitle">change the speed, timeline, and Autoplay</p>
-  <div class="sequence wrapper" speed="10" timeline="false" autoplay="true" >
+  <div class="sequence wrapper" speed="10" timeline="false" autoplay=true >
     <img class="full " src="projects/jagermeister-recipes/recipes/000.jpg" />
     <img class="full " src="projects/jagermeister-recipes/recipes/001.jpg" />
     <img class="full " src="projects/jagermeister-recipes/recipes/002.jpg" />
