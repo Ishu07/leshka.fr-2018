@@ -72,7 +72,6 @@ function initSeq(){
       }
     })
     window.setInterval(function(){
-      console.log(play);
       if (play ==true && halfView(elmt)){
         elmt.children("img:eq("+counter+")").css("display","none");
         counter++;
@@ -90,25 +89,4 @@ function initSeq(){
 
 $( document ).ready(function() {
     initSeq();
-});
-
-
-
-
-// function initmenu(){
-// $(".menu_mobile").one("click", handler1);
-// $(".header a").one("click", changepagemenu);
-// $(".header_mobile a").one("click", changepagemenu);
-// setpage(page);
-//
-// };
-
-function setpage(page){
-  // console.log(page)
-}
-
-
-
-$( document ).ready(function() {
-//    initmenu();
 });

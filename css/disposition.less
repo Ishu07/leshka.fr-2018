@@ -8,15 +8,44 @@
   width: @width;
   max-width: 1440px;
 }
+.article{
+  display: inline-block;
+}
 .project {
   margin: auto;
   width: 100%;
   margin-bottom: 120px;
 }
 .intro {
+  z-index: 10;
   margin: auto;
   width: @width;
   margin-bottom: 120px;
+}
+.introwrap{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+@thisAndThat: ~".this, .that";
+@{thisAndThat} {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  padding-top: 100vh;
+  transition: all 1s ease;
+}
+.this {
+  left: 0;
+}
+.that {
+  left: 100vw;
+}
+.switchThis {
+  left: -100vw;
+}
+.switchThat {
+  left: 0;
 }
 
 @elmts: ~".full";
@@ -65,7 +94,6 @@
   -o-transition: @transition;
   transition: @transition;
 }
-
 body{
   margin: 0px;
   padding: 0px;

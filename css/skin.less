@@ -1,34 +1,32 @@
 @font-face {
     font-family: "LarishNeueSemibold-Regular";
-    src: url(fonts/LarishNeueSemibold-Regular.otf);
+    src: url(../fonts/LarishNeueSemibold-Regular.otf);
 }
 @font-face {
     font-family: "GothamBook";
-    src: url(fonts/GothamBook.otf);
+    src: url(../fonts/GothamBook.otf);
 }
-/*
-@font-face {
-    font-family: "grd-book";
-    src: url(fonts/gothamrnd-book.ttf) format("truetype");
-}
-*/
 
 // @color1: #eeeeee;
 // @color2: #666666;
 
-
+// Intro color transition
+@colorTransition: ~"h1,h3,a,a:hover,h2,p,.heading";
+@{colorTransition} {
+  transition: all 1s ease;
+}
 
 // COLORS
-
 @color1: ~"h1,h2,a:hover,.heading";
 @{color1} {
+  font-weight: normal;
   color: #eeeeee;
 }
 @color2: ~"a, h3";
 @{color2} {
   color: #666666;
+  border-color: #666666
 }
-
 @color3: ~"p";
 @{color3} {
   color: #666666;
@@ -41,8 +39,9 @@
 body{
   background-color: #17171b;
   font-family: "GothamBook",sans-serif;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
-
 
 // STYLE
 // INTRO
@@ -53,10 +52,23 @@ body{
   flex-direction: column;
   justify-content: center;
 }
-.introwrap{
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
+.this{
+  background-color: #17171b;
+}
+.that{
+  background-color: #FF00FF;
+}
+.switchIntro h3{
+  color: #8822ff;
+}
+.switchIntro h1{
+  color: #ffffff;
+}
+.switchIntro a{
+  color: #8822ff;
+}
+.switchIntro a:hover{
+  color: #0000ff;
 }
 .heading{
   text-align: center;
@@ -92,6 +104,17 @@ img{
   margin-bottom: 20px;
 }
 
+p a{
+  text-decoration: none;
+  border-bottom: 1px solid;
+  padding-bottom: 0.2em;
+}
+
+h1 a{
+  text-decoration: none;
+  border-bottom: 4px solid;
+  padding-bottom: 0.05em;
+}
 
 // PROJECTS
 

@@ -187,3 +187,7 @@
     console.log("7");
     return LazyLoad;
 });
+
+window.addEventListener("load", function(event) {
+    lazyload();
+});
