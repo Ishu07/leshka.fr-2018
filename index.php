@@ -23,6 +23,8 @@
 <script src="js/intro.js"></script>
 <script src="js/inView.js"></script>
 <script src="js/slideshow.js"></script>
+<script src="js/cursor.js"></script>
+<script src="js/video_autoplay.js"></script>
 <script>
   var page="home";
   //if (screen.width <= 730) {
@@ -48,13 +50,11 @@
 
 <?php include("projects/51sprints/51sprints.php"); ?>
 
-<!-- Hogan.com -->
+<!-- Hogan -->
 
 <?php include("projects/hogan/hogan.php"); ?>
-
-<!-- Hogan Club -->
-
 <?php include("projects/hogan/hogan-club.php"); ?>
+<?php include("projects/hogan/hogan-atelier.php"); ?>
 
 <!-- NESPRESSO U -->
 
@@ -63,7 +63,7 @@
   <h2>Nespresso U</h2>
   <p class="subtitle">Art Direction, Design & Motion</p>
   <div class="wrapper">
-      <div class="youtube " data-embed="TTHdSYNrRSk">
+      <div class="youtube" data-embed="TTHdSYNrRSk">
           <div class="play-button"></div>
       </div>
   </div>
@@ -75,37 +75,7 @@
 
 <!-- Hermes -->
 
-<div class="project">
-  <div class="heading">H</div>
-  <h2>Hermes</h2>
-  <p class="subtitle">Art Direction, Design & Motion</p>
-  <div class="wrapper">
-    <img class="lazyload full" src="projects/hermes/img/hermes_thumb.png" data-src="projects/hermes/img/hermes.png" />
-  </div>
-
-  <div class="wrapper">
-      <div class="youtube" data-embed="vkeVIn6KEaQ">
-          <div class="play-button"></div>
-      </div>
-  </div>
-
-  <div class="wrapper article">
-    <div class="big-left">
-      <img class="lazyload full" src="projects/hermes/img/hermes_leather_thumb.jpg" data-src="projects/hermes/img/hermes_leather.jpg" />
-    </div>
-    <p class="lil-right">The leather-working station shows moments from every step in the creation of a Hermès bag, from leather hide to product. A difficult task was to give people a sense of how the artisan looks at leather, what he or she sees on the skin...<br/>
-      Like a magical lens, the digital pictureframe allows a view of the leather as seen through the eyes of the craftsman. Revealed are the life marks, wrinkles and parts of the leather that are not up to the quality standards of Hermès. Based on this reading and knowledge, the artisan decides how to lay out the pattern, what parts to cut and in which way.</p>
-  </div>
-  <div class="separator"></div>
-  <div class="wrapper article">
-    <div class="big-right">
-      <img class="lazyload full" src="projects/hermes/img/hermes_googles_thumb.jpg" data-src="projects/hermes/img/hermes_googles.jpg" />
-    </div>
-    <p class="lil-left">Metal-working for jewellery and watches has an even finer degree of detail. The craftsmen use special magnifying goggles to put the precious pieces together. We adapted this archetypal piece of equipment for our display: digital binoculars which peer into a museum-grade vitrine, housing the Hermès piece.<br/>
-      Through the goggles, people see the manual fabrication and assembly steps from an artisan’s point of view, at 1-1 scale to make it feel as if you were doing it yourself.</p>
-  </div>
-
-</div>
+<?php include("projects/hermes/hermes.php"); ?>
 
 <!-- SLIDESHOW TEST -->
 
