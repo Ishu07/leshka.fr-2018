@@ -1,8 +1,8 @@
 function intro() {
   $(".toThat").on( "click", function() {
     console.log("this");
-    $(".toThis").html("normal shits")
-    $(".toThat").html("crazy shits")
+    // $(".toThis").html("normal shit")
+    $(".toThat").html("crazy shit")
     $(".this").addClass("switchThis");
     $(".that").addClass("switchThat");
     $(".intro").addClass("thatIntro");

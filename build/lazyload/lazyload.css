@@ -1,7 +1,7 @@
 
 @keyframes disappear {
     from {opacity: 1;}
-    to {opacity: 0;}
+    to {opacity: 0; display: none;}
 }
 @keyframes appear {
     from {opacity: 0;}
@@ -14,7 +14,14 @@
     opacity: 0;
     animation-name: appear;
     animation-duration: 1s;
-    animation-delay: 0.5s;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+}
+.fadeOut{
+    opacity: 1;
+    animation-name: disappear;
+    animation-duration: 1s;
+    animation-delay: 0.2s;
     animation-fill-mode: forwards;
 }
 .under{
@@ -23,6 +30,11 @@
     opacity: 1;
     animation-name: disappear;
     animation-duration: 1s;
-    animation-delay: 1.5s;
+    animation-delay: 1.2s;
     animation-fill-mode: forwards;
+}
+.sequencethumb{
+  z-index: 10;
+  position: absolute !important;
+    pointer-events:none;
 }

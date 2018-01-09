@@ -46,29 +46,15 @@
 
 <!-- 51 SPRINTS -->
 
-
 <?php include("projects/51sprints/51sprints.php"); ?>
-
 
 <!-- Hogan.com -->
 
 <?php include("projects/hogan/hogan.php"); ?>
 
-
-
-
 <!-- Hogan Club -->
 
-<div class="project">
-  <div class="heading">C</div>
-  <h2>Hogan Club</h2>
-  <p class="subtitle">Design & Animations</p>
-  <div class="wrapper">
-      <div class="youtube " data-embed="UnEeEQFYqN8">
-          <div class="play-button"></div>
-      </div>
-  </div>
-</div>
+<?php include("projects/hogan/hogan-club.php"); ?>
 
 <!-- NESPRESSO U -->
 
@@ -127,7 +113,7 @@
   <div class="heading">J</div>
   <h2>Jagermeister</h2>
   <p class="subtitle">change the speed, timeline, and Autoplay</p>
-  <div class="sequence wrapper" speed="10" timeline="false" autoplay=true >
+  <div class="sequence wrapper" speed="10" timeline="false" autoplay="true" >
     <img class="full" src="projects/jagermeister-recipes/recipes/000.jpg" />
     <img class="full" src="projects/jagermeister-recipes/recipes/001.jpg" />
     <img class="full" src="projects/jagermeister-recipes/recipes/002.jpg" />
