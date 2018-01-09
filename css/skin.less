@@ -17,38 +17,68 @@
 }
 
 // COLORS
-@color1: ~"h1,h2,a:hover,.heading";
+// @color1: ~"h1,h2,a:hover,.heading";
+// @{color1} {
+//   font-weight: normal;
+//   color: #eeeeee;
+// }
+// @color2: ~"a, h3, h4";
+// @{color2} {
+//   color: #666666;
+//   border-color: #666666
+// }
+// @color3: ~"p";
+// @{color3} {
+//   color: #666666;
+// }
+// @BGcolor: ~".this, body";
+// @{BGcolor} {
+//   background-color: #17171b;
+// }
+@color1: ~"h1,h2,h4,a:hover,.heading";
 @{color1} {
   font-weight: normal;
-  color: #eeeeee;
+  color: #fff;
 }
-@color2: ~"a, h3, h4";
+@colorHover: ~"a:hover";
+@{colorHover} {
+  color: #ffb;
+}
+@color2: ~"a, h3";
 @{color2} {
-  color: #666666;
-  border-color: #666666
+  color: #04b;
+  border-color: #04b;
 }
 @color3: ~"p";
 @{color3} {
-  color: #666666;
+  color: #fff;
 }
+@BGcolor: ~".this, body";
+@{BGcolor} {
+  background-color: #aaa;
+}
+
 @columns: ~".big-left,.big-right,.lil-left,.lil-right";
 @{columns}{
   margin-top: 30px;
   margin-bottom: 30px;
 }
 .button{
-  background-color: #666666;
-  color: #17171b;
+  background-color: #04b;
+  color: #fff;
   padding: 25px;
   position: relative;
   top: 50px;
   border-radius: 5px;
 }
+.button:hover{
+  background-color: #ffb;
+  color: #222;
+}
 .arrow{
   margin-left: 13px;
 }
 body{
-  background-color: #17171b;
   font-family: "GothamBook",sans-serif;
   -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -63,9 +93,6 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-.this{
-  background-color: #17171b;
 }
 .that{
   background-color: #FF00FF;

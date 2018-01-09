@@ -1,6 +1,6 @@
 <!-- Hermes -->
 
-<div class="project">
+<div class="project" bgColor="#9b6b3b">
   <div class="heading">H</div>
   <h2>Hermes</h2>
   <p class="subtitle">Art Direction, Design & Motion</p>

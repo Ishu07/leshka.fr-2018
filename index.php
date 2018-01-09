@@ -26,6 +26,7 @@
 <script src="js/cursor.js"></script>
 <script src="js/video_autoplay.js"></script>
 <script src="js/link_arrow.js"></script>
+<script src="js/bgColor.js"></script>
 <script>
   var page="home";
   //if (screen.width <= 730) {
@@ -35,7 +36,7 @@
 
 <!-- INTRO -->
 
-<div class="intro">
+<div class="intro project" bgColor="#aaa">
   <div class="introwrap">
     <h3>Hey!</h3>
     <h1>I'm a Senior Interactive
@@ -59,7 +60,7 @@
 
 <!-- NESPRESSO U -->
 
-<div class="project">
+<div class="project" bgColor="#44bf98">
   <div class="heading">U</div>
   <h2>Nespresso U</h2>
   <p class="subtitle">Art Direction, Design & Motion</p>
@@ -121,7 +122,7 @@
 
   <!-- Awwwards 2016 -->
 
-  <?php include("projects/awwwards2016/awwwards.php"); ?>
+  <?php //include("projects/awwwards2016/awwwards.php"); ?>
 
   <!-- FOOTER -->
   <!-- <?php   include("pages/footer.html"); ?> -->
