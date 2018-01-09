@@ -1,12 +1,18 @@
 @width: 80%;
+@article-margin: 50px;
 
 // CONSTRUCTORS
 
-@wraper: ~".wrapper, .subtitle";
+@wraper: ~".wrapper";
 @{wraper} {
   margin: auto;
   width: @width;
   max-width: 1440px;
+}
+.subtitle{
+  margin: auto;
+  width: @width/1.5;
+  max-width: 1000px;
 }
 .article{
   display: inline-block;
@@ -14,7 +20,7 @@
 .project {
   margin: auto;
   width: 100%;
-  margin-bottom: 120px;
+  margin-top: 120px;
 }
 .intro {
   z-index: 10;
@@ -33,7 +39,7 @@
   top: 0;
   width: 100vw;
   padding-top: 100vh;
-  transition: all 1s ease;
+  transition: all .5s ease;
 }
 .this {
   left: 0;
@@ -62,7 +68,7 @@
   position: relative;
   display: block;
   float:left;
-  width: ~"calc(66.66% - 25px)";
+  width: ~"calc(66.66% - 50px)";
   margin: auto;
 }
 .lil-right{
@@ -76,7 +82,7 @@
   position: relative;
   display: block;
   float:right;
-  width: ~"calc(66.66% - 25px)";
+  width: ~"calc(66.66% - 50px)";
   margin: auto;
 }
 .lil-left{

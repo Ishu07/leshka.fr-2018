@@ -13,7 +13,7 @@
 // Intro color transition
 @colorTransition: ~"h1,h3,a,a:hover,h2,p,.heading";
 @{colorTransition} {
-  transition: all 1s ease;
+  transition: all .5s ease;
 }
 
 // COLORS
@@ -22,7 +22,7 @@
   font-weight: normal;
   color: #eeeeee;
 }
-@color2: ~"a, h3";
+@color2: ~"a, h3, h4";
 @{color2} {
   color: #666666;
   border-color: #666666
@@ -33,7 +33,8 @@
 }
 @columns: ~".big-left,.big-right,.lil-left,.lil-right";
 @{columns}{
-  margin-top: 60px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 body{
@@ -41,6 +42,7 @@ body{
   font-family: "GothamBook",sans-serif;
   -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+  font-kerning: normal;
 }
 
 // STYLE
@@ -71,6 +73,7 @@ body{
   color: #0000ff;
 }
 .heading{
+  clear: both;
   text-align: center;
   font-family: "LarishNeueSemibold-Regular";
   font-size: 20em;
@@ -99,6 +102,9 @@ h3{
 }
 p{
   line-height: 1.5em;
+}
+h4{
+  line-height: 1.4em;
 }
 img{
   margin-bottom: 20px;
@@ -132,6 +138,13 @@ h1 a{
 p{
   text-align: left;
   font-size: 1.2em;
+}
+h4{
+  text-align: left;
+  font-size: 1.7em;
+  font-family: "LarishNeueSemibold-Regular";
+  letter-spacing: 0.01em;
+
 }
 br{
   font-size:2.4em;
