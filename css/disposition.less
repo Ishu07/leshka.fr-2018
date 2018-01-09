@@ -5,6 +5,7 @@
 
 @wraper: ~".wrapper";
 @{wraper} {
+  clear: both;
   margin: auto;
   width: @width;
   max-width: 1440px;
@@ -106,4 +107,17 @@ body{
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
+}
+
+.flex-six{
+  position: relative;
+  display: flex;
+  height: 35vw;
+  top: 5vw;
+}
+.flex-six > div{
+  display: flex;
+  width: 16.67%;
+  margin: auto;
+  justify-content: center;
 }

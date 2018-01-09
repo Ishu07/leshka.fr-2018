@@ -25,6 +25,7 @@
 <script src="js/slideshow.js"></script>
 <script src="js/cursor.js"></script>
 <script src="js/video_autoplay.js"></script>
+<script src="js/link_arrow.js"></script>
 <script>
   var page="home";
   //if (screen.width <= 730) {
@@ -38,7 +39,7 @@
   <div class="introwrap">
     <h3>Hey!</h3>
     <h1>I'm a Senior Interactive
-    Art Director & Motion Designer  focussed on <a class="toThis" href="#">unique identities</a> and  <a class="toThat" href="#">immersive experiences</a>.
+    Art Director & Motion Designer focussed on <a class="toThis" href="#">unique identities</a> and  <a class="toThat" href="#">immersive experiences</a>.
     </h1>
   </div>
 </div>
