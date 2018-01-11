@@ -48,9 +48,21 @@
 
 <div class="this">
 
-<!-- 51 SPRINTS -->
+  <!-- AllofUs -->
 
-<?php include("projects/51sprints/51sprints.php"); ?>
+  <?php include("projects/Allofus/allofus.php"); ?>
+
+  <!-- White Bear -->
+
+  <?php include("projects/whitebear/whitebear.php"); ?>
+
+  <!-- Teyosh -->
+
+  <?php include("projects/teyosh/teyosh.php"); ?>
+
+  <!-- 51 SPRINTS -->
+
+  <?php include("projects/51sprints/51sprints.php"); ?>
 
 <!-- Hogan -->
 
@@ -60,7 +72,7 @@
 
 <!-- NESPRESSO U -->
 
-<div class="project" bgColor="#44bf98">
+<div class="project" bgColor="#44bfff">
   <div class="heading">U</div>
   <h2>Nespresso U</h2>
   <p class="subtitle">Art Direction, Design & Motion</p>

@@ -14,14 +14,14 @@
     opacity: 0;
     animation-name: appear;
     animation-duration: 1s;
-    animation-delay: 0.2s;
+    animation-delay: 0.35s;
     animation-fill-mode: forwards;
 }
 .fadeOut{
     opacity: 1;
     animation-name: disappear;
     animation-duration: 1s;
-    animation-delay: 0.2s;
+    animation-delay: 0.35s;
     animation-fill-mode: forwards;
 }
 .under{
@@ -30,7 +30,7 @@
     opacity: 1;
     animation-name: disappear;
     animation-duration: 1s;
-    animation-delay: 1.2s;
+    animation-delay: 1.35s;
     animation-fill-mode: forwards;
 }
 .sequencethumb{
