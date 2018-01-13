@@ -1,19 +1,46 @@
 function intro() {
+  var thisOrThat = "this";
+  // THAT
   $(".toThat").on( "click", function() {
-    console.log("this");
-    // $(".toThis").html("normal shit")
-    $(".toThat").html("crazy shit")
-    $(".this").addClass("switchThis");
-    $(".that").addClass("switchThat");
-    $(".intro").addClass("thatIntro");
+    if (thisOrThat == "this") {
+      // $(".toThis").html("normal shit");
+      $(".toThat").html("crazy shit")
+      $(".this").css("animation","switchThis 0.5s ease 0s forwards");
+      $(".that").css("animation","switchThat 0.5s ease 0s forwards");
+
+      $(".intro").addClass("thatIntro");
+      setTimeout(
+      function()
+      {
+        $(".this").css("display","none");
+        thisOrThat = "that";
+        console.log("that");
+      }, 500);
+      $(".that").css("display","block");
+    }
   });
+
+
+  //THIS
   $(".toThis").on( "click", function() {
-    console.log("that");
-    $(".toThis").html("unique identities")
-    $(".toThat").html("immersive experiences")
-    $(".this").removeClass("switchThis");
-    $(".that").removeClass("switchThat");
-    $(".intro").removeClass("thatIntro");
+    if (thisOrThat == "that") {
+
+      $(".toThis").html("unique identities")
+      $(".toThat").html("immersive experiences")
+      $(".this").css("display","block");
+      $(".this").css("animation","this 0.5s ease 0s forwards");
+      $(".that").css("animation","that 0.5s ease 0s forwards");
+
+      $(".intro").removeClass("thatIntro");
+
+      setTimeout(
+      function()
+      {
+        $(".that").css("display","none");
+        thisOrThat = "this";
+        console.log("this");
+      }, 500);
+    }
   });
 }
 

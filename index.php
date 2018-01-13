@@ -40,7 +40,7 @@
   <div class="introwrap">
     <h3>Hey!</h3>
     <h1>I'm a Senior Interactive
-    Art Director & Motion Designer focussed on <a class="toThis" href="#">unique identities</a> and  <a class="toThat" href="#">immersive experiences</a>.
+    Art Director & Motion Designer focussed on <a class="toThis" >unique identities</a> and  <a class="toThat" >immersive experiences</a>.
     </h1>
   </div>
 </div>
@@ -77,6 +77,7 @@
   <h2>Nespresso U</h2>
   <p class="subtitle">Art Direction, Design & Motion</p>
   <div class="wrapper">
+      <img class="full lazyload sequencethumb" src="projects/nespresso/nespresso_thumb.png" data-src=" "/>
       <div class="youtube" data-embed="TTHdSYNrRSk">
           <div class="play-button"></div>
       </div>
@@ -129,12 +130,11 @@
 <div class="that">
 
   <!-- Nike Infinite -->
-
   <?php include("projects/nike-infinite/nike-infinite.php"); ?>
-
+  <!-- Teyosh -->
+  <?php include("projects/teyosh/teyosh.php"); ?>
   <!-- Awwwards 2016 -->
-
-  <?php //include("projects/awwwards2016/awwwards.php"); ?>
+  <?php include("projects/awwwards2016/awwwards.php"); ?>
 
   <!-- FOOTER -->
   <!-- <?php   include("pages/footer.html"); ?> -->

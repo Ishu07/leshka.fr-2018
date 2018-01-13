@@ -9,9 +9,10 @@
   </div>
 
   <div class="wrapper">
-      <div class="youtube" data-embed="vkeVIn6KEaQ">
-          <div class="play-button"></div>
-      </div>
+    <img class="full lazyload sequencethumb" src="projects/hermes/img/hermes_video_thumb.png" data-src=" "/>
+    <div class="youtube" data-embed="vkeVIn6KEaQ">
+      <div class="play-button"></div>
+    </div>
   </div>
 
   <div class="wrapper article">

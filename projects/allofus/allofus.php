@@ -32,8 +32,8 @@
       </div>
     </div>
     <div class="lil-left">
-      <p>I've been freelancing 7 monts for AllofUs where I worked a lot on their presentations for all sorts of pitches.<br/>
-        Here is a selection of the templates and creds I created straight on Keynote.
+      <p>I've been contracting for 8 monts with AllofUs where I worked a lot on their presentations for all sorts of pitches.<br/>
+        Here is a selection of the templates and creds I created straight on Keynote.<br/>
 <a href="http://allofus.com/" target="_blank" class="button">allofus.com <span class="arrow">➩</span></a></p>
 
     </div>

@@ -12,9 +12,12 @@ data from the 100m sprint finals as a starting point
 to deconstruct the Olympic Games.</p> -->
 <p class="subtitle"><a href="http://51sprints.com/">visit the website</a></p>
   <div class="wrapper">
-      <div class="youtube" data-embed="kka3v6fJsgI">
-          <div class="play-button"></div>
-      </div>
+    <div class="full">
+      <img class="full lazyload sequencethumb" src="projects/51sprints/img/51_sprints_video_thumb.png" data-src=" "/>
+    </div>
+    <div class="youtube" data-embed="kka3v6fJsgI">
+      <div class="play-button"></div>
+    </div>
   </div>
 
   <div class="wrapper">

@@ -23,9 +23,7 @@ to deconstruct the Olympic Games.</p> -->
 </div>
 
   <div class="wrapper">
-    <div class="full">
       <img class="full lazyload sequencethumb" src="projects/teyosh/img/teyosh_thumb.jpg" data-src=" "/>
-    </div>
       <div class="youtube" data-embed="ayjIB0cguis">
           <div class="play-button"></div>
       </div>
