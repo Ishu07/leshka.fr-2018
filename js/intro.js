@@ -1,5 +1,6 @@
+var thisOrThat = "this";
 function intro() {
-  var thisOrThat = "this";
+
   // THAT
   $(".toThat").on( "click", function() {
     if (thisOrThat == "this") {
@@ -14,7 +15,7 @@ function intro() {
       {
         $(".this").css("display","none");
         thisOrThat = "that";
-        console.log("that");
+        // console.log("that");
       }, 500);
       $(".that").css("display","block");
     }
@@ -38,7 +39,7 @@ function intro() {
       {
         $(".that").css("display","none");
         thisOrThat = "this";
-        console.log("this");
+        // console.log("this");
       }, 500);
     }
   });
