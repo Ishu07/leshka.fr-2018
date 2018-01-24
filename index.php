@@ -54,7 +54,7 @@
 
   <!-- White Bear -->
 
-  <?php include("projects/whitebear/whitebear.php"); ?>
+  <?php // include("projects/whitebear/whitebear.php"); ?>
 
   <!-- Teyosh -->
 
@@ -88,9 +88,7 @@
 
 <?php include("projects/awwwards2016/awwwards.php"); ?>
 
-<!-- Hermes -->
 
-<?php include("projects/hermes/hermes.php"); ?>
 
 <!-- SLIDESHOW TEST -->
 
@@ -129,8 +127,12 @@
 
 <div class="that">
 
+  <!-- My Most Beautiful Nightmare -->
+  <?php include("projects/my_most_beautiful_nightmare/mymostbeautifulnightmare.php"); ?>
   <!-- Nike Infinite -->
   <?php include("projects/nike-infinite/nike-infinite.php"); ?>
+  <!-- Hermes -->
+  <?php include("projects/hermes/hermes.php"); ?>
   <!-- Teyosh -->
   <?php include("projects/teyosh/teyosh.php"); ?>
   <!-- Awwwards 2016 -->

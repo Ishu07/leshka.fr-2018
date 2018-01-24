@@ -1,7 +1,7 @@
 
 <!-- Nike Infinite -->
 
-<div class="project">
+<div class="project" bgColor="#ff00ff">
   <div class="heading">N</div>
   <h2>Nike Infinite</h2>
   <p class="subtitle">Art Direction, Design</p>

@@ -87,6 +87,41 @@ function initSeq(){
 };
 
 
+
+
+
+//
+// function initFollow(){
+//   var followMe = "none"
+//   var cursorX;
+//   var cursorY;
+//   window.setInterval(function(){
+//     // console.log(followMe);
+//     if (followMe != "none") {
+//       console.log(cursorX);
+//       console.log(cursorY);
+//       followMe.offset({ top: cursorY, left: cursorX });
+//     }
+//   }, 30);
+//
+//   $(".sequence").mouseenter(function(e) {
+//     followMe = $(this);
+//     // cursorX = e.clientX;
+//     // cursorY = e.clientY;
+//     cursorX = e.pageX;
+//     cursorY = e.pageY;
+//   })
+//   $(".sequence").mouseleave(function(e) {
+//     followMe = "none";
+//   })
+//   $(".sequence").each(function( index ){
+//     // each
+//   });
+//
+// };
+
+
 $( document ).ready(function() {
     initSeq();
+    // initFollow();
 });
