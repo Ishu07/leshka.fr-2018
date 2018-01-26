@@ -4,8 +4,12 @@ function initBouing(){
   $( ".button" ).attr( "offset-hover-min", ".5" );
 
   $(".youtube").addClass("bouing")
-  $( ".youtube" ).attr( "offset-hover-max", ".2" );
-  $( ".youtube" ).attr( "offset-hover-min", ".1" );
+  $( ".youtube" ).attr( "offset-hover-max", ".3" );
+  $( ".youtube" ).attr( "offset-hover-min", ".2" );
+
+  $(".sequence").addClass("bouing")
+  $( ".sequence" ).attr( "offset-hover-max", ".3" );
+  $( ".sequence" ).attr( "offset-hover-min", ".2" );
 
 $(".bouing").each(function() {
   // console.log($(this));

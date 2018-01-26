@@ -17,17 +17,21 @@
     left: 0;
 }
 .youtube .play-button {
+  text-align: center;
     width: 90px;
     height: 60px;
-    background-color: #333;
+    background-color: #f0f;
     box-shadow: 0 0 30px rgba( 0,0,0,0.6 );
     z-index: 1;
-    opacity: 0.8;
+    opacity: 1;
     border-radius: 6px;
 }
-.youtube .play-button:before {
+.youtube .play-button .playTriangle {
     content: "";
+    margin: auto;
     border-style: solid;
+    display: inline-block;
+    margin-top: 14px;
     border-width: 15px 0 15px 26.0px;
     border-color: transparent transparent transparent #fff;
 }

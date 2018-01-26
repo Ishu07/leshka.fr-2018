@@ -16,7 +16,7 @@ to deconstruct the Olympic Games.</p> -->
       <img class="full lazyload sequencethumb" src="projects/51sprints/img/51_sprints_video_thumb.png" data-src=" "/>
     </div>
     <div class="youtube" data-embed="kka3v6fJsgI">
-      <div class="play-button"></div>
+      <div class="play-button"><div class="playTriangle"></div></div>
     </div>
   </div>
 

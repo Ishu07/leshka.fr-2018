@@ -31,7 +31,7 @@ Appearing through a dimly lit haze in secret chic venues and inner sanctums of g
   <div class="wrapper">
     <img class="full lazyload sequencethumb" src="projects/hogan/img/club/sequence_playlist/_thumb.jpg" data-src=" "/>
     <div class="youtube" data-embed="UnEeEQFYqN8">
-      <div class="play-button"></div>
+      <div class="play-button"><div class="playTriangle"></div></div>
     </div>
   </div>
   <div class="separator"></div>
