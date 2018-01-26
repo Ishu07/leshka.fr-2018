@@ -1,6 +1,6 @@
 <!-- Awwwards 2016 -->
 
-<div class="project" bgColor="#3b5b9b">
+<div class="project" bgColor="#fd5e2a" txtColor="#fff">
   <h2>Awwwards Conference</h2>
   <p class="subtitle">Amsterdam 2016 - Conference talk "Make internet great again"</p>
   <div class="wrapper">

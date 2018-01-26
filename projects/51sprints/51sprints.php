@@ -1,7 +1,7 @@
 
 <!-- 51 SPRINTS -->
 
-<div class="project" bgColor="#ffabab">
+<div class="project" bgColor="#d8d8d8" letterColor="#ff6148" txtColor="#333">
   <div class="heading">5</div>
   <h2>51 Sprints, a documentary<br/>
 and run simulator</h2>

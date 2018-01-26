@@ -3,7 +3,7 @@ var count_arrow = 1;
 var j
 for (var i = 0; i < $(".button").length; i++) {
   j = Math.floor((Math.random() * 3) + 1);
-  console.log(j);
+  // console.log(j);
   if (j==1) {
     $(".button:eq("+i+")").css("color","#FE00D6")
     $(".button:eq("+i+")").css("background-color","#14CBC0")

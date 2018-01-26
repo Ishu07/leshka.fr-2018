@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="build/lazyload/lazyload.css">
 </head>
 <body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
 <script src="build/jquery-2.1.3.min.js"></script>
 <script src="build/less.min.js"></script>
 <script src="build/lazyload/lazyload.js"></script>
@@ -23,10 +24,11 @@
 <script src="js/intro.js"></script>
 <script src="js/inView.js"></script>
 <script src="js/slideshow.js"></script>
-<script src="js/cursor.js"></script>
 <script src="js/video_autoplay.js"></script>
+<script src="js/cursor.js"></script>
 <script src="js/link_arrow.js"></script>
 <script src="js/bgColor.js"></script>
+<script src="js/bouing.js"></script>
 <script>
   var page="home";
   //if (screen.width <= 730) {
@@ -37,10 +39,11 @@
 <!-- INTRO -->
 
 <div class="intro project" bgColor="#aaa">
+
   <div class="introwrap">
     <h3>Hey!</h3>
     <h1>I'm a Senior Interactive
-    Art Director & Motion Designer focussed on <a class="toThis" >unique identities</a> and  <a class="toThat" >immersive experiences</a>.
+    Art Director & Motion Designer focussed on <a class="toThis" >unique identities</a> and <a class="toThat">immersive experiences</a>.
     </h1>
   </div>
 </div>
@@ -72,7 +75,7 @@
 
 <!-- NESPRESSO U -->
 
-<div class="project" bgColor="#44bfff">
+<div class="project" bgColor="#44bfff" letterColor="#0c2f42" txtColor="#fff">
   <div class="heading">U</div>
   <h2>Nespresso U</h2>
   <p class="subtitle">Art Direction, Design & Motion</p>
@@ -128,15 +131,15 @@
 <div class="that">
 
   <!-- My Most Beautiful Nightmare -->
-  <?php include("projects/my_most_beautiful_nightmare/mymostbeautifulnightmare.php"); ?>
+  <?php //include("projects/my_most_beautiful_nightmare/mymostbeautifulnightmare.php"); ?>
   <!-- Nike Infinite -->
-  <?php include("projects/nike-infinite/nike-infinite.php"); ?>
+  <?php //include("projects/nike-infinite/nike-infinite.php"); ?>
   <!-- Hermes -->
-  <?php include("projects/hermes/hermes.php"); ?>
+  <?php //include("projects/hermes/hermes.php"); ?>
   <!-- Teyosh -->
-  <?php include("projects/teyosh/teyosh.php"); ?>
+  <?php //include("projects/teyosh/teyosh.php"); ?>
   <!-- Awwwards 2016 -->
-  <?php include("projects/awwwards2016/awwwards.php"); ?>
+  <?php //include("projects/awwwards2016/awwwards.php"); ?>
 
   <!-- FOOTER -->
   <!-- <?php   include("pages/footer.html"); ?> -->

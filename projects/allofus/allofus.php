@@ -1,14 +1,14 @@
 <!-- Hogan Club -->
 
-<div class="project" bgColor="#8aa5a4">
-  <div class="heading">A</div>
+<div class="project"  bgColor="#132828" letterColor="#173838" txtColor="#fff">
+  <div class="heading" >A</div>
   <h2>AllofUs</h2>
   <p class="subtitle">Templates & Presentations</p>
 
 
   <div class="wrapper article">
     <div class="big-right">
-      <div class="sequence full" speed="14" timeline="false" autoplay=true >
+      <div class="sequence full" speed="10" timeline="false" autoplay=true >
         <div class="full">
           <img class="full lazyload sequencethumb" src="projects/allofus/img/templates/_thumb.jpg" data-src=" "/>
         </div>
@@ -37,7 +37,7 @@
 <a href="http://allofus.com/" target="_blank" class="button">allofus.com <span class="arrow">➩</span></a></p>
 
     </div>
-      <div class="sequence full" speed="14" timeline="false" autoplay=true >
+      <div class="sequence full" speed="10" timeline="false" autoplay=true >
 
         <div class="separator"></div>
         <div class="full">

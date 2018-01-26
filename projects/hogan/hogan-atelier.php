@@ -1,6 +1,6 @@
 <!-- Hogan Club -->
 
-<div class="project" bgColor="#ababff">
+<div class="project" bgColor="#c5beac">
   <!-- <div class="heading">A</div>
   <h2>Hogan Atelier</h2>
   <p class="subtitle">Design & Animations</p> -->

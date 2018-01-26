@@ -10,9 +10,15 @@ function bgColor() {
       $('.this .project')[i]
       if (inView($('.this .project')[i])){
         var target = $('.this .project')[i]
-        var color = $(target).attr('bgColor')
+        var bgColor = $(target).attr('bgColor')
+        var letterColor = $(target).attr('letterColor')
+        var txtColor = $(target).attr('txtColor')
+        console.log(bgColor);
         // if undefined, do lalala
-        $('.this').css( "background-color", color )
+        $('.this').css( "background-color", bgColor )
+        $('.this .heading').css( "color", letterColor )
+        $('.this p, .this h4, .this h2').css( "color", txtColor )
+
       }
     }
   }
@@ -25,9 +31,9 @@ function bgColor() {
       $('.that .project')[i]
       if (inView($('.that .project')[i])){
         var target = $('.that .project')[i]
-        var color = $(target).attr('bgColor')
+        var bgColor = $(target).attr('bgColor')
         // if undefined, do lalala
-        $('.that').css( "background-color", color )
+        $('.that').css( "background-color", bgColor )
       }
     }
   }

@@ -106,9 +106,8 @@
                         if ("img" === entry.target.tagName.toLowerCase()) {
                             if (src) {
                               // HERE //
-                                // console.log($( entry.target ).hasClass("sequencethumb"));
                                 if ($( entry.target ).hasClass("sequencethumb")){
-                                  console.log($( entry.target ).hasClass("sequencethumb"));
+                                  // console.log($( entry.target ).hasClass("sequencethumb"));
                                   $( entry.target ).addClass("fadeOut");
                                 }
                                 else{
@@ -118,17 +117,12 @@
                                 }
 
 
-
-                                // console.log(entry.target);
-                                console.log("0");
                             }
                             if (srcset) {
                                 entry.target.srcset = srcset;
-                                console.log("1");
                             }
                         } else {
                             entry.target.style.backgroundImage = "url(" + src + ")";
-                            console.log("2");
                         }
                     }
                 });
@@ -156,17 +150,14 @@
                     if (src) {
                         image.src = src;
 
-                        console.log("5");
                     }
                     if (srcset) {
                         image.srcset = srcset;
 
-                        console.log("4");
                     }
                 } else {
                     image.style.backgroundImage = "url(" + src + ")";
 
-                    console.log("3");
                 }
             });
         },
@@ -189,12 +180,10 @@
             options.attribute = options.attribute || "data-src";
             new LazyLoad($.makeArray(this), options);
 
-            console.log("6");
             return this;
         };
     }
 
-    console.log("7");
     return LazyLoad;
 });
 

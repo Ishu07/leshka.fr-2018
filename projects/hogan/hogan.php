@@ -1,6 +1,6 @@
 <!-- Hogan.com -->
 
-<div class="project" bgColor="#ababff">
+<div class="project" bgColor="#c5beac" letterColor="#b7ab8d" txtColor="#fff">
   <div class="heading">H</div>
   <h2>Hogan</h2>
   <p class="subtitle">Art Direction, Design & Motion</p>

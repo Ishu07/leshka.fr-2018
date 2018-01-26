@@ -7,76 +7,15 @@
     src: url(../fonts/GothamBook.otf);
 }
 
-// @color1: #eeeeee;
-// @color2: #666666;
-
-// Intro color transition
-@colorTransition: ~"h1,h3,h2,p,.heading";
-@{colorTransition} {
-  transition: all .5s ease;
-}
-
-// COLORS
-// @color1: ~"h1,h2,a:hover,.heading";
-// @{color1} {
-//   font-weight: normal;
-//   color: #eeeeee;
-// }
-// @color2: ~"a, h3, h4";
-// @{color2} {
-//   color: #666666;
-//   border-color: #666666
-// }
-// @color3: ~"p";
-// @{color3} {
-//   color: #666666;
-// }
-// @BGcolor: ~".this, body";
-// @{BGcolor} {
-//   background-color: #17171b;
-// }
-@color1: ~"h1,h2,h4,a:hover,.heading";
-@{color1} {
-  font-weight: normal;
-  // color: #fff;
-}
-@colorHover: ~"a:hover";
-@{colorHover} {
-  color: #ffb;
-}
-@color2: ~"a, h3";
-@{color2} {
-  color: #04b;
-  border-color: #04b;
-}
-@color3: ~"p";
-@{color3} {
-  // color: #fff;
-}
-@BGcolor: ~".this, body";
-@{BGcolor} {
-  background-color: #aaa;
-}
-
-@columns: ~".big-left,.big-right,.lil-left,.lil-right";
-@{columns}{
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
 .button{
-  font-size: 18px !important;
-  display: inline-block;
   background-color: #04b;
   color: #fff;
+  padding: 25px;
   position: relative;
   top: 50px;
   border-radius: 5px;
   border: none;
   clear: both;
-  vertical-align: middle;
-  padding: 20px;
-  // height: 70px;
-  // line-height: 70px;
 }
 .button:hover{
   background-color: #ffb;
@@ -84,9 +23,7 @@
 }
 .arrow{
   position: relative;
-  vertical-align: middle;
-  // height: 70px;
-  // line-height: 70px;
+  top: .23em;
   margin-left: 13px;
   font-size: 3em;
   padding-top: 2em;
@@ -101,8 +38,6 @@ body{
   cursor: -webkit-image-set(url(../images/cursor1x.png) 1x,url(../images/cursor2x.png) 2x) 0 0,default;
 }
 
-// STYLE
-// INTRO
 .intro{
   position: relative;
   min-height: 100vh;
@@ -126,22 +61,11 @@ body{
 .switchIntro a:hover{
   color: #0000ff;
 }
-// .heading{
-//   clear: both;
-//   text-align: center;
-//   font-family: "LarishNeueSemibold-Regular";
-//   font-size: 20em;
-// }
 .heading{
   clear: both;
   text-align: center;
   font-family: "LarishNeueSemibold-Regular";
-  position: absolute;
-  font-size: 100em;
-  left: -.3em;
-  opacity: 1;
-  color:black;
-  z-index: -1;
+  font-size: 20em;
 }
 h1{
   font-family: "LarishNeueSemibold-Regular";
@@ -192,7 +116,6 @@ h1 a{
   padding-bottom: 0.05em;
 }
 
-// PROJECTS
 
 .wrapper{
   position: relative;
