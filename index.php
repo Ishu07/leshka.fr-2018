@@ -75,55 +75,16 @@
 
 <!-- NESPRESSO U -->
 
-<div class="project" bgColor="#44bfff" letterColor="#0c2f42" txtColor="#fff">
-  <div class="heading">U</div>
-  <h2>Nespresso U</h2>
-  <p class="subtitle">Art Direction, Design & Motion</p>
-  <div class="wrapper">
-      <img class="full lazyload sequencethumb" src="projects/nespresso/nespresso_thumb.png" data-src=" "/>
-      <div class="youtube" data-embed="TTHdSYNrRSk">
-        <div class="play-button"><div class="playTriangle"></div></div>
-      </div>
-  </div>
-</div>
+<?php include("projects/nespresso/nespresso_u.php"); ?>
 
 <!-- Awwwards 2016 -->
 
 <?php include("projects/awwwards2016/awwwards.php"); ?>
 
 
-
-<!-- SLIDESHOW TEST -->
-
-<div class="project">
-  <div class="heading">J</div>
-  <h2>Jagermeister</h2>
-  <p class="subtitle">change the speed, timeline, and Autoplay</p>
-  <div class="sequence wrapper" speed="10" timeline="false" autoplay="true" >
-    <img class="full" src="projects/jagermeister-recipes/recipes/000.jpg" />
-    <img class="full" src="projects/jagermeister-recipes/recipes/001.jpg" />
-    <img class="full" src="projects/jagermeister-recipes/recipes/002.jpg" />
-    <img class="full" src="projects/jagermeister-recipes/recipes/003.jpg" />
-    <img class="full" src="projects/jagermeister-recipes/recipes/004.jpg" />
-    <img class="full" src="projects/jagermeister-recipes/recipes/005.jpg" />
-    <img class="full" src="projects/jagermeister-recipes/recipes/006.jpg" />
-    <img class="full" src="projects/jagermeister-recipes/recipes/007.jpg" />
-    <img class="full" src="projects/jagermeister-recipes/recipes/008.jpg" />
-    <img class="full" src="projects/jagermeister-recipes/recipes/009.jpg" />
-    <img class="full" src="projects/jagermeister-recipes/recipes/010.jpg" />
-    <img class="full" src="projects/jagermeister-recipes/recipes/011.jpg" />
-    <img class="full" src="projects/jagermeister-recipes/recipes/012.jpg" />
-    <img class="full" src="projects/jagermeister-recipes/recipes/013.jpg" />
-    <img class="full" src="projects/jagermeister-recipes/recipes/014.jpg" />
-    <img class="full" src="projects/jagermeister-recipes/recipes/015.jpg" />
-    <img class="full" src="projects/jagermeister-recipes/recipes/016.jpg" />
-    <img class="full" src="projects/jagermeister-recipes/recipes/017.jpg" />
-    <img class="full" src="projects/jagermeister-recipes/recipes/018.jpg" />
-  </div>
-</div>
-
 <!-- FOOTER -->
-<!-- <?php   include("pages/footer.html"); ?> -->
+
+<!-- <?php   include("pages/footer.php"); ?>
 
 </div>
 
@@ -142,7 +103,7 @@
   <?php include("projects/awwwards2016/awwwards.php"); ?>
 
   <!-- FOOTER -->
-  <!-- <?php   include("pages/footer.html"); ?> -->
+  <!-- <?php   include("pages/footer.php"); ?>
 </div>
 
 

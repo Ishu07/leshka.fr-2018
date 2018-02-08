@@ -39,7 +39,7 @@ Appearing through a dimly lit haze in secret chic venues and inner sanctums of g
   <div class="full">
     <img class="full lazyload sequencethumb" src="projects/hogan/img/club/sequence_pool_party/_thumb.jpg" data-src=" "/>
   </div>
-  <div class="sequence full"  speed="12" timeline="false" autoplay=true >
+  <div class="sequence full nobouing"  speed="12" timeline="false" autoplay=true >
     <img class="full" src="projects/hogan/img/club/sequence_pool_party/pool_party1.jpg" />
     <img class="full" src="projects/hogan/img/club/sequence_pool_party/pool_party2.jpg" />
     <img class="full" src="projects/hogan/img/club/sequence_pool_party/pool_party3.jpg" />

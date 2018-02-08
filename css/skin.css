@@ -145,3 +145,12 @@ br{
 .subtitle{
   text-align: center;
 }
+
+.footer{
+  color: red;
+  position: relative;
+  display: inline-block;
+  width: 100vw;
+  height: 800vh;
+  background-color: black;
+}

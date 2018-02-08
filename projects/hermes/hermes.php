@@ -1,6 +1,6 @@
 <!-- Hermes -->
 
-<div class="project" bgColor="#9b6b3b">
+<div class="project" bgColor="#143652" letterColor="#082e4d" txtColor="#d4ecff">
   <div class="heading">H</div>
   <h2>Hermes</h2>
   <p class="subtitle">Art Direction, Design & Motion</p>
@@ -11,7 +11,7 @@
   <div class="wrapper">
     <img class="full lazyload sequencethumb" src="projects/hermes/img/hermes_video_thumb.png" data-src=" "/>
     <div class="youtube" data-embed="vkeVIn6KEaQ">
-      <div class="play-button"></div>
+      <div class="play-button"><div class="playTriangle"></div></div>
     </div>
   </div>
 

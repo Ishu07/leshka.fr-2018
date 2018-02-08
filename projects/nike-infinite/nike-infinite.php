@@ -1,14 +1,14 @@
 
 <!-- Nike Infinite -->
 
-<div class="project" bgColor="#ff00ff">
+<div class="project" bgColor="#ff00ff" letterColor="#bc00d8" txtColor="#ff0">
   <div class="heading">N</div>
   <h2>Nike Infinite</h2>
   <p class="subtitle">Art Direction, Design</p>
   <!-- <p class="subtitle"> <a href="http://www.random.nu/nike-free/">view the case study</a> </p> -->
   <div class="wrapper">
       <div class="youtube" data-embed="1uFOEcmGbIg">
-          <div class="play-button"></div>
+          <div class="play-button"><div class="playTriangle"></div></div>
       </div>
   </div>
   <div class="wrapper">
@@ -41,7 +41,7 @@
       </div>
       <p>We gave special attention to grant a design quality to the fixtures housing the projector and the flexible fabric.</p>
     </div>
-    <p class="lil-left"></p>
+    <p class="lil-left"><div class="separator"></div><div class="separator"></div><div class="separator"></div><div class="separator"></div><div class="separator"></div></p>
   </div>
 <div class="separator"></div>
 </div>

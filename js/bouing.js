@@ -8,8 +8,10 @@ function initBouing(){
   $( ".youtube" ).attr( "offset-hover-min", ".2" );
 
   $(".sequence").addClass("bouing")
-  $( ".sequence" ).attr( "offset-hover-max", ".3" );
-  $( ".sequence" ).attr( "offset-hover-min", ".2" );
+  $( ".sequence" ).attr( "offset-hover-max", ".4" );
+  $( ".sequence" ).attr( "offset-hover-min", ".3" );
+
+  $(".nobouing").removeClass("bouing")
 
 $(".bouing").each(function() {
   // console.log($(this));
