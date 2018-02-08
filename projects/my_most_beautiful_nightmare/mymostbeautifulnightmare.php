@@ -1,7 +1,7 @@
 
 <!-- Nike Infinite -->
 
-<div class="project" bgColor="#221144">
+<div class="project" bgColor="#221144" letterColor="#1d0a43" txtColor="#ff0">
   <div class="heading">M</div>
   <h2>My Most Beatiful Nightmare</h2>
   <p class="subtitle">Art Direction, Design</p>

@@ -131,15 +131,15 @@
 <div class="that">
 
   <!-- My Most Beautiful Nightmare -->
-  <?php //include("projects/my_most_beautiful_nightmare/mymostbeautifulnightmare.php"); ?>
+  <?php include("projects/my_most_beautiful_nightmare/mymostbeautifulnightmare.php"); ?>
   <!-- Nike Infinite -->
-  <?php //include("projects/nike-infinite/nike-infinite.php"); ?>
+  <?php include("projects/nike-infinite/nike-infinite.php"); ?>
   <!-- Hermes -->
-  <?php //include("projects/hermes/hermes.php"); ?>
+  <?php include("projects/hermes/hermes.php"); ?>
   <!-- Teyosh -->
-  <?php //include("projects/teyosh/teyosh.php"); ?>
+  <?php include("projects/teyosh/teyosh.php"); ?>
   <!-- Awwwards 2016 -->
-  <?php //include("projects/awwwards2016/awwwards.php"); ?>
+  <?php include("projects/awwwards2016/awwwards.php"); ?>
 
   <!-- FOOTER -->
   <!-- <?php   include("pages/footer.html"); ?> -->

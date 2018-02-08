@@ -13,7 +13,7 @@ function bgColor() {
         var bgColor = $(target).attr('bgColor')
         var letterColor = $(target).attr('letterColor')
         var txtColor = $(target).attr('txtColor')
-        console.log(bgColor);
+        // console.log(bgColor);
         // if undefined, do lalala
         $('.this').css( "background-color", bgColor )
         $('.this .heading').css( "color", letterColor )
@@ -32,8 +32,12 @@ function bgColor() {
       if (inView($('.that .project')[i])){
         var target = $('.that .project')[i]
         var bgColor = $(target).attr('bgColor')
+        var letterColor = $(target).attr('letterColor')
+        var txtColor = $(target).attr('txtColor')
         // if undefined, do lalala
         $('.that').css( "background-color", bgColor )
+        $('.that .heading').css( "color", letterColor )
+        $('.that p, .that h4, .that h2').css( "color", txtColor )
       }
     }
   }
