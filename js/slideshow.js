@@ -1,8 +1,8 @@
 function initSeq(){
   $(".sequence").each(function( index ){
 
-    // var rollmediv = $( "<div class='rollmeover'>roll me over.</div>")
-    // $( this ).append( rollmediv );
+    var rollmediv = $( "<div class='rollmeover'>roll me over.</div>")
+    $( this ).append( rollmediv );
 
     var elmt = $(this);
     var largeur = elmt.width();

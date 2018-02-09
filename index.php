@@ -13,6 +13,7 @@
   <link rel="stylesheet/less" href="css/skinThat.less">
   <link rel="stylesheet" href="build/lazyYoutube/lazyYoutube.css">
   <link rel="stylesheet" href="build/lazyload/lazyload.css">
+  <link rel="stylesheet" href="css/slideshow.css">
 </head>
 <body>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>

@@ -28,6 +28,8 @@ setInterval(link_arrow, 120);
         $(".arrow").html("➫")
         $(".button").css("color","#FE00D6")
         $(".button").css("background-color","#14CBC0")
+        $(".rollmeover").css("color","#FE00D6")
+        $(".rollmeover").css("background-color","#14CBC0")
         $(".youtube .play-button .playTriangle").css("border-color","transparent transparent transparent #FE00D6")
         $(".youtube .play-button").css("background-color","#14CBC0")
       }
@@ -35,6 +37,8 @@ setInterval(link_arrow, 120);
         $(".arrow").html("➩")
         $(".button").css("color","#FED419")
         $(".button").css("background-color","#B11298")
+        $(".rollmeover").css("color","#FED419")
+        $(".rollmeover").css("background-color","#B11298")
         $(".youtube .play-button .playTriangle").css("border-color","transparent transparent transparent #FED419")
         $(".youtube .play-button").css("background-color","#B11298")
       }
@@ -42,6 +46,8 @@ setInterval(link_arrow, 120);
         $(".arrow").html("➬")
         $(".button").css("color","#1BFEC7")
         $(".button").css("background-color","#FE531B")
+        $(".rollmeover").css("color","#1BFEC7")
+        $(".rollmeover").css("background-color","#FE531B")
         $(".youtube .play-button .playTriangle").css("border-color","transparent transparent transparent #1BFEC7")
         $(".youtube .play-button").css("background-color","#FE531B")
       }
