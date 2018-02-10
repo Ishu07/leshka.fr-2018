@@ -17,6 +17,12 @@ function bgColor() {
         // if undefined, do lalala
         $('.this').css( "background-color", bgColor )
         $('.this .heading').css( "color", letterColor )
+        $(".this .rollmeover").css("color",txtColor)
+        $(".this .rollmeover").css("background-color",bgColor)
+        $(".this .youtube .play-button .playTriangle").css("border-color","transparent transparent transparent" + txtColor)
+        $(".this .youtube .play-button").css("background-color",bgColor)
+        $(".this .button").css("color",bgColor)
+        $(".this .button").css("background-color",txtColor)
         // $('.this img').css( "box-shadow", "0px 40px 120px" + letterColor )
         // $('.this .youtube').css( "box-shadow", "0px 40px 120px" + letterColor )
         $('.this p, .this h4, .this h2').css( "color", txtColor )

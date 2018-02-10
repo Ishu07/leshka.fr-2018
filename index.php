@@ -70,6 +70,12 @@
 <?php include("projects/hogan/hogan.php"); ?>
 <?php include("projects/hogan/hogan-club.php"); ?>
 <?php include("projects/hogan/hogan-atelier.php"); ?>
+<!-- TODO : REMY MARTIN -->
+
+<!-- TODO : Andere Tijden -->
+
+<!-- TODO : JAGER -->
+
 <!-- NESPRESSO U -->
 <?php include("projects/nespresso/nespresso_u.php"); ?>
 <!-- Awwwards 2016 -->
@@ -81,11 +87,11 @@
 
 
 <div class="that">
-
+  <?php include("projects/void/void.php"); ?>
   <!-- My Most Beautiful Nightmare -->
   <?php include("projects/my_most_beautiful_nightmare/mymostbeautifulnightmare.php"); ?>
   <!-- TODO : PANDORA -->
-  
+
   <!-- TODO : VOID -->
 
   <!-- Nike Infinite -->

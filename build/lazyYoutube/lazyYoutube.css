@@ -9,7 +9,7 @@
     position: relative;
     padding-top: 56.25%;
     overflow: hidden;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 .youtube img {
     width: 100%;
@@ -37,7 +37,7 @@
 }
 .youtube img,
 .youtube .play-button {
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 .youtube img,
 .youtube iframe,
