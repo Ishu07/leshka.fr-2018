@@ -1,11 +1,10 @@
 
 <!-- Nike Infinite -->
 
-<div class="project" bgColor="#221144" letterColor="#1d0a43" txtColor="#ff0">
+<div class="project" bgColor="#0a0a11" letterColor="#00000a" txtColor="#cbc16a">
   <div class="heading">M</div>
   <h2>My Most Beatiful Nightmare</h2>
-  <p class="subtitle">Art Direction, Design</p>
-  <!-- <p class="subtitle"> <a href="http://www.random.nu/nike-free/">view the case study</a> </p> -->
+  <p class="subtitle">Art Direction, Design, Code, Sound, Illustrations, Animations, EVERYTHING!</p>
   <div class="wrapper">
       <img class="full" src="projects/my_most_beautiful_nightmare/img/intro.jpg" />
   </div>
@@ -22,6 +21,7 @@ Trough this piece of digital poetry, I want to sensibilise people about the beau
       <div class="separator"></div>
       <p>My most beautiful nightmare is a website displaying 5 different artworks. Each of those illustrated frames brings the user in a different world with text, sounds illstrations and animations.<br/>
       This Idea has been developed and powered by my own skills from the illustrations to the developement. I let you discover all the details from the parallax to the font animations.</p>
+      <a href="http://mymostbeautifulnightmare.road-ends.com/" target="_blank" class="button">Explore my subconscious <span class="arrow">➩</span></a>
     </div>
 
     <div class="lil-right">

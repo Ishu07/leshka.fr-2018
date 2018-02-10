@@ -32,9 +32,9 @@
 <script src="js/bouing.js"></script>
 <script>
   var page="home";
-  //if (screen.width <= 730) {
-  //  window.location = "mobile.php";
-  //  }
+  if (screen.width <= 730) {
+   window.location = "pages/mobile.php";
+   }
 </script>
 
 <!-- INTRO -->
@@ -53,40 +53,30 @@
 <div class="this">
 
   <!-- AllofUs -->
-
   <?php include("projects/Allofus/allofus.php"); ?>
-
+  <!-- Doddle -->
+  <?php include("projects/doddle/doddle.php"); ?>
   <!-- White Bear -->
-
-  <?php // include("projects/whitebear/whitebear.php"); ?>
-
+  <?php include("projects/whitebear/whitebear.php"); ?>
+  <!-- Taylors -->
+  <?php include("projects/taylors/taylors.php"); ?>
   <!-- Teyosh -->
-
   <?php include("projects/teyosh/teyosh.php"); ?>
-
   <!-- 51 SPRINTS -->
-
   <?php include("projects/51sprints/51sprints.php"); ?>
-
-<!-- Hogan -->
-
+  <!-- RAF SIMONS -->
+  <?php include("projects/raf/raf_simons.php"); ?>
+<!-- HOGAN -->
 <?php include("projects/hogan/hogan.php"); ?>
 <?php include("projects/hogan/hogan-club.php"); ?>
 <?php include("projects/hogan/hogan-atelier.php"); ?>
-
 <!-- NESPRESSO U -->
-
 <?php include("projects/nespresso/nespresso_u.php"); ?>
-
 <!-- Awwwards 2016 -->
-
 <?php include("projects/awwwards2016/awwwards.php"); ?>
 
-
 <!-- FOOTER -->
-
-<!-- <?php   include("pages/footer.php"); ?>
-
+<?php   include("pages/footer.php"); ?>
 </div>
 
 
@@ -94,17 +84,23 @@
 
   <!-- My Most Beautiful Nightmare -->
   <?php include("projects/my_most_beautiful_nightmare/mymostbeautifulnightmare.php"); ?>
+  <!-- TODO : PANDORA -->
+  
+  <!-- TODO : VOID -->
+
   <!-- Nike Infinite -->
   <?php include("projects/nike-infinite/nike-infinite.php"); ?>
   <!-- Hermes -->
   <?php include("projects/hermes/hermes.php"); ?>
+  <!-- TODO : GIGI -->
+
   <!-- Teyosh -->
   <?php include("projects/teyosh/teyosh.php"); ?>
   <!-- Awwwards 2016 -->
   <?php include("projects/awwwards2016/awwwards.php"); ?>
 
   <!-- FOOTER -->
-  <!-- <?php   include("pages/footer.php"); ?>
+  <?php   include("pages/footer.php"); ?>
 </div>
 
 
