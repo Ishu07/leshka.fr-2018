@@ -44,7 +44,7 @@
   <div class="introwrap">
     <h3>Hey!</h3>
     <h1>I'm a Senior Interactive
-    Art Director & Motion Designer focussed on <a class="toThis" >unique identities</a> and <a class="toThat">immersive experiences</a>.
+    Art Director & Motion Designer focussed on <a class="toThis" >unique identities</a> and <a class="crazyShit">crazy shit</a><a class="toThat">immersive experiences</a>.
     </h1>
   </div>
 </div>
@@ -87,13 +87,13 @@
 
 
 <div class="that">
-  <?php include("projects/void/void.php"); ?>
+
   <!-- My Most Beautiful Nightmare -->
   <?php include("projects/my_most_beautiful_nightmare/mymostbeautifulnightmare.php"); ?>
   <!-- TODO : PANDORA -->
 
-  <!-- TODO : VOID -->
-
+  <!-- VOID -->
+  <?php include("projects/void/void.php"); ?>
   <!-- Nike Infinite -->
   <?php include("projects/nike-infinite/nike-infinite.php"); ?>
   <!-- Hermes -->
