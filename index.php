@@ -46,16 +46,43 @@
     <h1>I'm a Senior Interactive
     Art Director & Motion Designer focussed on <a class="toThis" >unique identities</a> and <a class="crazyShit">crazy shit</a><a class="toThat">immersive experiences</a>.
     </h1>
+
   </div>
 </div>
 
+<div class="intoImagesWrap">
+  <img class="intoImages" src="images/experiences/1.png"/>
+  <!-- <div class="sequence autoplay=true  speed="3" timeline="false" autoplay=true >
+    <img class="full" src="projects/raf/img/1.jpg" />
+    <img class="full" src="projects/raf/img/2.jpg" />
+    <img class="full" src="projects/raf/img/3.jpg" />
+    <img class="full" src="projects/raf/img/4.jpg" />
+    <img class="full" src="projects/raf/img/5.jpg" />
+    <img class="full" src="projects/raf/img/6.jpg" />
+    <img class="full" src="projects/raf/img/7.jpg" />
+    <img class="full" src="projects/raf/img/8.jpg" />
+    <img class="full" src="projects/raf/img/9.jpg" />
+    <img class="full" src="projects/raf/img/10.jpg" />
+    <img class="full" src="projects/raf/img/11.jpg" />
+    <img class="full" src="projects/raf/img/12.jpg" />
+    <img class="full" src="projects/raf/img/13.jpg" />
+    <img class="full" src="projects/raf/img/14.jpg" />
+    <img class="full" src="projects/raf/img/15.jpg" />
+    <img class="full" src="projects/raf/img/16.jpg" />
+    <img class="full" src="projects/raf/img/17.jpg" />
+    <img class="full" src="projects/raf/img/18.jpg" />
+    <img class="full" src="projects/raf/img/19.jpg" />
+    <img class="full" src="projects/raf/img/20.jpg" />
+    <img class="full" src="projects/raf/img/21.jpg" />
+    <img class="full" src="projects/raf/img/22.jpg" />
+    <img class="full" src="projects/raf/img/23.jpg" />
+  </div> -->
+</div>
 
 <div class="this">
 
   <!-- AllofUs -->
   <?php include("projects/Allofus/allofus.php"); ?>
-  <!-- Doddle -->
-  <?php include("projects/doddle/doddle.php"); ?>
   <!-- White Bear -->
   <?php include("projects/whitebear/whitebear.php"); ?>
   <!-- Taylors -->
@@ -74,13 +101,14 @@
 
 <!-- TODO : Andere Tijden -->
 
+<!-- Awwwards 2016 -->
+<?php include("projects/awwwards2016/awwwards.php"); ?>
 <!-- TODO : JAGER -->
 
 <!-- NESPRESSO U -->
 <?php include("projects/nespresso/nespresso_u.php"); ?>
-<!-- Awwwards 2016 -->
-<?php include("projects/awwwards2016/awwwards.php"); ?>
-
+<!-- Doddle -->
+<?php include("projects/doddle/doddle.php"); ?>
 <!-- FOOTER -->
 <?php   include("pages/footer.php"); ?>
 </div>
@@ -92,6 +120,8 @@
   <?php include("projects/my_most_beautiful_nightmare/mymostbeautifulnightmare.php"); ?>
   <!-- TODO : PANDORA -->
 
+  <!-- Nike Infinite TEMPORARY TODO _ DELETE ME -->
+  <?php include("projects/nike-infinite/nike-infinite.php"); ?>
   <!-- VOID -->
   <?php include("projects/void/void.php"); ?>
   <!-- Nike Infinite -->

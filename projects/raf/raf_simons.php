@@ -1,6 +1,6 @@
 <!-- Hogan Club -->
 
-<div class="project" bgColor="#efefef letterColor="#ffffff" txtColor="#d13"">
+<div class="project" bgColor="#efefef letterColor="#d13" txtColor="#d13"">
   <div class="heading">R</div>
   <h2>Raf Simons X Robert Mapplethorpe</h2>
   <p class="subtitle">Design & Photo Editing</p>
