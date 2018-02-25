@@ -1,10 +1,16 @@
 .mobile{
+  margin: 10px;
+  padding: 10px;
+  line-height: 3em;
   background-color: #aaa;
   color: black;
   position: relative;
   display: inline-block;
-  width: 100vw;
-  height: 800vh;
+  height: calc(100vh - 40px);
+  background-color: grey;
+}
+a{
+  color: #04b;
 }
 
 *{
@@ -13,12 +19,4 @@
 }
 body {
   background: #aaa;
-}
-canvas {
-  position: relative;
-  left: 0;
-  top: 0;
-  right: 0;
-  height: 100vh;
-  display: block;
 }

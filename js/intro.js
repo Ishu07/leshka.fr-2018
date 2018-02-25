@@ -15,17 +15,25 @@ function intro() {
       setTimeout(
       function()
       {
+        //SCROLL DOWN
+        $('html, body').animate({scrollTop: '1000px'}, 800);
+
         $(".this").css("display","none");
         thisOrThat = "that";
         // console.log("that");
       }, 500);
       $(".that").css("display","block");
     }
+    else {
+      //SCROLL DOWN
+      $('html, body').animate({scrollTop: '1000px'}, 800);
+    }
   });
 
 
   //THIS
   $(".toThis").on( "click", function() {
+
     if (thisOrThat == "that") {
 
       $(".toThis").html("unique identities")
@@ -42,10 +50,17 @@ function intro() {
       setTimeout(
       function()
       {
+        //SCROLL DOWN
+        $('html, body').animate({scrollTop: '1000px'}, 800);
+        
         $(".that").css("display","none");
         thisOrThat = "this";
         // console.log("this");
       }, 500);
+    }
+    else {
+      //SCROLL DOWN
+      $('html, body').animate({scrollTop: '1000px'}, 800);
     }
   });
 }
