@@ -1,14 +1,33 @@
 .mobile{
   margin: 10px;
-  padding: 10px;
-  line-height: 3em;
+  padding: 40px 20px 40px 20px;
+  line-height: 2.8em;
   background-color: #aaa;
   color: black;
   position: relative;
   display: inline-block;
-  height: calc(100vh - 40px);
-  background-color: grey;
+  height: calc(100vh - 100px);
+  border: grey 1px solid;
 }
+.mobile h1{
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+@media (max-height: 600px){
+    .mobile{
+      line-height: 2em;
+    }
+    .mobile h1{
+      font-size: 1.6em;
+      margin-bottom: 50px;
+    }
+    .mobile h3{
+      font-size: 1em;
+      margin-bottom: 20px;
+    }
+}
+
 a{
   color: #04b;
 }

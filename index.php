@@ -44,7 +44,7 @@
   <div class="introwrap">
     <h3>Hey!</h3>
     <h1>I'm a Senior Interactive
-    Art Director & Motion Designer focussed on <a class="toThis" >unique identities</a> and <a class="crazyShit">crazy shit</a><a class="toThat">immersive experiences</a>.
+    Art Director & Designer focussed on <a class="toThis" >unique identities</a> and <a class="crazyShit">crazy shit</a><a class="toThat">immersive experiences</a>.
     </h1>
 
   </div>
