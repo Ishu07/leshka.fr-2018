@@ -1,9 +1,17 @@
-var thisOrThat = "this";
+var thisOrThat = "none";
+var timeOutThat;
+var timeOutThis;
 function intro() {
+$(".this").css("display","none");
+$(".that").css("display","none");
+
+
 
   // THAT
-  $(".toThat").on( "click", function() {
-    if (thisOrThat == "this") {
+  toThat = function(e) {
+    console.log(thisOrThat);
+    if (thisOrThat != "that") {
+      clearTimeout(timeOutThat)
       // $(".toThis").html("normal shit");
       $(".toThat").css("opacity","0")
       $(".crazyShit").css("opacity","1")
@@ -12,30 +20,22 @@ function intro() {
       $(".that").css("animation","switchThat 0.5s ease 0s forwards");
 
       $(".intro").addClass("thatIntro");
-      setTimeout(
+      timeOutThis = setTimeout(
       function()
       {
-        //SCROLL DOWN
-        $('html, body').animate({scrollTop: '1000px'}, 800);
-
         $(".this").css("display","none");
         thisOrThat = "that";
-        // console.log("that");
-      }, 500);
+      }, 100);
       $(".that").css("display","block");
     }
-    else {
-      //SCROLL DOWN
-      $('html, body').animate({scrollTop: '1000px'}, 800);
-    }
-  });
+  };
 
 
   //THIS
-  $(".toThis").on( "click", function() {
-
-    if (thisOrThat == "that") {
-
+  toThis = function(e) {
+    console.log(thisOrThat);
+    if (thisOrThat != "this") {
+      clearTimeout(timeOutThis)
       $(".toThis").html("unique identities")
 
       $(".toThat").css("opacity","1")
@@ -47,22 +47,32 @@ function intro() {
 
       $(".intro").removeClass("thatIntro");
 
-      setTimeout(
+      timeOutThat = setTimeout(
       function()
       {
-        //SCROLL DOWN
-        $('html, body').animate({scrollTop: '1000px'}, 800);
-        
         $(".that").css("display","none");
         thisOrThat = "this";
-        // console.log("this");
-      }, 500);
+      }, 100);
+
     }
-    else {
-      //SCROLL DOWN
-      $('html, body').animate({scrollTop: '1000px'}, 800);
-    }
-  });
+  };
+
+  clickToThis = function(e) {
+    $('html, body').animate({scrollTop: '1000px'}, 800);
+  }
+  clickToThat = function(e) {
+    $('html, body').animate({scrollTop: '1000px'}, 800);
+  }
+
+
+  //LISTENERS
+  $(".toThat").hover(toThat);
+  $(".toThat").click(clickToThat);
+
+  $(".toThis").hover(toThis);
+  $(".toThis").click(clickToThis);
+
+
 }
 
 window.addEventListener("load", function(event) {

@@ -26,6 +26,7 @@
 <script src="js/inView.js"></script>
 <script src="js/slideshow.js"></script>
 <script src="js/video_autoplay.js"></script>
+<!-- DELETE ME TO USE THE EDITOR -->
 <script src="js/cursor.js"></script>
 <script src="js/link_arrow.js"></script>
 <script src="js/bgColor.js"></script>
@@ -51,7 +52,7 @@
 </div>
 
 <div class="intoImagesWrap">
-  <img class="intoImages" src="images/experiences/1.png"/>
+  <!-- <img class="intoImages" src="images/experiences/1.png"/> -->
   <!-- <div class="sequence autoplay=true  speed="3" timeline="false" autoplay=true >
     <img class="full" src="projects/raf/img/1.jpg" />
     <img class="full" src="projects/raf/img/2.jpg" />

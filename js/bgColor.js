@@ -4,7 +4,7 @@ function bgColor() {
   if (thisOrThat == "this"){
     // INTRO COLOR
     if (inView($('.intro'))){
-      $('.this').css( "background-color", "#aaa" )
+      $('.this').css( "background-color", "#fccb90" )
     }
     for (var i = 0; i <  $('.this .project').length; i++) {
       $('.this .project')[i]
