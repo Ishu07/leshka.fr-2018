@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "LarishNeueSemibold-Regular";
+    src: url(../../fonts/LarishNeueSemibold-Regular.otf);
+}
+@font-face {
+    font-family: "GothamBook";
+    src: url(../../fonts/GothamBook.otf);
+}
+
+.loading {
+  font-family: "LarishNeueSemibold-Regular";
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #aaa;
+  color: #04b;
+  text-align: center;
+  transition: opacity 0.1s ease;
+}
+
+.loadingBig{
+  margin-top: calc(50vh - 350px);
+  font-size: 800px;
+}
+.loadingSmall{
+  position: fixed;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  font-family: "GothamBook";
+  font-size: 20px;
+}
+.fadeOutLoad{
+  opacity: 0;
+  pointer-events: none;
+}

@@ -13,7 +13,7 @@ $(".that").css("display","none");
     if (thisOrThat != "that") {
       clearTimeout(timeOutThat)
       // $(".toThis").html("normal shit");
-      $(".toThat").css("opacity","0")
+      $(".experiences").css("opacity","0")
       $(".crazyShit").css("opacity","1")
       // $(".toThat").html("crazy shit")
       $(".this").css("animation","switchThis 0.5s ease 0s forwards");
@@ -38,7 +38,7 @@ $(".that").css("display","none");
       clearTimeout(timeOutThis)
       $(".toThis").html("unique identities")
 
-      $(".toThat").css("opacity","1")
+      $(".experiences").css("opacity","1")
       $(".crazyShit").css("opacity","0")
       // $(".toThat").html("immersive experiences")
       $(".this").css("display","block");
@@ -75,6 +75,6 @@ $(".that").css("display","none");
 
 }
 
-window.addEventListener("load", function(event) {
+$( document ).ready(function() {
     intro();
 });

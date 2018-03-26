@@ -16,9 +16,13 @@
   <link rel="stylesheet" href="css/slideshow.css">
 </head>
 <body>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
 <script src="build/jquery-2.1.3.min.js"></script>
 <script src="build/less.min.js"></script>
+<!-- LOADING -->
+<?php include("build/loading/loading.php"); ?>
+
 <script src="build/lazyload/lazyload.js"></script>
 <!-- DELETE ME IF I AM OFFLINE -->
 <script src="build/lazyYoutube/lazyYoutube.js"></script>
@@ -38,6 +42,7 @@
    }
 </script>
 
+
 <!-- INTRO -->
 
 <div class="intro project" bgColor="#aaa">
@@ -45,7 +50,7 @@
   <div class="introwrap">
     <h3>Hey!</h3>
     <h1>I'm a Senior Interactive
-    Art Director & Designer focussed on <a class="toThis" >unique identities</a> and <a class="crazyShit">crazy shit</a><a class="toThat">immersive experiences</a>.
+    Art Director & Designer focussed on <a class="toThis" >unique identities</a> and <a class="toThat"> <span class="crazyShit">crazy shit</span><span class="experiences">immersive experiences</span></a>.
     </h1>
 
   </div>
@@ -120,9 +125,7 @@
   <!-- My Most Beautiful Nightmare -->
   <?php include("projects/my_most_beautiful_nightmare/mymostbeautifulnightmare.php"); ?>
   <!-- TODO : PANDORA -->
-
-  <!-- Nike Infinite TEMPORARY TODO _ DELETE ME -->
-  <?php include("projects/nike-infinite/nike-infinite.php"); ?>
+  <?php include("projects/pandora/pandora.php"); ?>
   <!-- VOID -->
   <?php include("projects/void/void.php"); ?>
   <!-- Nike Infinite -->
