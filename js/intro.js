@@ -2,8 +2,8 @@ var thisOrThat = "none";
 var timeOutThat;
 var timeOutThis;
 function intro() {
-$(".this").css("display","none");
-$(".that").css("display","none");
+// $(".this").css("display","none");
+// $(".that").css("display","none");
 
 
 

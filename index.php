@@ -5,8 +5,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>SHK (le Shka)</title>
-  <meta name="description" content="SHK(le Shka) Designer / Artist based between London - Paris - Amsterdam">
+  <meta name="description" content="SHK(le Shka) — Robin Gardeur – Designer / Artist based between London - Paris - Amsterdam">
   <meta name="author" content="le Shka">
+
+  <link rel="stylesheet/less" href="css/loadfirst.css">
 
   <link rel="stylesheet/less" href="css/disposition.less">
   <link rel="stylesheet/less" href="css/skin.less">
@@ -24,6 +26,7 @@
 <?php include("build/loading/loading.php"); ?>
 
 <script src="build/lazyload/lazyload.js"></script>
+<script src="build/lazyload/sequences.js"></script>
 <!-- DELETE ME IF I AM OFFLINE -->
 <script src="build/lazyYoutube/lazyYoutube.js"></script>
 <script src="js/intro.js"></script>
@@ -87,10 +90,13 @@
 
 <div class="this" id="this">
 
+
   <!-- AllofUs -->
   <?php include("projects/Allofus/allofus.php"); ?>
   <!-- White Bear -->
   <?php include("projects/whitebear/whitebear.php"); ?>
+  <!-- VvV -->
+  <?php include("projects/velvet-venus/velvet-venus.php"); ?>
   <!-- Taylors -->
   <?php include("projects/taylors/taylors.php"); ?>
   <!-- Teyosh -->
@@ -116,7 +122,7 @@
 <!-- Doddle -->
 <?php include("projects/doddle/doddle.php"); ?>
 <!-- FOOTER -->
-<?php   include("pages/footer.php"); ?>
+<?php include("pages/footer.php"); ?>
 </div>
 
 

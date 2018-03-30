@@ -53,16 +53,21 @@ As a user, you start with a prologue introducing the concept and visual tone. Th
 
 
   <div class="wrapper">
-    <div class="sequence full" speed="17" timeline="false" autoplay=true >
+    <div class="sequence full" speed="17" timeline="false" autoplay=true urls='
+    projects/void/img/kubik.jpg,
+    projects/void/img/black_ice.jpg,
+    projects/void/img/hi-res.jpg,
+    projects/void/img/liquid_ice.jpg,
+    projects/void/img/calvarium.jpg' >
       <div class="separator"></div>
       <div class="full">
         <img class="full lazyload sequencethumb" src="projects/void/img/_thumb.jpg" data-src=" "/>
       </div>
-      <img class="full" src="projects/void/img/kubik.jpg" />
+      <!-- <img class="full" src="projects/void/img/kubik.jpg" />
       <img class="full" src="projects/void/img/black_ice.jpg" />
       <img class="full" src="projects/void/img/hi-res.jpg" />
       <img class="full" src="projects/void/img/liquid_ice.jpg" />
-      <img class="full" src="projects/void/img/calvarium.jpg" />
+      <img class="full" src="projects/void/img/calvarium.jpg" /> -->
     </div>
   </div>
 

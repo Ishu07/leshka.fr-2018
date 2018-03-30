@@ -20,17 +20,24 @@
     </div>
   </div>
   <div class="wrapper">
-    <div class="sequence full" speed="20" timeline="false" autoplay=true >
+    <div class="sequence full" speed="20" timeline="false" autoplay=true urls='
+    projects/whitebear/img/white_bear_01.jpg,
+    projects/whitebear/img/white_bear_02.jpg,
+    projects/whitebear/img/white_bear_03.jpg,
+    projects/whitebear/img/white_bear_04.jpg,
+    projects/whitebear/img/white_bear_05.jpg,
+    projects/whitebear/img/white_bear_06.jpg,
+    projects/whitebear/img/white_bear_07.jpg' >
       <div class="separator"></div>
       <div class="full">
         <img class="full lazyload sequencethumb" src="projects/whitebear/img/white_bear_thumb.jpg" data-src=" "/>
       </div>
-      <img class="full" src="projects/whitebear/img/white_bear_01.jpg" />
+      <!-- <img class="full" src="projects/whitebear/img/white_bear_01.jpg" />
       <img class="full" src="projects/whitebear/img/white_bear_02.jpg" />
       <img class="full" src="projects/whitebear/img/white_bear_03.jpg" />
       <img class="full" src="projects/whitebear/img/white_bear_04.jpg" />
       <img class="full" src="projects/whitebear/img/white_bear_05.jpg" />
-      <img class="full" src="projects/whitebear/img/white_bear_07.jpg" />
+      <img class="full" src="projects/whitebear/img/white_bear_07.jpg" /> -->
     </div>
   </div>
 </div>

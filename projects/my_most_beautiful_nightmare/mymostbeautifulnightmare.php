@@ -6,7 +6,7 @@
   <h2>My Most Beatiful Nightmare</h2>
   <p class="subtitle">Art Direction, Design, Code, Sound, Illustrations, Animations, EVERYTHING!</p>
   <div class="wrapper">
-      <img class="full" src="projects/my_most_beautiful_nightmare/img/intro.jpg" />
+    <img class="full lazyload" src="projects/my_most_beautiful_nightmare/img/intro_thumb.jpg" data-src="projects/my_most_beautiful_nightmare/img/intro.jpg"/>
   </div>
   <div class="wrapper">
     <h4>My most beautiful nightmare is a digital project that invites you to rediscover that dream that until today you simply can't forget.<br/><br/>
@@ -35,16 +35,21 @@ Trough this piece of digital poetry, I want to sensibilise people about the beau
 
 
   <div class="wrapper">
-    <div class="sequence full" speed="17" timeline="false" autoplay=true >
+    <div class="sequence full" speed="17" timeline="false" autoplay=true urls='
+    projects/my_most_beautiful_nightmare/img/01.jpg,
+    projects/my_most_beautiful_nightmare/img/02.jpg,
+    projects/my_most_beautiful_nightmare/img/03.jpg,
+    projects/my_most_beautiful_nightmare/img/04.jpg,
+    projects/my_most_beautiful_nightmare/img/05.jpg' >
       <div class="separator"></div>
       <div class="full">
         <img class="full lazyload sequencethumb" src="projects/my_most_beautiful_nightmare/img/_thumb.jpg" data-src=" "/>
       </div>
-      <img class="full" src="projects/my_most_beautiful_nightmare/img/01.jpg" />
+      <!-- <img class="full" src="projects/my_most_beautiful_nightmare/img/01.jpg" />
       <img class="full" src="projects/my_most_beautiful_nightmare/img/02.jpg" />
       <img class="full" src="projects/my_most_beautiful_nightmare/img/03.jpg" />
       <img class="full" src="projects/my_most_beautiful_nightmare/img/04.jpg" />
-      <img class="full" src="projects/my_most_beautiful_nightmare/img/05.jpg" />
+      <img class="full" src="projects/my_most_beautiful_nightmare/img/05.jpg" /> -->
     </div>
   </div>
 

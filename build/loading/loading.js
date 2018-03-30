@@ -6,33 +6,33 @@ function initLoading(){
     switch ($(".loadingBig").html()) {
     case "L":
         $(".loadingBig").html("E");
-        $(".loading").css("background-color","#04b");
-        $(".loading").css("color","#aaa");
+        $(".loading").css("background-color","#ddd");
+        $(".loading").css("color","#333");
         break;
     case "E":
         $(".loadingBig").html("S");
-        $(".loading").css("background-color","#aaa");
-        $(".loading").css("color","#04b");
+        $(".loading").css("background-color","#333");
+        $(".loading").css("color","#ddd");
         break;
     case "S":
         $(".loadingBig").html("H");
-        $(".loading").css("background-color","#04b");
-        $(".loading").css("color","#aaa");
+        $(".loading").css("background-color","#ddd");
+        $(".loading").css("color","#333");
         break;
     case "H":
         $(".loadingBig").html("K");
-        $(".loading").css("background-color","#aaa");
-        $(".loading").css("color","#04b");
+        $(".loading").css("background-color","#333");
+        $(".loading").css("color","#ddd");
         break;
     case "K":
         $(".loadingBig").html("A");
-        $(".loading").css("background-color","#04b");
-        $(".loading").css("color","#aaa");
+        $(".loading").css("background-color","#ddd");
+        $(".loading").css("color","#333");
         break;
     case "A":
         $(".loadingBig").html("L");
-        $(".loading").css("background-color","#aaa");
-        $(".loading").css("color","#04b");
+        $(".loading").css("background-color","#333");
+        $(".loading").css("color","#ddd");
         break;
     }
 
@@ -59,10 +59,11 @@ function stopLoading(){
 initLoading();
 $( document ).ready(function() {
   console.log("PAGE LOADED1");
-  stopLoading();
+  // stopLoading();
 
 });
 
 window.addEventListener("load", function(event) {
     console.log("PAGE LOADED2");
+    stopLoading();
 });

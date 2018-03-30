@@ -17,8 +17,32 @@
   <div class="full">
     <img class="full lazyload sequencethumb" src="projects/raf/img/_thumb.jpg" data-src=" "/>
   </div>
-  <div class="sequence full nobouing"  speed="12" timeline="false" autoplay=true >
-    <img class="full" src="projects/raf/img/1.jpg" />
+  <div class="sequence full nobouing"  speed="12" timeline="false" autoplay=true urls='
+  projects/raf/img/1.jpg,
+  projects/raf/img/2.jpg,
+  projects/raf/img/3.jpg,
+  projects/raf/img/4.jpg,
+  projects/raf/img/5.jpg,
+  projects/raf/img/6.jpg,
+  projects/raf/img/7.jpg,
+  projects/raf/img/8.jpg,
+  projects/raf/img/9.jpg,
+  projects/raf/img/10.jpg,
+  projects/raf/img/11.jpg,
+  projects/raf/img/12.jpg,
+  projects/raf/img/13.jpg,
+  projects/raf/img/14.jpg,
+  projects/raf/img/15.jpg,
+  projects/raf/img/16.jpg,
+  projects/raf/img/17.jpg,
+  projects/raf/img/18.jpg,
+  projects/raf/img/19.jpg,
+  projects/raf/img/20.jpg,
+  projects/raf/img/21.jpg,
+  projects/raf/img/22.jpg,
+  projects/raf/img/23.jpg' >
+
+    <!-- <img class="full" src="projects/raf/img/1.jpg" />
     <img class="full" src="projects/raf/img/2.jpg" />
     <img class="full" src="projects/raf/img/3.jpg" />
     <img class="full" src="projects/raf/img/4.jpg" />
@@ -40,7 +64,7 @@
     <img class="full" src="projects/raf/img/20.jpg" />
     <img class="full" src="projects/raf/img/21.jpg" />
     <img class="full" src="projects/raf/img/22.jpg" />
-    <img class="full" src="projects/raf/img/23.jpg" />
+    <img class="full" src="projects/raf/img/23.jpg" /> -->
   </div>
 
 </div>

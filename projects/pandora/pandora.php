@@ -33,16 +33,21 @@
 
 
 
-    <div class="sequence full nobouing" speed="17" timeline="false" autoplay=true >
+    <div class="sequence full nobouing" speed="17" timeline="false" autoplay=true urls='
+    projects/pandora/img/cicada.jpg,
+    projects/pandora/img/digital_skin.jpg,
+    projects/pandora/img/urban_jungle.jpg,
+    projects/pandora/img/lamentations.jpg,
+    projects/pandora/img/konami.jpg' >
       <div class="separator"></div>
       <div class="full">
         <img class="full lazyload sequencethumb" src="projects/pandora/img/sequence_thumb.jpg" data-src=" "/>
       </div>
-      <img class="full" src="projects/pandora/img/cicada.jpg" />
+      <!-- <img class="full" src="projects/pandora/img/cicada.jpg" />
       <img class="full" src="projects/pandora/img/digital_skin.jpg" />
       <img class="full" src="projects/pandora/img/urban_jungle.jpg" />
       <img class="full" src="projects/pandora/img/lamentations.jpg" />
-      <img class="full" src="projects/pandora/img/konami.jpg" />
+      <img class="full" src="projects/pandora/img/konami.jpg" /> -->
     </div>
 
 

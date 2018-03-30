@@ -1,5 +1,5 @@
-function initSeq(){
-  $(".sequence").each(function( index ){
+function initSeq(sequence){
+  $(sequence).each(function( index ){
 
     var rollmediv = $( "<div class='rollmeover'>roll me over.</div>")
     $( this ).append( rollmediv );
@@ -122,6 +122,6 @@ function initSeq(){
 
 
 $( document ).ready(function() {
-    initSeq();
+    // initSeq();
     // initFollow();
 });

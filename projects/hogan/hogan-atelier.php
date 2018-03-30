@@ -30,8 +30,25 @@ The genuine and sophisticated manufacturing processes are inspired by distant wo
   <div class="full">
     <img class="full lazyload sequencethumb" src="projects/hogan/img/atelier/shoes/_thumb.jpg" data-src=" "/>
   </div>
-  <div class="sequence full nobouing" speed="5" timeline="false" autoplay=true >
-    <img class="full" src="projects/hogan/img/atelier/shoes/hogan_atelier_shoe_01.jpg" />
+  <div class="sequence full nobouing" speed="5" timeline="false" autoplay=true urls='
+projects/hogan/img/atelier/shoes/hogan_atelier_shoe_01.jpg,
+projects/hogan/img/atelier/shoes/hogan_atelier_shoe_02.jpg,
+projects/hogan/img/atelier/shoes/hogan_atelier_shoe_03.jpg,
+projects/hogan/img/atelier/shoes/hogan_atelier_shoe_04.jpg,
+projects/hogan/img/atelier/shoes/hogan_atelier_shoe_05.jpg,
+projects/hogan/img/atelier/shoes/hogan_atelier_shoe_06.jpg,
+projects/hogan/img/atelier/shoes/hogan_atelier_shoe_07.jpg,
+projects/hogan/img/atelier/shoes/hogan_atelier_shoe_08.jpg,
+projects/hogan/img/atelier/shoes/hogan_atelier_shoe_09.jpg,
+projects/hogan/img/atelier/shoes/hogan_atelier_shoe_10.jpg,
+projects/hogan/img/atelier/shoes/hogan_atelier_shoe_11.jpg,
+projects/hogan/img/atelier/shoes/hogan_atelier_shoe_12.jpg,
+projects/hogan/img/atelier/shoes/hogan_atelier_shoe_13.jpg,
+projects/hogan/img/atelier/shoes/hogan_atelier_shoe_14.jpg,
+projects/hogan/img/atelier/shoes/hogan_atelier_shoe_15.jpg,
+projects/hogan/img/atelier/shoes/hogan_atelier_shoe_16.jpg' >
+
+    <!-- <img class="full" src="projects/hogan/img/atelier/shoes/hogan_atelier_shoe_01.jpg" />
     <img class="full" src="projects/hogan/img/atelier/shoes/hogan_atelier_shoe_02.jpg" />
     <img class="full" src="projects/hogan/img/atelier/shoes/hogan_atelier_shoe_03.jpg" />
     <img class="full" src="projects/hogan/img/atelier/shoes/hogan_atelier_shoe_04.jpg" />
@@ -46,7 +63,7 @@ The genuine and sophisticated manufacturing processes are inspired by distant wo
     <img class="full" src="projects/hogan/img/atelier/shoes/hogan_atelier_shoe_13.jpg" />
     <img class="full" src="projects/hogan/img/atelier/shoes/hogan_atelier_shoe_14.jpg" />
     <img class="full" src="projects/hogan/img/atelier/shoes/hogan_atelier_shoe_15.jpg" />
-    <img class="full" src="projects/hogan/img/atelier/shoes/hogan_atelier_shoe_16.jpg" />
+    <img class="full" src="projects/hogan/img/atelier/shoes/hogan_atelier_shoe_16.jpg" /> -->
   </div>
 
 </div>
