@@ -24,7 +24,7 @@ function looplazySequences(){
         urls = sequence.attr("urls").split(",");;
         // sequence.append('<div class="full">');
         for (var i = 0; i < urls.length; i++) {
-          console.log(urls[i]);
+          // console.log(urls[i]);
           sequence.append('<img class="full" src="' + urls[i] +'" />');
         }
         // sequence.append('</div>');
@@ -46,7 +46,7 @@ function looplazySequences(){
         urls = sequenceo.attr("urls").split(",");;
         // sequenceo.append('<div class="full">');
         for (var i = 0; i < urls.length; i++) {
-          console.log(urls[i]);
+          // console.log(urls[i]);
           sequenceo.append('<img class="full" src="' + urls[i] +'" />');
         }
         // sequenceo.append('</div>');

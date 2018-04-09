@@ -1,3 +1,5 @@
+var circleOver = false;
+
 function initLinkArrow(){
 var count_arrow = 1;
 var j
@@ -30,6 +32,9 @@ setInterval(link_arrow, 120);
         $(".that .button").css("background-color","#14CBC0")
         $(".this .button:hover").css("color","#FE00D6")
         $(".this .button:hover").css("background-color","#14CBC0")
+        if (circleOver == true){
+          $(".mouse-circle").css("background-color","#14CBC0")
+        }
         $(".that .rollmeover").css("color","#FE00D6")
         $(".that .rollmeover").css("background-color","#14CBC0")
         $(".that .youtube .play-button .playTriangle").css("border-color","transparent transparent transparent #FE00D6")
@@ -43,6 +48,9 @@ setInterval(link_arrow, 120);
         $(".that .button").css("background-color","#B11298")
         $(".this .button:hover").css("color","#FED419")
         $(".this .button:hover").css("background-color","#B11298")
+        if (circleOver == true){
+          $(".mouse-circle").css("background-color","#B11298")
+        }
         $(".that .rollmeover").css("color","#FED419")
         $(".that .rollmeover").css("background-color","#B11298")
         $(".that .youtube .play-button .playTriangle").css("border-color","transparent transparent transparent #FED419")
@@ -56,6 +64,9 @@ setInterval(link_arrow, 120);
         $(".that .button").css("background-color","#FE531B")
         $(".this .button:hover").css("color","#1BFEC7")
         $(".this .button:hover").css("background-color","#FE531B")
+        if (circleOver == true){
+          $(".mouse-circle").css("background-color","#FE531B")
+        }
         $(".that .rollmeover").css("color","#1BFEC7")
         $(".that .rollmeover").css("background-color","#FE531B")
         $(".that .youtube .play-button .playTriangle").css("border-color","transparent transparent transparent #1BFEC7")

@@ -5,6 +5,10 @@ function bgColor() {
     // INTRO COLOR
     if (inView($('.intro'))){
       $('.this').css( "background-color", "#fccb90" )
+      $('.mouse-circle').css( "opacity", "0" )
+    }
+    else {
+      $('.mouse-circle').css( "opacity", "1" )
     }
     for (var i = 0; i <  $('.this .project').length; i++) {
       $('.this .project')[i]
@@ -13,10 +17,13 @@ function bgColor() {
         var bgColor = $(target).attr('bgColor')
         var letterColor = $(target).attr('letterColor')
         var txtColor = $(target).attr('txtColor')
-        // console.log(bgColor);
-        // if undefined, do lalala
-        $('.this').css( "background-color", bgColor )
+        // $('.this').css( "background-color", bgColor )
+        // $('.this .heading').css( "color", letterColor )
+        // $('.mouse-circle').css( "background-color", bgColor )
+        $('.this').css( "background-color", letterColor )
         $('.this .heading').css( "color", letterColor )
+        $('.mouse-circle').css( "background-color", bgColor )
+
         $(".this .rollmeover").css("color",txtColor)
         $(".this .rollmeover").css("background-color",bgColor)
         $(".this .youtube .play-button .playTriangle").css("border-color","transparent transparent transparent" + txtColor)
@@ -34,6 +41,10 @@ function bgColor() {
     // INTRO COLOR
     if (inView($('.intro'))){
       $('.that').css( "background-color", "#ff00ff" )
+      $('.mouse-circle').css( "opacity", "0" )
+    }
+    else {
+      $('.mouse-circle').css( "opacity", "1" )
     }
     for (var i = 0; i <  $('.that .project').length; i++) {
       $('.that .project')[i]
@@ -43,15 +54,22 @@ function bgColor() {
         var letterColor = $(target).attr('letterColor')
         var txtColor = $(target).attr('txtColor')
         // if undefined, do lalala
-        $('.that').css( "background-color", bgColor )
-        $('.that .heading').css( "color", letterColor )
+        // $('.that').css( "background-color", bgColor )
+        // $('.that .heading').css( "color", letterColor )
         $('.that p, .that h4, .that h2').css( "color", txtColor )
+
+        $('.that').css( "background-color", letterColor )
+        $('.that .heading').css( "color", letterColor )
+        $('.mouse-circle').css( "background-color", bgColor )
       }
     }
   }
 }
 // background-color: ababff
 $(window).scroll(function() {
+    bgColor();
+});
+$('a, .youtube').mouseout(function() {
     bgColor();
 });
 

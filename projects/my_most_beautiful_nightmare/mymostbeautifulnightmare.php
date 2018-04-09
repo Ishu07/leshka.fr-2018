@@ -3,7 +3,7 @@
 
 <div class="project" bgColor="#0a0a11" letterColor="#00000a" txtColor="#cbc16a">
   <div class="heading">M</div>
-  <h2>My Most Beatiful Nightmare</h2>
+  <h2>My Most Beautiful Nightmare</h2>
   <p class="subtitle">Art Direction, Design, Code, Sound, Illustrations, Animations, EVERYTHING!</p>
   <div class="wrapper">
     <img class="full lazyload" src="projects/my_most_beautiful_nightmare/img/intro_thumb.jpg" data-src="projects/my_most_beautiful_nightmare/img/intro.jpg"/>

@@ -9,6 +9,7 @@
   <meta name="author" content="le Shka">
 
   <link rel="stylesheet/less" href="css/loadfirst.css">
+  <link rel="stylesheet/less" href="css/fallowing.css">
 
   <link rel="stylesheet/less" href="css/disposition.less">
   <link rel="stylesheet/less" href="css/skin.less">
@@ -36,6 +37,7 @@
 <!-- DELETE ME TO USE THE EDITOR -->
 <script src="js/cursor.js"></script>
 <script src="js/link_arrow.js"></script>
+<script src="js/fallowing.js"></script>
 <script src="js/bgColor.js"></script>
 <script src="js/bouing.js"></script>
 <script>
@@ -89,14 +91,12 @@
 </div>
 
 <div class="this" id="this">
-
+<div class="mouse-circle mouse-circle-1"></div>
 
   <!-- AllofUs -->
   <?php include("projects/Allofus/allofus.php"); ?>
   <!-- White Bear -->
   <?php include("projects/whitebear/whitebear.php"); ?>
-  <!-- VvV -->
-  <?php include("projects/velvet-venus/velvet-venus.php"); ?>
   <!-- Taylors -->
   <?php include("projects/taylors/taylors.php"); ?>
   <!-- Teyosh -->
@@ -117,8 +117,12 @@
 <?php include("projects/awwwards2016/awwwards.php"); ?>
 <!-- TODO : JAGER -->
 
+<!-- VvV -->
+<?php include("projects/velvet-venus/velvet-venus.php"); ?>
+
 <!-- NESPRESSO U -->
 <?php include("projects/nespresso/nespresso_u.php"); ?>
+
 <!-- Doddle -->
 <?php include("projects/doddle/doddle.php"); ?>
 <!-- FOOTER -->
@@ -127,6 +131,7 @@
 
 
 <div class="that">
+<div class="mouse-circle mouse-circle-1"></div>
 
   <!-- My Most Beautiful Nightmare -->
   <?php include("projects/my_most_beautiful_nightmare/mymostbeautifulnightmare.php"); ?>
@@ -148,6 +153,7 @@
   <!-- FOOTER -->
   <?php   include("pages/footer.php"); ?>
 </div>
+
 
 
 

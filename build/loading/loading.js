@@ -1,6 +1,7 @@
+var loadingSwitch = null
 function initLoading(){
   // CHANGE LETTER
-  var loadingSwitch = setInterval(changeLetter, 150);
+  loadingSwitch = setInterval(changeLetter, 150);
   function changeLetter(){
 
     switch ($(".loadingBig").html()) {
@@ -46,13 +47,10 @@ function stopLoading(){
   setTimeout(function(){
     $(".loading").css("display","none");
   }, 1800);
-
-  // $(".fadeOutLoad").one("webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend",
-  //   function(event) {
-  //     // HERE
-  //     console.log("DONE");
-  //   $(".loading").css("display","none");
-  // });
+  // CLEAR THE LOADING INTERVAL
+  setTimeout(function(){
+    clearInterval(loadingSwitch);
+  }, 1800);
 
 };
 
