@@ -2,9 +2,19 @@
 
 <html lang="en">
 <head>
+  <!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-71310025-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-71310025-1');
+</script>
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <title>SHK (le Shka)</title>
+  <title>Robin Gardeur (le Shka)</title>
   <meta name="description" content="SHK(le Shka) — Robin Gardeur – Designer / Artist based between London - Paris - Amsterdam">
   <meta name="author" content="le Shka">
 
