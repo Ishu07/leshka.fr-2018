@@ -1,14 +1,14 @@
 <!-- Hogan Club -->
 
 <div class="project"  bgColor="#132828" letterColor="#173838" txtColor="#fff">
-  <div class="heading" >A</div>
+  <div class="heading vs-div" data-speed="-0.23">A</div>
   <h2>AllofUs</h2>
   <p class="subtitle">Templates & Presentations</p>
 
 
   <div class="wrapper article">
     <div class="big-right">
-      <div class="sequence full" speed="10" timeline="false" autoplay=true urls='
+      <div class="sequence full vs-div" data-speed="0.23" speed="10" timeline="false" autoplay=true urls='
       projects/allofus/img/templates/00.jpg,
       projects/allofus/img/templates/01.jpg,
       projects/allofus/img/templates/03.jpg,

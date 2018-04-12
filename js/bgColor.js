@@ -4,7 +4,7 @@ function bgColor() {
   if (thisOrThat == "this"){
     // INTRO COLOR
     if (inView($('.intro'))){
-      $('.this').css( "background-color", "#fccb90" )
+      $('body').css( "background-color", "#fccb90" )
       $('.mouse-circle').css( "opacity", "0" )
     }
     else {
@@ -20,7 +20,7 @@ function bgColor() {
         // $('.this').css( "background-color", bgColor )
         // $('.this .heading').css( "color", letterColor )
         // $('.mouse-circle').css( "background-color", bgColor )
-        $('.this').css( "background-color", letterColor )
+        $('body').css( "background-color", letterColor )
         $('.this .heading').css( "color", letterColor )
         $('.mouse-circle').css( "background-color", bgColor )
 
@@ -40,7 +40,7 @@ function bgColor() {
   else if (thisOrThat == "that"){
     // INTRO COLOR
     if (inView($('.intro'))){
-      $('.that').css( "background-color", "#ff00ff" )
+      $('body').css( "background-color", "#ff00ff" )
       $('.mouse-circle').css( "opacity", "0" )
     }
     else {
@@ -58,7 +58,7 @@ function bgColor() {
         // $('.that .heading').css( "color", letterColor )
         $('.that p, .that h4, .that h2').css( "color", txtColor )
 
-        $('.that').css( "background-color", letterColor )
+        $('body').css( "background-color", letterColor )
         $('.that .heading').css( "color", letterColor )
         $('.mouse-circle').css( "background-color", bgColor )
       }

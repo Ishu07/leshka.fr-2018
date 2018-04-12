@@ -3,11 +3,12 @@
 	width: 108vw;
 	height: 108vw;
 	background: transparent;
-	position: fixed;
+	position: fixed !important;
 	border-radius: 50%;
 	left: 50vw;
 	top: 50vh;
-	z-index: -10;
+	z-index: -12;
+	pointer-events: none;
 	transform: translate(-50%, -50%);
 	opacity: 0;
 	transition: background 0.5s, opacity 0.5s, width 0.5s, height 0.5s;

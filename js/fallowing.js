@@ -14,8 +14,16 @@ function initbgFallowingCursor(){
    var $xp10 = 0, $yp10 =0;
    $(document).mousemove(function(e){
    $mouseX = e.pageX;
-   $mouseY = e.pageY- $(window).scrollTop();;
+   // $mouseY = e.pageY- $(".vs-section").offset().top;
+   console.log($mouseY);
+   $mouseY = e.pageY- $(window).scrollTop();
    });
+   $(".vs-section").onscroll = function(){
+     console.log("LOL");
+   }
+   // $(window).scroll(function(event) {
+   //   console.log("LOL");
+   // }
    var $loop = setInterval(function(){
    $xp += (($mouseX - $xp)/53);
    $yp += (($mouseY - $yp)/53);

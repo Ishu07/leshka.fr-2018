@@ -18,6 +18,7 @@ function intro() {
       // $(".toThat").html("crazy shit")
       $(".this").css("animation","switchThis 0.5s ease 0s forwards");
       $(".that").css("animation","switchThat 0.5s ease 0s forwards");
+      $('body').css( "background-color", "#ff00ff" );
 
       $(".intro").addClass("thatIntro");
       timeOutThis = setTimeout(
@@ -44,6 +45,7 @@ function intro() {
       $(".this").css("display","block");
       $(".this").css("animation","this 0.5s ease 0s forwards");
       $(".that").css("animation","that 0.5s ease 0s forwards");
+      $('body').css( "background-color", "#fccb90" );
 
       $(".intro").removeClass("thatIntro");
 

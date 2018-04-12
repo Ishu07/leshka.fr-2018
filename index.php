@@ -27,10 +27,11 @@
   <link rel="stylesheet" href="build/lazyYoutube/lazyYoutube.css">
   <link rel="stylesheet" href="build/lazyload/lazyload.css">
   <link rel="stylesheet" href="css/slideshow.css">
+  <link rel="stylesheet" type="text/css" href="build/scroll/scroll.css">
 </head>
 <body>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+<div class="vs-section">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
 <script src="build/jquery-2.1.3.min.js"></script>
 <script src="build/less.min.js"></script>
 <!-- LOADING -->
@@ -101,7 +102,7 @@
 </div>
 
 <div class="this" id="this">
-<div class="mouse-circle mouse-circle-1"></div>
+
 
   <!-- AllofUs -->
   <?php include("projects/Allofus/allofus.php"); ?>
@@ -141,7 +142,6 @@
 
 
 <div class="that">
-<div class="mouse-circle mouse-circle-1"></div>
 
   <!-- My Most Beautiful Nightmare -->
   <?php include("projects/my_most_beautiful_nightmare/mymostbeautifulnightmare.php"); ?>
@@ -154,18 +154,17 @@
   <!-- Hermes -->
   <?php include("projects/hermes/hermes.php"); ?>
   <!-- TODO : GIGI -->
-
   <!-- Teyosh -->
   <?php include("projects/teyosh/teyosh.php"); ?>
   <!-- Awwwards 2016 -->
   <?php include("projects/awwwards2016/awwwards.php"); ?>
-
   <!-- FOOTER -->
   <?php   include("pages/footer.php"); ?>
-</div>
+  </div>
+    </div>
 
+<div class="mouse-circle mouse-circle-1"></div>
 
-
-
+<script src="build/scroll/build.js"></script>
 </body>
 </html>
