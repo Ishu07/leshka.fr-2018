@@ -107,7 +107,7 @@
   <!-- AllofUs -->
   <?php include("projects/Allofus/allofus.php"); ?>
   <!-- White Bear -->
-  <?php include("projects/whitebear/whitebear.php"); ?>
+  <?php //include("projects/whitebear/whitebear.php"); ?>
   <!-- Taylors -->
   <?php include("projects/taylors/taylors.php"); ?>
   <!-- Teyosh -->
@@ -165,6 +165,8 @@
 
 <div class="mouse-circle mouse-circle-1"></div>
 
+<script src="build/scroll/personalised.js"></script>
 <script src="build/scroll/build.js"></script>
+
 </body>
 </html>

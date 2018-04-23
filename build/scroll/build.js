@@ -1,3 +1,9 @@
+function initParallax(){
+//
+// $(".heading").addClass("vs-div");
+// $(".heading").attr("data-speed","-0.23");
+
+
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 'use strict';
 
@@ -746,12 +752,12 @@ module.exports = create;
 function create(opt) {
 
 	opt = opt || {};
-	
+
 	var el = document.createElement(opt.selector);
-	
+
 	if(opt.attr) for(var index in opt.attr)
 		opt.attr.hasOwnProperty(index) && el.setAttribute(index, opt.attr[index]);
-	
+
 	"a" == opt.selector && opt.link && (
 		el.href = opt.link,
 		opt.target && el.setAttribute("target", opt.target)
@@ -772,7 +778,7 @@ function create(opt) {
 
 	opt.html && (el.innerHTML = opt.html);
 	opt.children && (el.appendChild(opt.children));
-	
+
 	return el;
 };
 },{}],7:[function(require,module,exports){
@@ -1637,3 +1643,14 @@ module.exports = (function getSupport() {
     };
 })();
 },{}]},{},[2]);
+
+
+
+
+
+};
+
+
+$( document ).ready(function() {
+    initParallax();
+});

@@ -1,9 +1,14 @@
-function initSeq(sequence){
-  $(sequence).each(function( index ){
+function initRollmeover(){
+  $(".sequence").each(function( index ){
 
-    var rollmediv = $( "<div class='rollmeover'>roll me over.</div>")
+        // var rollmediv = $( "<div class='rollmeover vs-div' data-speed='0.08'>roll me over.</div>")
+        var rollmediv = $( "<div class='rollmeover'>roll me over.</div>")
     $( this ).append( rollmediv );
+  })
+};
 
+  function initSeq(sequence){
+    $(sequence).each(function( index ){
     var elmt = $(this);
     var largeur = elmt.width();
     var taille = (elmt.children('img').size() / elmt.size());
@@ -124,4 +129,5 @@ function initSeq(sequence){
 $( document ).ready(function() {
     // initSeq();
     // initFollow();
+    initRollmeover();
 });
