@@ -10,6 +10,17 @@ function inView(elem)
 
     return ((elemTop <= docViewBottom) && (elemBottom >= docViewTop));
 }
+function inViewLoad(elem)
+{
+    var docViewTop = $(window).scrollTop();
+    var docViewBottom = docViewTop + $(window).height();
+
+    var elemHeight = $(elem).height();
+    var elemTop = $(elem).offset().top;
+    var elemBottom = elemTop + $(elem).height();
+
+    return ((elemTop <= docViewBottom+1000) && (elemBottom >= docViewTop));
+}
 
 // if we see at least half
 function halfView(elem)

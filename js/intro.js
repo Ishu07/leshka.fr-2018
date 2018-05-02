@@ -60,10 +60,10 @@ function intro() {
   };
 
   clickToThis = function(e) {
-    $('html, body').animate({scrollTop: '1000px'}, 800);
+    $('html, body').animate({scrollTop: '500px'}, 800);
   }
   clickToThat = function(e) {
-    $('html, body').animate({scrollTop: '1000px'}, 800);
+    $('html, body').animate({scrollTop: '500px'}, 800);
   }
 
 

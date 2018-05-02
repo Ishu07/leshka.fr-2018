@@ -3,7 +3,7 @@
 
 // CONSTRUCTORS
 
-@wraper: ~".wrapper";
+@wraper: ~".wrapper, .header";
 @{wraper} {
   clear: both;
   margin: auto;
@@ -21,13 +21,17 @@
 .project {
   margin: auto;
   width: 100%;
-  margin-top: 320px;
+  margin-top: 250px;
+  margin-bottom: 550px;
 }
 .intro {
   z-index: 10;
   margin: auto;
   width: @width;
   // margin-bottom: 120px;
+}
+.header{
+  position: fixed;
 }
 .introwrap{
   position: relative;

@@ -30,6 +30,7 @@
   <link rel="stylesheet" type="text/css" href="build/scroll/scroll.css">
 </head>
 <body>
+<!-- <div class="header"><h3>Robin Gardeur (leShka)</h3></div> -->
 <div class="vs-section">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
 <script src="build/jquery-2.1.3.min.js"></script>
@@ -65,92 +66,74 @@
 
   <div class="introwrap">
     <h3>Hey!</h3>
+    <h1>I'm a Creative Director & Artist focussed on <a class="toThis" >unique identities</a> and <a class="toThat"> <span class="crazyShit">crazy shit</span><span class="experiences">immersive experiences</span></a>.
+    </h1>
+  </div>
+
+  <!-- <div class="introwrap">
+    <h3>Hey!</h3>
     <h1>I'm a Senior Interactive
     Art Director & Designer focussed on <a class="toThis" >unique identities</a> and <a class="toThat"> <span class="crazyShit">crazy shit</span><span class="experiences">immersive experiences</span></a>.
     </h1>
+  </div> -->
 
-  </div>
 </div>
 
 <div class="intoImagesWrap">
-  <!-- <img class="intoImages" src="images/experiences/1.png"/> -->
-  <!-- <div class="sequence autoplay=true  speed="3" timeline="false" autoplay=true >
-    <img class="full" src="projects/raf/img/1.jpg" />
-    <img class="full" src="projects/raf/img/2.jpg" />
-    <img class="full" src="projects/raf/img/3.jpg" />
-    <img class="full" src="projects/raf/img/4.jpg" />
-    <img class="full" src="projects/raf/img/5.jpg" />
-    <img class="full" src="projects/raf/img/6.jpg" />
-    <img class="full" src="projects/raf/img/7.jpg" />
-    <img class="full" src="projects/raf/img/8.jpg" />
-    <img class="full" src="projects/raf/img/9.jpg" />
-    <img class="full" src="projects/raf/img/10.jpg" />
-    <img class="full" src="projects/raf/img/11.jpg" />
-    <img class="full" src="projects/raf/img/12.jpg" />
-    <img class="full" src="projects/raf/img/13.jpg" />
-    <img class="full" src="projects/raf/img/14.jpg" />
-    <img class="full" src="projects/raf/img/15.jpg" />
-    <img class="full" src="projects/raf/img/16.jpg" />
-    <img class="full" src="projects/raf/img/17.jpg" />
-    <img class="full" src="projects/raf/img/18.jpg" />
-    <img class="full" src="projects/raf/img/19.jpg" />
-    <img class="full" src="projects/raf/img/20.jpg" />
-    <img class="full" src="projects/raf/img/21.jpg" />
-    <img class="full" src="projects/raf/img/22.jpg" />
-    <img class="full" src="projects/raf/img/23.jpg" />
-  </div> -->
+  <!-- TODO -->
 </div>
 
 <div class="this" id="this">
 
 
-  <!-- AllofUs -->
-  <?php include("projects/Allofus/allofus.php"); ?>
-  <!-- White Bear -->
-  <?php //include("projects/whitebear/whitebear.php"); ?>
-  <!-- Taylors -->
-  <?php include("projects/taylors/taylors.php"); ?>
-  <!-- Teyosh -->
-  <?php include("projects/teyosh/teyosh.php"); ?>
   <!-- 51 SPRINTS -->
   <?php include("projects/51sprints/51sprints.php"); ?>
   <!-- RAF SIMONS -->
   <?php include("projects/raf/raf_simons.php"); ?>
-<!-- HOGAN -->
-<?php include("projects/hogan/hogan.php"); ?>
-<?php include("projects/hogan/hogan-club.php"); ?>
-<?php include("projects/hogan/hogan-atelier.php"); ?>
-<!-- TODO : REMY MARTIN -->
+  <!-- White Bear -->
+  <?php include("projects/whitebear/whitebear.php"); ?>
+  <!-- HOGAN -->
+  <?php include("projects/hogan/hogan.php"); ?>
+  <?php include("projects/hogan/hogan-club.php"); ?>
+  <?php include("projects/hogan/hogan-atelier.php"); ?>
+  <!-- AllofUs -->
+  <?php include("projects/allofus/allofus.php"); ?>
+  <!-- Taylors -->
+  <?php include("projects/taylors/taylors.php"); ?>
+  <!-- Teyosh -->
+  <?php include("projects/teyosh/teyosh.php"); ?>
+  <!-- TODO : REMY MARTIN -->
 
-<!-- TODO : Andere Tijden -->
+  <!-- TODO : Andere Tijden -->
 
-<!-- Awwwards 2016 -->
-<?php include("projects/awwwards2016/awwwards.php"); ?>
-<!-- TODO : JAGER -->
+  <!-- Awwwards 2016 -->
+  <?php include("projects/awwwards2016/awwwards.php"); ?>
+  <!-- TODO : JAGER -->
 
-<!-- VvV -->
-<?php include("projects/velvet-venus/velvet-venus.php"); ?>
+  <!-- VvV -->
+  <?php include("projects/velvet-venus/velvet-venus.php"); ?>
 
-<!-- NESPRESSO U -->
-<?php include("projects/nespresso/nespresso_u.php"); ?>
+  <!-- NESPRESSO U -->
+  <?php include("projects/nespresso/nespresso_u.php"); ?>
 
-<!-- Doddle -->
-<?php include("projects/doddle/doddle.php"); ?>
-<!-- FOOTER -->
-<?php include("pages/footer.php"); ?>
+  <!-- Doddle -->
+  <?php include("projects/doddle/doddle.php"); ?>
+  <!-- FOOTER -->
+  <?php include("pages/footer.php"); ?>
 </div>
 
 
 <div class="that">
-
-  <!-- My Most Beautiful Nightmare -->
-  <?php include("projects/my_most_beautiful_nightmare/mymostbeautifulnightmare.php"); ?>
-  <!-- TODO : PANDORA -->
-  <?php include("projects/pandora/pandora.php"); ?>
-  <!-- VOID -->
-  <?php include("projects/void/void.php"); ?>
   <!-- Nike Infinite -->
   <?php include("projects/nike-infinite/nike-infinite.php"); ?>
+  <!-- VOID -->
+  <?php include("projects/void/void.php"); ?>
+  <!-- PANDORA -->
+  <?php include("projects/pandora/pandora.php"); ?>
+  <!-- i-remember -->
+  <?php include("projects/i-remember/i-remember.php"); ?>
+  <!-- My Most Beautiful Nightmare -->
+  <?php include("projects/my_most_beautiful_nightmare/mymostbeautifulnightmare.php"); ?>
   <!-- Hermes -->
   <?php include("projects/hermes/hermes.php"); ?>
   <!-- TODO : GIGI -->

@@ -1,0 +1,101 @@
+.memorie1{
+  position: relative;
+  width: 33%;
+  top: 0px;
+  z-index: 3;
+  float: left;
+}
+.memorie2{
+  position: relative;
+  top: 220px;
+  width: 45%;
+  margin-left: -50px;
+  z-index: 2;
+  float: left;
+}
+.memorie3{
+  position: relative;
+  top: 100px;
+  right: -50px;
+  width: 50%;
+  z-index: 4;
+  float: left;
+}
+.memorie4{
+  position: relative;
+  width: 55%;
+  top: -150px;
+  right: 100px;
+  z-index: 0;
+  float: left;
+}
+.memorie5{
+  position: relative;
+  float: right;
+  width: 65%;
+  top:800px;
+  right: -350px;
+  z-index: 8;
+  margin-bottom: -200px;
+  float: left;
+}
+.memorie6{
+  position: relative;
+  width: 33%;
+  top: -200px;
+  float: left;
+}
+.memorie7{
+  position: relative;
+  top: -200px;
+  width: 20%;
+  margin-bottom: -200px;
+  z-index: 5;
+  float: left;
+}
+.memorie8{
+  position: relative;
+  width: 45%;
+  top: -110px;
+  left: -50px;
+  z-index: 0;
+  float: left;
+}
+.memorie9{
+  position: relative;
+  top: 200px;
+  width: 35%;
+  right: -204px;
+  z-index: 2;
+  width: 45%;
+  float: left;
+  margin-bottom: 350px;
+}
+.memorie10{
+  position: relative;
+  top:-1600px;
+  margin-bottom: -600px;
+  float: right;
+  right: 50px;
+  width: 30%;
+  z-index: 4;
+  float: left;
+}
+.memorie11{
+  position: relative;
+  width: 55%;
+  top: -150px;
+  right: 100px;
+  z-index: 0;
+  float: left;
+}
+.memorie12{
+  position: relative;
+  float: right;
+  width: 45%;
+  top:-600px;
+  margin-bottom: -600px;
+  right: 0px;
+  z-index: 8;
+  float: left;
+}

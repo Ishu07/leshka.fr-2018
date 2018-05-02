@@ -16,7 +16,7 @@ function looplazySequences(){
     if (thisOrThat == "this"){
     $(".this .sequence").each(function( index ){
       var sequence = $(this);
-      if (inView(sequence) && (sequence.data("toload"))){
+      if (inViewLoad(sequence) && (sequence.data("toload"))){
         sequence.data("toload",false);
         // create images from urls
         var urls = new Array();
@@ -38,7 +38,7 @@ function looplazySequences(){
     if (thisOrThat == "that"){
     $(".that .sequence").each(function( index ){
       var sequenceo = $(this);
-      if (inView(sequenceo) && (sequenceo.data("toload"))){
+      if (inViewLoad(sequenceo) && (sequenceo.data("toload"))){
         sequenceo.data("toload",false);
         // create images from urls
         var urls = new Array();
