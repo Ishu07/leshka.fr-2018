@@ -29,6 +29,7 @@ function intro() {
       }, 100);
       $(".that").css("display","block");
     }
+    scrollPage()
   };
 
 
@@ -54,25 +55,28 @@ function intro() {
       {
         $(".that").css("display","none");
         thisOrThat = "this";
-      }, 100);
+        scrollPage()
+      }, 500);
 
     }
+    scrollPage()
   };
 
-  clickToThis = function(e) {
-    $('html, body').animate({scrollTop: '500px'}, 800);
-  }
-  clickToThat = function(e) {
-    $('html, body').animate({scrollTop: '500px'}, 800);
+  scrollPage = function(e) {
+    setTimeout(
+    function()
+    {
+      $('html, body').animate({scrollTop: '500px'}, 800);
+    }, 500);
   }
 
 
   //LISTENERS
-  $(".toThat").hover(toThat);
-  $(".toThat").click(clickToThat);
+  $(".toThat").click(toThat);
+  // $(".toThat").click(setTimeout(scrollPage(), 500));
 
-  $(".toThis").hover(toThis);
-  $(".toThis").click(clickToThis);
+  $(".toThis").click(toThis);
+  // $(".toThis").click(setTimeout(scrollPage(), 500));
 
 
 }
