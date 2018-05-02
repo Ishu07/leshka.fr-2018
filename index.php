@@ -62,7 +62,7 @@
 
 <!-- INTRO -->
 
-<div class="intro project" bgColor="#aaa">
+<div class="intro" letterColor="#aaa">
 
   <div class="introwrap">
     <h3>Hey!</h3>

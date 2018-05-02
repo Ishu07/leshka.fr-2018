@@ -2,25 +2,37 @@ var thisOrThat = "none";
 var timeOutThat;
 var timeOutThis;
 function intro() {
-// $(".this").css("display","none");
-// $(".that").css("display","none");
-
-
+  // $(".this").css("display","none");
+  // $(".that").css("display","none");
 
   // THAT
+  crazyShit = function(e) {
+    // $(".toThis").html("normal shit");
+    $(".experiences").css("opacity","0")
+    $(".crazyShit").css("opacity","1")
+    // $(".toThat").html("crazy shit")
+  }
+  normalShit = function(e) {
+    // $(".toThis").html("normal shit");
+    $(".experiences").css("opacity","1")
+    $(".crazyShit").css("opacity","0")
+    // $(".toThat").html("crazy shit")
+  }
   toThat = function(e) {
     console.log(thisOrThat);
     if (thisOrThat != "that") {
       clearTimeout(timeOutThat)
-      // $(".toThis").html("normal shit");
-      $(".experiences").css("opacity","0")
-      $(".crazyShit").css("opacity","1")
-      // $(".toThat").html("crazy shit")
       $(".this").css("animation","switchThis 0.5s ease 0s forwards");
       $(".that").css("animation","switchThat 0.5s ease 0s forwards");
-      $('body').css( "background-color", "#ff00ff" );
 
-      $(".intro").addClass("thatIntro");
+      var firstBgColor = $(".that .project")[0].getAttribute("letterColor");
+      $('body').css( "background-color", firstBgColor);
+      var firstColor = $(".that .project")[0].getAttribute("txtColor");
+      $('body').css( "color", firstColor );
+      var firstCircleColor = $(".that .project")[0].getAttribute("bgColor");
+      $('.mouse-circle').css( "background-color", firstCircleColor )
+
+      // $(".intro").addClass("thatIntro");
       timeOutThis = setTimeout(
       function()
       {
@@ -31,7 +43,6 @@ function intro() {
     }
     scrollPage()
   };
-
 
   //THIS
   toThis = function(e) {
@@ -46,7 +57,12 @@ function intro() {
       $(".this").css("display","block");
       $(".this").css("animation","this 0.5s ease 0s forwards");
       $(".that").css("animation","that 0.5s ease 0s forwards");
-      $('body').css( "background-color", "#fccb90" );
+      var firstColor = $(".this .project")[0].getAttribute("letterColor");
+      $('body').css( "background-color", firstColor );
+      var firstColor = $(".this .project")[0].getAttribute("txtColor");
+      $('body').css( "color", firstColor );
+      var firstCircleColor = $(".this .project")[0].getAttribute("bgColor");
+      $('.mouse-circle').css( "background-color", firstCircleColor )
 
       $(".intro").removeClass("thatIntro");
 
@@ -72,6 +88,8 @@ function intro() {
 
 
   //LISTENERS
+  $(".toThat").hover(crazyShit);
+  $(".toThat").mouseleave(normalShit);
   $(".toThat").click(toThat);
   // $(".toThat").click(setTimeout(scrollPage(), 500));
 

@@ -3,13 +3,13 @@ function initbgColor(){
 function bgColor() {
   if (thisOrThat == "this"){
     // INTRO COLOR
-    if (inView($('.intro'))){
-      $('body').css( "background-color", "#fccb90" )
-      $('.mouse-circle').css( "opacity", "0" )
-    }
-    else {
-      $('.mouse-circle').css( "opacity", "1" )
-    }
+    // if (inView($('.intro'))){
+    //   $('body').css( "background-color", "#ff6148" )
+    //   $('.mouse-circle').css( "opacity", "0" )
+    // }
+    // else {
+    //   $('.mouse-circle').css( "opacity", "1" )
+    // }
     for (var i = 0; i <  $('.this .project').length; i++) {
       $('.this .project')[i]
       if (inView($('.this .project')[i])){
@@ -39,13 +39,13 @@ function bgColor() {
   }
   else if (thisOrThat == "that"){
     // INTRO COLOR
-    if (inView($('.intro'))){
-      $('body').css( "background-color", "#ff00ff" )
-      $('.mouse-circle').css( "opacity", "0" )
-    }
-    else {
-      $('.mouse-circle').css( "opacity", "1" )
-    }
+    // if (inView($('.intro'))){
+    //   $('body').css( "background-color", "#de0b1a" )
+    //   $('.mouse-circle').css( "opacity", "0" )
+    // }
+    // else {
+    //   $('.mouse-circle').css( "opacity", "1" )
+    // }
     for (var i = 0; i <  $('.that .project').length; i++) {
       $('.that .project')[i]
       if (inView($('.that .project')[i])){
