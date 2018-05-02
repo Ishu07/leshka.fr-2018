@@ -13,7 +13,7 @@
 // Intro color transition
 @colorTransition: ~"h1,h3,h2,p,.heading";
 @{colorTransition} {
-  transition: all .5s ease;
+  // transition: all .5s ease;
 }
 
 // COLORS
@@ -42,12 +42,13 @@
 }
 @colorHover: ~"a:hover";
 @{colorHover} {
-  color: #ffb;
+  color: #fff;
 }
 @color2: ~"a, h3";
 @{color2} {
   color: #04b;
   border-color: #04b;
+  transition: all .2s ease;
 }
 @color3: ~"p";
 @{color3} {

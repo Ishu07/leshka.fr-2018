@@ -29,6 +29,9 @@ function intro() {
       $('body').css( "background-color", firstBgColor);
       var firstColor = $(".that .project")[0].getAttribute("txtColor");
       $('body').css( "color", firstColor );
+      $('h3').css( "color", "#fff" );
+      $('a').css( "color", firstColor );
+      $('a:hover').css( "color", "#fff" );
       var firstCircleColor = $(".that .project")[0].getAttribute("bgColor");
       $('.mouse-circle').css( "background-color", firstCircleColor )
 
@@ -61,6 +64,9 @@ function intro() {
       $('body').css( "background-color", firstColor );
       var firstColor = $(".this .project")[0].getAttribute("txtColor");
       $('body').css( "color", firstColor );
+      $('h3').css( "color", "#fff" );
+      $('a').css( "color", firstColor );
+      $('a:hover').css( "color", "#fff" );
       var firstCircleColor = $(".this .project")[0].getAttribute("bgColor");
       $('.mouse-circle').css( "background-color", firstCircleColor )
 
