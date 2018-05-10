@@ -128,7 +128,7 @@
 	display: inline-block;
 	width: 100%;
 	text-align: center;
-	height: 10px;
+	min-height: 40px;
 	font-size: 1.5em;
 }
 .item a{
@@ -140,4 +140,17 @@
 .itemOn{
 	pointer-events: all;
 	opacity: 1;
+}
+.customField{
+	font-family: "GothamBook";
+	background: none;
+	padding-bottom: 6px;
+  border: none;
+  margin: auto;
+  border-bottom: 2px solid white;
+	color: White;
+	display: inline-block;
+	text-align: center;
+	min-height: 40px;
+	font-size: 1.5em;
 }

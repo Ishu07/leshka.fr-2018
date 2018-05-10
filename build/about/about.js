@@ -1,4 +1,5 @@
 function initAbout(){
+  var customTheText;
   var items0 = Array(
     "&apos;m",
     "&apos;m not"
@@ -26,7 +27,8 @@ function initAbout(){
     "awefuls",
     "amazing",
     "disturbing",
-    "on a bench"
+    "on a bench",
+    "meeeeh"
   );
   var items4 = Array(
     "get in touch",
@@ -75,18 +77,56 @@ setInterval(function(){ aboutPlacement()}, 1500);
 var choice = function(index,item,element){
   $( ".itemSelector" ).empty();
   for (var i = 0; i < item.length; i++) {
-    // console.log(item[i]);
     var emphasis = "<div class='item'><a>" + item[i] + "</a></div>";
     $( ".itemSelector" ).append(emphasis)
   }
+  // add customisable field
+  if (index==1 || index ==5) {
+    var emphasis = "<input class='customField' type='text' onfocus=this.value='' name='LastName' value='other...'>";
+    $( ".itemSelector" ).append(emphasis)
+
+    // custom text
+    //don't close
+    $(".customField").click(function() {
+      $(".itemSelector").toggleClass("itemOn")
+    });
+    //change if modified
+    $(".itemSelector").click(function() {
+      if ($(".customField").val()!="other...") {
+        customTheText()
+      }
+      // emptyfield
+      if ($(".customField").val()=="") {
+        var changeMe = $( ".about" ).find( element )
+        changeMe.html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;")
+      }
+    });
+    //press enter
+    $(".customField").on('keyup', function (e) {
+        if (e.keyCode == 13) {
+            customTheText();
+            $(".itemSelector").toggleClass("itemOn");
+        }
+    });
+    // the function to modify the text
+    customTheText = function(){
+      var changeMe = $( ".about" ).find( element )
+      changeMe.html($(".customField").val())
+      // console.log("LOL + "+ $(".customField").val());
+    }
+  }
+//custom field
+  // $(".customField").click(function() {
+  //     $(".itemSelector").toggleClass("itemOn")
+  // });
   // chose an item
   $( ".itemSelector a" ).click(function(e) {
-    // $( ".about" ).find( "li" )
-    console.log(element);
     var changeMe = $( ".about" ).find( element )
-    changeMe.html("<a>"+$(this).html()+"</a>")
-    console.log($(this).html());
+    changeMe.html($(this).html())
   });
+
+
+  //end
 }
 
 
@@ -135,7 +175,7 @@ $( ".about a" ).each(function(index, element) {
 $(".item a").click(function() {
   $(".itemSelector").toggleClass("itemOn")
 });
-$( ".about a" ).click(function() {
+$( ".aboutWrapper a" ).click(function() {
   $(".itemSelector").toggleClass("itemOn")
 });
 // click outside
@@ -143,11 +183,13 @@ $(".itemSelector").click(function() {
   $(".itemSelector").toggleClass("itemOn")
 });
 
+
+
+
 };
 
 
 $( document ).ready(function() {
-  // console.log("ABOUT LOADED1");
   initAbout();
 
 });
