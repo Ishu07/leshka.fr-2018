@@ -15,7 +15,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>Robin Gardeur (le Shka)</title>
-  <meta name="description" content="SHK(le Shka) — Robin Gardeur – Designer / Artist based between London - Paris - Amsterdam">
+  <meta name="description" content="le Shka (Robin Gardeur) – Designer / Artist based between London - Paris - Amsterdam">
   <meta name="author" content="le Shka">
 
   <link rel="stylesheet/less" href="css/loadfirst.css">
@@ -31,12 +31,18 @@
 </head>
 <body>
 <!-- <div class="header"><h3>Robin Gardeur (leShka)</h3></div> -->
-<div class="vs-section">
+
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
 <script src="build/jquery-2.1.3.min.js"></script>
 <script src="build/less.min.js"></script>
 <!-- LOADING -->
-<?php include("build/loading/loading.php"); ?>
+<?php //include("build/loading/loading.php"); ?>
+
+<!-- ABOUT -->
+<?php include("build/about/about.php"); ?>
+
+<div class="vs-section">
 
 <script src="build/lazyload/lazyload.js"></script>
 <script src="build/lazyload/sequences.js"></script>
@@ -60,12 +66,13 @@
 </script>
 
 
+
 <!-- INTRO -->
 
 <div class="intro" letterColor="#aaa">
 
   <div class="introwrap">
-    <h3>Hey!</h3>
+    <h3 class="switch">Hey!<img class="bubble" src="images/hello.svg"/></h3>
     <h1>I'm a Creative Director & Artist focussed on <a class="toThis" >unique identities</a> and <a class="toThat"> <span class="crazyShit">crazy shit</span><span class="experiences">immersive experiences</span></a>.
     </h1>
   </div>
