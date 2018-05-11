@@ -16,10 +16,10 @@
 	transition: all .5s ease;
 }
 .about h3{
-	color: #FF6148 !important;
+	color: #04b !important;
 }
 .about a {
-	color: #FF6148 !important;
+	color: #04b !important;
 	background-image: url("../../images/---.svg");
 	background-repeat: repeat-x;
 	background-position: bottom;
@@ -46,8 +46,8 @@
 	position: absolute;
   transform-origin: bottom left;
 	/* transform: scale(0.1,0.1) rotate(90deg); */
-	top: -120px;
-	left: 100px;
+	top: -110px;
+	left: 60px;
 	/* opacity: 0; */
 	/* animation: bounce .5s ease ; */
 	/* animation-fill-mode: forwards; */
@@ -135,7 +135,7 @@
 	color: White;
 }
 .item a:hover{
-	color: #FF6148 !important;
+	color: #04b !important;
 }
 .itemOn{
 	pointer-events: all;
@@ -153,4 +153,68 @@
 	text-align: center;
 	min-height: 40px;
 	font-size: 1.5em;
+}
+.sign{
+	/* color: black; */
+	animation: all .5 ease;
+	position: absolute;
+	text-align: left;
+	width: 80%;
+	opacity: 1;
+}
+.send{
+	font-family: "LarishNeueSemibold-Regular";
+	opacity: 0.2;
+	background: none;
+	padding-bottom: 6px;
+  border: none;
+  margin: auto;
+	color: black;
+	display: inline-block;
+	text-align: right;
+	min-height: 40px;
+	font-size: 1.5em;
+	width: 90%;
+}
+.sign .arrow{
+	width: 30px;
+	opacity: 0.2;
+	cursor: url("../../images/cursorHand1x.png") 0 0,default;
+  cursor: -webkit-image-set(url(../../images/cursorHand1x.png) 1x,url(../../images/cursorHand2x.png) 2x) 0 0,default;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+.aboutBottom{
+	animation: all .5 ease;
+	background-color: #04b;
+	position: absolute;
+	/* top: 62vh; */
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	color: white;
+}
+.wrapperInfos{
+  /* margin-top: 50px; */
+}
+.wrapperInfos ul{
+
+		animation: all .5 ease;
+	/* height: 100%; */
+	width: 50%;
+display: flex;
+flex-wrap: wrap;
+margin-top: 40px;
+margin-bottom: 20px;
+padding: 0px;
+}
+.wrapperInfos li{
+	animation: all .5 ease;
+	width: 100%;
+display: flex;
+flex-wrap: wrap;
 }

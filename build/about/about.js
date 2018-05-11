@@ -12,7 +12,7 @@ function initAbout(){
     "happy",
     // "drunk",
     // "other",
-    "Barbra Streisand"
+    "Barabra Streisand"
   );
   var items2 = Array(
     "with confusion",
@@ -65,7 +65,18 @@ function initAbout(){
     var introHeight = $(".introwrap").height()
     var aboutHeight = $(".aboutWrapper").height()
     var differenceHeight = introHeight-aboutHeight;
-    $(".aboutWrapper").css("padding-bottom",differenceHeight+"px")
+    $(".aboutWrapper").css("padding-bottom",differenceHeight+"px");
+    // console.log("window : " + $(window).height());
+    // console.log("aout wraper : " + $(".aboutWrapper").height());
+    // console.log("aout offset : " + $(".aboutWrapper").offset().top);
+    // console.log("aout h4 : " + $(".aboutWrapper h4").height());
+    var infosHeight = $(window).height() - ($(".aboutWrapper").offset().top + $(".aboutWrapper").height()+differenceHeight)
+    $(".aboutBottom").css("height",infosHeight+"px");
+    $(".wrapperInfos").css("height",infosHeight+"px");
+    var infosHeight2 = $(window).height() - $(".signWrap").offset().top - infosHeight;
+    $(".sign").css("margin-top",infosHeight2/2 - 25+"px");
+
+
   }
 aboutPlacement();
 setInterval(function(){ aboutPlacement()}, 1500);
@@ -95,11 +106,6 @@ var choice = function(index,item,element){
       if ($(".customField").val()!="other...") {
         customTheText()
       }
-      // emptyfield
-      if ($(".customField").val()=="") {
-        var changeMe = $( ".about" ).find( element )
-        changeMe.html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;")
-      }
     });
     //press enter
     $(".customField").on('keyup', function (e) {
@@ -111,7 +117,14 @@ var choice = function(index,item,element){
     // the function to modify the text
     customTheText = function(){
       var changeMe = $( ".about" ).find( element )
+      // emptyfield
+      // console.log($(".customField").val());
       changeMe.html($(".customField").val())
+      if ($(".customField").val()=="") {
+        console.log("EMPTY");
+        // var changeMe = $( ".about" ).find( element )
+        changeMe.html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;")
+      }
       // console.log("LOL + "+ $(".customField").val());
     }
   }
@@ -124,8 +137,6 @@ var choice = function(index,item,element){
     var changeMe = $( ".about" ).find( element )
     changeMe.html($(this).html())
   });
-
-
   //end
 }
 
@@ -169,6 +180,13 @@ $( ".about a" ).each(function(index, element) {
       }
 });
 
+
+
+//send the email
+/////////////////////////////////////////////////
+$(".sign .arrow").click(function(){
+  console.log("SEND !");
+})
 
 
 // items
