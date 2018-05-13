@@ -48,8 +48,8 @@
       </div>
     </div>
     <div class="lil-left">
-      <p>I've been contracting for 8 monts with AllofUs where I worked a lot on their presentations for all sorts of pitches.<br/>
-        Here is a selection of the templates and creds I created straight on Keynote.<br/>
+      <p>All of Us is a London based studio with a multi-disciplinary team of designer, engineers, artists, entrepreneurs and strategists where I've been working as a contractor for 15 months.<br/>
+Here is a selection of templates, case studies, and presentations for pitches and branding.<br/>
 <a href="http://allofus.com/" target="_blank" class="button">allofus.com <span class="arrow">➩</span></a></p>
 
     </div>

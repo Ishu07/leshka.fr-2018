@@ -13,8 +13,9 @@
       </div>
     </div>
     <div class="lil-left">
-      <p>White Bear is a British lifestyle brand specialising in furniture designed to enhance and balance working spaces.<br/><br/>
-        With the collaboration of Yuriy Starikov, we've rebranded the company in a unique way and created their brand / e-comerce website. Whitebear won on usability and credibility making them a strong choice for their clients<br/><br/>
+      <p>White Bear is a British lifestyle brand, specialed in furniture designed to enhance and balance working spaces.<br/>
+In the collaboration with Yuriy Starikov, we developed a new Branding Concept and e-commerce launching.
+<br/><br/>
         <a href="http://whitebear.com/" target="_blank" class="button">comming very soon <span class="arrow">➩</span></a>
       </p>
     </div>

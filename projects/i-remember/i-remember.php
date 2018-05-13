@@ -30,7 +30,7 @@ a digital walk</h2>
 
   <div class="wrapper">
     <h4>
-      Through this website, we aimed create a metaphor of the Alzheimer's Disease. The website is reached by a process which destroy the informations through time, as a human brain reached by Alzheimer.
+      Through this website, we aimed to create a metaphor of the Alzheimer's Disease. The website is reached by a process which destroy the informations through time, as a human brain reached by Alzheimer.
 Every user can now be part of the process against the Disease by sharing his most beautifull stories.
     </h4>
     <a href="http://i-remember.fr/en" target="_blank" class="button"> launch the website <span class="arrow">➩</span></a>
@@ -75,7 +75,7 @@ Every user can now be part of the process against the Disease by sharing his mos
       I Remember do not use any 3D modelisation to have the most fluid render possible and display a total of 100.000 particles on the screen. All the effect are created with some GLSL shaders.
     </p>
     <p class="lil-right">
-      Particles are the main graphical part of the website, so we brought a careful consideration about them. A sencond part of post-processing have ben added with an RGB Shift, Tilt Shift, Noise, Color ajustments... We also collaborated with the Xerox reserch center (Grenoble) to automatically tag all the memories from his direct content and link the memories by several main words.
+      Particles are the main graphical part of the website, so we brought a careful consideration about them. A second part of post-processing have been added with an RGB Shift, Tilt Shift, Noise, Color ajustments... We also collaborated with the Xerox reserch center (Grenoble) to automatically tag all the memories from his direct content and link the memories by several main words.
     </p>
   </div>
 

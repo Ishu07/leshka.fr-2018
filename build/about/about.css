@@ -18,6 +18,9 @@
 .about h3{
 	color: #04b !important;
 }
+h3 .asterisk{
+	color: #FF6148;
+}
 .about a {
 	color: #04b !important;
 	background-image: url("../../images/---.svg");
@@ -47,21 +50,31 @@
   transform-origin: bottom left;
 	/* transform: scale(0.1,0.1) rotate(90deg); */
 	top: -110px;
-	left: 60px;
-	/* opacity: 0; */
-	/* animation: bounce .5s ease ; */
-	/* animation-fill-mode: forwards; */
-}
-.bubbleOn{
-	animation: bounceOver .5s ease ;
+	left: 70px;
+	opacity: 0;
+	animation: bounceOut .15s ease-in ;
 	animation-fill-mode: forwards;
-	/* transform: scale(0.5); */
-	/* transition: all .2s bounce; */
+}
+.bubbleAbout{
+	position: absolute;
+  transform-origin: bottom left;
+	top: -110px;
+	left: 70px;
+	opacity: 1;
+	animation-fill-mode: forwards;
 }
 .switch {
 	text-decoration: none;
 	cursor: url("../../images/cursorHand1x.png") 0 0,default;
   cursor: -webkit-image-set(url(../../images/cursorHand1x.png) 1x,url(../../images/cursorHand2x.png) 2x) 0 0,default;
+}
+.switch:hover .bubble{
+	animation: bounce .5s ease ;
+	animation-fill-mode: forwards;
+}
+.switch:hover .bubbleAbout{
+	animation: bounceOver .5s ease ;
+	animation-fill-mode: forwards;
 }
 
 
@@ -81,6 +94,20 @@
      to   {
 			 opacity: 1;
 			transform: scale(1) rotate(0deg)
+		}
+}
+@keyframes bounceOut{
+	from   {
+		opacity: 1;
+	 transform: scale(1) rotate(0deg)
+ }
+		25% {
+			opacity: 1;
+		 transform: scale(1.1,1.1) rotate(-10deg);
+	 }
+     to   {
+			 opacity: 1;
+			transform: scale(0) rotate(0deg)
 		}
 }
 @keyframes bounceOver{
@@ -162,7 +189,9 @@
 	width: 80%;
 	opacity: 1;
 }
-.send{
+.imputSend{
+	color :#333333;
+	transition: all .3 ease;
 	font-family: "LarishNeueSemibold-Regular";
 	opacity: 0.2;
 	background: none;
@@ -176,11 +205,26 @@
 	font-size: 1.5em;
 	width: 90%;
 }
-.sign .arrow{
-	width: 30px;
+.sendButton{
+	color :#333333;
+	transition: all .3 ease;
+	background: none;
+	border: none;
+	margin: 0;
+	display: inline-block;
+	font-size: 2em;
+	top: 0px;
+	position: absolute;
+	width: 50px;
 	opacity: 0.2;
 	cursor: url("../../images/cursorHand1x.png") 0 0,default;
   cursor: -webkit-image-set(url(../../images/cursorHand1x.png) 1x,url(../../images/cursorHand2x.png) 2x) 0 0,default;
+}
+.sendButtonActive{
+	opacity: 1;
+}
+.imputSendActive{
+	opacity: 1;
 }
 input:focus,
 select:focus,

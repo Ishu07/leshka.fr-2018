@@ -36,8 +36,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
 <script src="build/jquery-2.1.3.min.js"></script>
 <script src="build/less.min.js"></script>
+
 <!-- LOADING -->
-<?php //include("build/loading/loading.php"); ?>
+<?php include("build/loading/loading.php"); ?>
 
 <!-- ABOUT -->
 <?php include("build/about/about.php"); ?>
@@ -72,7 +73,7 @@
 <div class="intro" letterColor="#aaa">
 
   <div class="introwrap">
-    <h3 class="switch">Hey!<img class="bubble" src="images/hello.svg"/></h3>
+    <h3 class="switch">Hey!<span class="asterisk">*</span><img class="bubble" src="images/hello.svg"/></h3>
     <h1>I'm a Creative Director & Artist focussed on <a class="toThis" >unique identities</a> and <a class="toThat"> <span class="crazyShit">crazy shit</span><span class="experiences">immersive experiences</span></a>.
     </h1>
   </div>

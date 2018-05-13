@@ -27,8 +27,12 @@
       </div>
     </div>
     <div class="lil-left">
-      <p>Velvet-Venus is the collaboration between Me and the tarot-reader Jessica Rosset.<br/>
-        Together we work on a whitch shop with subscription boxes. I created the identity, built website and guerrilla marketing. I also work on content for the social networks, and build candles and herborist skills for the shop.
+      <p>Velvet Venus is a collaboration with the tarot reader Jessica Rosset, a website where you can find services as Tarot Reading and Astrological Birth Charts, and magical products.<br/><br/>
+
+We created a witch shop, with monthly subscription boxes.
+I developed the creative concept, visual branding, website, promotional videos, and the product concept of our monthly subscription boxes.<br/><br/>
+
+The WTCH_Box is a monthly subscription box where we produce some magical products like handmade candles, herbal smudges, teas and others. We also select the best witch and magic products worldwide. The last edition has my sellection of healing products from Siquijor, the Witchcraft Island in Philippines.
 <a href="http://velvet-venus.com/" target="_blank" class="button">velvet-venus.com <span class="arrow">➩</span></a></p>
 
     </div>

@@ -13,10 +13,10 @@ to deconstruct the Olympic Games.</p> -->
 <div class="wrapper">
   <h4>
     TeYosh is a duo of Serbian Digital-Artists.<br/><br/>
-    In one year of existance ,they have been exhibed in a bunch of galleries across Europe, and published in different magazines.
-    TeYosh has been mainly recognised for their artwork "Dictionary of Online Behaviour". Now they are also contacted for their uniques and crazies animated visuals. </h4>
+    In one year of existance, they have been exhibed in a bunch of galleries across Europe, and published in different magazines.
+    TeYosh has been mainly recognised for their artwork "Dictionary of Online Behaviour". Now they are also contacted for their uniques and crazy animated visuals. </h4>
     <h4>
-    I had the honor to meet theses crazy fellas, help them in their beggining in the artist's world and direct them in the creation of their website. I have been working very closely with them to be sure it would reflect the personality of the creative duo.
+    I had the honour to meet these crazy fellas, help them in their beggining in the artist's world and worked on the creative direction of their website, assuring that it would reflect their personality on their website. I have been working very closely with them to be sure it would reflect the personality of the creative duo.
     </h4>
 
   <a href="http://www.teyosh.com/" target="_blank" class="button">TeYosh.com <span class="arrow">➩</span></a>

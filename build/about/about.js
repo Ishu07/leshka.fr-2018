@@ -1,5 +1,6 @@
 function initAbout(){
   var customTheText;
+  var important = false
   var items0 = Array(
     "&apos;m",
     "&apos;m not"
@@ -20,8 +21,8 @@ function initAbout(){
     "with my cat",
     "quickly",
     "with pleasure",
-    "indiferently",
-    "for whole my lifetime it seams"
+    "indifferently",
+    "for whole my lifetime it seems"
   );
   var items3 = Array(
     "awefuls",
@@ -181,11 +182,43 @@ $( ".about a" ).each(function(index, element) {
 });
 
 
+// enter your $email
 
+$(".imputSend").click(function(){
+  $(".imputSend").addClass("imputSendActive");
+  $(".sendButton").addClass("sendButtonActive");
+});
 //send the email
 /////////////////////////////////////////////////
-$(".sign .arrow").click(function(){
-  console.log("SEND !");
+$(".sendButton").click(function(){
+  console.log("SEND :");
+
+  // var message = $(".aboutWrapper h4").text();
+  $(".imputName").val("Somebody")
+  var name = $(".imputName").val()
+  $(".imputMessage").val($(".aboutWrapper h4").text())
+  // var message = $(".imputMessage").val()
+  var message = "message";
+  var mail = $(".send").val();
+  console.log($(".imputMessage").val());
+  // IS THE MAIL IMPORTANT ?
+  // TODO important = false
+
+  // ajax
+  // var name = $("#form_name").val();
+  // var email = $("#form_email").val();
+  // var text = $("#msg_text").val();
+
+  // PROCESS
+  // $.ajax({
+  //           type: "POST",
+  //           url: "build/about/email.php",
+  //           success: function(){
+  //           // $('.success').fadeIn(1000);
+  //           console.log("SUCCESS");
+  //           }
+  //       });
+        // return false;
 })
 
 
