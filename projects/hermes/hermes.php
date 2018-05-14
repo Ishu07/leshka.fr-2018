@@ -3,7 +3,7 @@
 <div class="project" bgColor="#143652" letterColor="#082e4d" txtColor="#d4ecff">
   <div class="heading">H</div>
   <h2>Hermes</h2>
-  <p class="subtitle">Art Direction, Design & Motion</p>
+  <p class="subtitle">Art Direction, Design & Motion at <a href="http://random.studio/" target="_blank">Random Studio</a></p>
   <div class="wrapper">
     <img class="lazyload full" src="projects/hermes/img/hermes_thumb.png" data-src="projects/hermes/img/hermes.png" />
   </div>
@@ -27,8 +27,10 @@
     <div class="big-right">
       <img class="lazyload full" src="projects/hermes/img/hermes_googles_thumb.jpg" data-src="projects/hermes/img/hermes_googles.jpg" />
     </div>
-    <p class="lil-left">Metal-working for jewellery and watches has an even finer degree of detail. The craftsmen use special magnifying goggles to put the precious pieces together. We adapted this archetypal piece of equipment for our display: digital binoculars which peer into a museum-grade vitrine, housing the Hermès piece.<br/>
-      Through the goggles, people see the manual fabrication and assembly steps from an artisan’s point of view, at 1-1 scale to make it feel as if you were doing it yourself.</p>
+    <p class="lil-left">Metal-working for jewellery and watches has an even finer degree of detail. The craftsmen use special magnifying goggles to put the precious pieces together. At <a href="http://random.studio/" target="_blank">Random Studio</a>, we adapted this archetypal piece of equipment for our display: digital binoculars which peer into a museum-grade vitrine, housing the Hermès piece.<br/>
+      Through the goggles, people see the manual fabrication and assembly steps from an artisan’s point of view, at 1-1 scale to make it feel as if you were doing it yourself.<br/>
+    <span class="caption">A project made with love at Random Studio</span></p>
+
   </div>
 
 </div>

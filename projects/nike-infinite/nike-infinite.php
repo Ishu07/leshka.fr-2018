@@ -4,7 +4,7 @@
 <div class="project" bgColor="#51f0dc" letterColor="#de0b1a" txtColor="#ff0">
   <div class="heading">N</div>
   <h2>Nike Infinite</h2>
-  <p class="subtitle">Art Direction, Design</p>
+  <p class="subtitle">Art Direction, Design at <a href="http://random.studio/" target="_blank">Random Studio</a></p>
   <!-- <p class="subtitle"> <a href="http://www.random.nu/nike-free/">view the case study</a> </p> -->
   <div class="wrapper">
       <div class="youtube" data-embed="1uFOEcmGbIg">
@@ -12,7 +12,7 @@
       </div>
   </div>
   <div class="wrapper">
-    <h4>For the launch of the next generation Nike Free outsole, we developed an interactive installation to capture the Auxetic Sole Technology : a structure that spontaneously expands and contracts upon impact. We created a range of hands-on digital and physical tools to enable the Nike teams to interact in a tactile way with the technology.</h4>
+    <h4>For the launch of the next generation Nike Free outsole, with <a href="http://random.studio/" target="_blank">Random Studio</a>, we developed an interactive installation to capture the Auxetic Sole Technology : a structure that spontaneously expands and contracts upon impact. We created a range of hands-on digital and physical tools to enable the Nike teams to interact in a tactile way with the technology.</h4>
   </div>
   <div class="wrapper article">
     <div class="big-left">
@@ -46,7 +46,8 @@
         <img class="full" src="projects/nike-infinite/img/9.jpg" />
         <img class="full" src="projects/nike-infinite/img/11.jpg" /> -->
       </div>
-      <p>We gave special attention to grant a design quality to the fixtures housing the projector and the flexible fabric.</p>
+      <p>We gave special attention to grant a design quality to the fixtures housing the projector and the flexible fabric.<br/>
+        <span class="caption">A project made with love at Random Studio</span></p>
     </div>
     <p class="lil-left"><div class="separator"></div><div class="separator"></div><div class="separator"></div><div class="separator"></div><div class="separator"></div></p>
   </div>
