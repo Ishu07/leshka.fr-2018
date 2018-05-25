@@ -57,11 +57,11 @@ function stopLoading(){
 initLoading();
 $( document ).ready(function() {
   console.log("PAGE LOADED1");
-  // stopLoading();
+  stopLoading();
 
 });
 
 window.addEventListener("load", function(event) {
     console.log("PAGE LOADED2");
-    stopLoading();
+    // stopLoading();
 });

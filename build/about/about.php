@@ -22,7 +22,7 @@
           <input style="display:none" class='imputMessage' type="text" name="form_msg" value="MESSAGE"/>
           <input class='imputSend' type='text' onfocus=this.value='' name='form_email' value='enter your email and send'>
           <!-- <span class="arrow">➩</span> -->
-          <input style="display:visible" class="sendButton" type="submit" value="➩">
+          <input style="display:visible" class="sendButton" value="➩">
         </form>
 
       </div>
@@ -41,7 +41,7 @@
         <li>13 fwa</li>
         <li>10 awwwards</li>
         <li>2 fwa of the month</li>
-        <li>1 biggest belly belly</li>
+        <li>1 awwwards of the month</li>
         <li></li>
       </ul>
     </div>

@@ -38,6 +38,7 @@ The WTCH_Box is a monthly subscription box where we produce some magical product
     </div>
         <div class="full">
           <img class="full lazyload" src="projects/velvet-venus/img/_thumb.jpg" data-src="projects/velvet-venus/img/10.jpg"/>
+          <p class="caption">Photos by <a href="https://www.behance.net/fernandaberaldo/" target="_blank">Fernanda Beraldo</a></p>
         </div>
       </div>
 </div>
