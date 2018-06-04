@@ -30,8 +30,8 @@
   <link rel="stylesheet" type="text/css" href="build/scroll/scroll.css">
 </head>
 <body>
-<!-- <div class="header"><h3>Robin Gardeur (leShka)</h3></div> -->
 
+<!-- <div class="header"><h3>Robin Gardeur (leShka)</h3></div> -->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
 <script src="build/jquery-2.1.3.min.js"></script>
@@ -134,6 +134,8 @@
 <div class="that">
   <!-- Nike Infinite -->
   <?php include("projects/nike-infinite/nike-infinite.php"); ?>
+  <!-- Gigi -->
+  <?php include("projects/tommy-hilfiger/tommy-hilfiger.php"); ?>
   <!-- VOID -->
   <?php include("projects/void/void.php"); ?>
   <!-- PANDORA -->

@@ -16,25 +16,9 @@
   // transition: all .5s ease;
 }
 
-// COLORS
-// @color1: ~"h1,h2,a:hover,.heading";
-// @{color1} {
-//   font-weight: normal;
-//   color: #eeeeee;
-// }
-// @color2: ~"a, h3, h4";
-// @{color2} {
-//   color: #666666;
-//   border-color: #666666
-// }
-// @color3: ~"p";
-// @{color3} {
-//   color: #666666;
-// }
-// @BGcolor: ~".this, body";
-// @{BGcolor} {
-//   background-color: #17171b;
-// }
+
+
+
 @color1: ~"h1,h2,h4,a:hover,.heading";
 @{color1} {
   font-weight: normal;
@@ -63,7 +47,14 @@ body {
     background-color: #aaa;
     transition: all .5s ease;
 }
-
+body::selection {
+  background: #001; /* WebKit/Blink Browsers */
+  color: #aaa;
+}
+body::-moz-selection {
+  background: #001; /* Gecko Browsers */
+  color: #aaa;
+}
 @columns: ~".big-left,.big-right,.lil-left,.lil-right";
 @{columns}{
   margin-top: 30px;

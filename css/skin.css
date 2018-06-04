@@ -7,6 +7,15 @@
     src: url(../fonts/GothamBook.otf);
 }
 
+body::selection {
+  background: black; /* WebKit/Blink Browsers */
+  color: pink;
+}
+body::-moz-selection {
+  background: black; /* Gecko Browsers */
+  color: pink;
+}
+
 .button{
   background-color: #04b;
   color: #fff;
