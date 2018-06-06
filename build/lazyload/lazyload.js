@@ -186,7 +186,11 @@
 
     return LazyLoad;
 });
+//WHEN FULLY LOADED
+// window.addEventListener("load", function(event) {
+// });
 
-window.addEventListener("load", function(event) {
-    lazyload();
+//WHEN IT'S READY
+$( document ).ready(function() {
+  lazyload();
 });
