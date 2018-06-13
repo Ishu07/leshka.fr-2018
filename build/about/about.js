@@ -185,40 +185,40 @@ $( ".about a" ).each(function(index, element) {
 
 // enter your $email
 
+// active the button if you enter your mail
 $(".imputSend").click(function(){
   $(".imputSend").addClass("imputSendActive");
   $(".sendButton").addClass("sendButtonActive");
 });
+
 //send the email
-/////////////////////////////////////////////////
-$(".sendButton").click(function(){
-  console.log("SEND :");
-  // var message = $(".aboutWrapper h4").text();
+$(".ajax-contact").submit(function(){
+var formData = $(".ajax-contact").serialize();
+
+  $.ajax({
+            type: "POST",
+            url: $(".ajax-contact").attr('action'),
+            // data: data,
+            data: formData,
+            success: function(){
+              console.log("SUCESS");
+              $(".thanks").addClass("thanksVisible");
+            }
+        });
+  console.log("SEND : " + $(".imputMessage").val());
+  return false;
+});
+
+
+$(".sendButton").hover(function(){
+  // console.log("Message :");
   $(".imputName").val("Somebody")
   var name = $(".imputName").val()
   $(".imputMessage").val($(".aboutWrapper h4").text())
-  // var message = $(".imputMessage").val()
-  var message = "message";
+  var message = $(".aboutWrapper h4").text();
   var mail = $(".send").val();
   console.log($(".imputMessage").val());
-  // IS THE MAIL IMPORTANT ?
-  // TODO important = false
-  $(".thanks").addClass("thanksVisible");
-    // ajax
-    // var name = $("#form_name").val();
-    // var email = $("#form_email").val();
-    // var text = $("#msg_text").val();
-    //
-    // PROCESS
-    // $.ajax({
-    //           type: "POST",
-    //           url: "build/about/email.php",
-    //           success: function(){
-    //           // $('.success').fadeIn(1000);
-    //           console.log("SUCCESS");
-    //           }
-    //       });
-    //       return false;
+  // todo important email
 })
 
 

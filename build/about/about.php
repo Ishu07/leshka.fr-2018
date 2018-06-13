@@ -20,7 +20,8 @@
     <div class="thanks"><h4>Thank you for this wonderful email!</h4></div>
     <div class="signWrap">
       <div class="sign">
-        <form method="post" name="myemailform" action="build/about/email.php">
+        <!-- <form method="post" name="myemailform" action="build/about/email.php" > -->
+          <form id="ajax-contact" class="ajax-contact" method="post" action="build/about/email.php">
           <input style="display:none" class='imputName' type="text" name="form_name" value="NAME"/>
           <input style="display:none" class='imputMessage' type="text" name="form_msg" value="MESSAGE"/>
           <input class='imputSend' type='text' onfocus=this.value='' name='form_email' value='enter your email and send'>
