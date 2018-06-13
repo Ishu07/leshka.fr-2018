@@ -41,6 +41,25 @@ h3 .asterisk{
 			 background-position-x: 23px;
 		}
 }
+.thanks{
+	position: absolute;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+	z-index: 1;
+	top: 0;
+	bottom: 0;
+	left:0;
+	right: 0;
+	background-color: rgba(255, 255, 255, 1);
+	opacity: 0;
+	pointer-events: none;
+	transition: all .3s linear;
+}
+.thanksVisible{
+	pointer-events: all;
+	opacity: 1;
+}
 .aboutOn{
 	opacity: 1;
 	pointer-events: all;
@@ -64,6 +83,7 @@ h3 .asterisk{
 	animation-fill-mode: forwards;
 }
 .switch {
+	z-index: 2;
 	text-decoration: none;
 	cursor: url("../../images/cursorHand1x.png") 0 0,default;
   cursor: -webkit-image-set(url(../../images/cursorHand1x.png) 1x,url(../../images/cursorHand2x.png) 2x) 0 0,default;

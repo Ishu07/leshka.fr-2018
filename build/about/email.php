@@ -1,4 +1,7 @@
+<!-- <script>console.log('ooo');</script> -->
 <?php
+// echo("<script>console.log('aaa');</script>");
+// echo "<script>alert( 'LOL' );</script>";
 // if($_POST){
     $name = $_POST['form_name'];
     $email = $_POST['form_email'];

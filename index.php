@@ -74,7 +74,7 @@
 
   <div class="introwrap">
     <h3 class="switch">Hey!<span class="asterisk">*</span><img class="bubble" src="images/hello.svg"/></h3>
-    <h1>I'm a Creative Director & Artist focussed on <a class="toThis" >unique identities</a> and <a class="toThat"> <span class="crazyShit">crazy shit</span><span class="experiences">immersive experiences</span></a>.
+    <h1>I'm an Interactive Art Director & Artist focussed on <a class="toThis" >unique identities</a> and <a class="toThat"> <span class="crazyShit">crazy shit</span><span class="experiences">immersive experiences</span></a>.
     </h1>
   </div>
 

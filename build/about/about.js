@@ -13,7 +13,7 @@ function initAbout(){
     "happy",
     // "drunk",
     // "other",
-    "Barabra Streisand"
+    "Barbara Streisand"
   );
   var items2 = Array(
     "with confusion",
@@ -44,7 +44,7 @@ function initAbout(){
     "quantum physics",
     "them",
     "future",
-    "japanese comercials",
+    "japanese commercials",
     "stevie wonder",
     // "other",
     "the actual political instability in the west caucasian region"
@@ -52,6 +52,7 @@ function initAbout(){
 
   // bubble
   $(".switch").click(function() {
+    $(".thanksVisible").removeClass("thanksVisible");
     $(".about").toggleClass("aboutOn")
   });
   $(".about .switch").click(function() {
@@ -192,7 +193,6 @@ $(".imputSend").click(function(){
 /////////////////////////////////////////////////
 $(".sendButton").click(function(){
   console.log("SEND :");
-
   // var message = $(".aboutWrapper h4").text();
   $(".imputName").val("Somebody")
   var name = $(".imputName").val()
@@ -203,22 +203,22 @@ $(".sendButton").click(function(){
   console.log($(".imputMessage").val());
   // IS THE MAIL IMPORTANT ?
   // TODO important = false
-
-  // ajax
-  // var name = $("#form_name").val();
-  // var email = $("#form_email").val();
-  // var text = $("#msg_text").val();
-
-  // PROCESS
-  // $.ajax({
-  //           type: "POST",
-  //           url: "build/about/email.php",
-  //           success: function(){
-  //           // $('.success').fadeIn(1000);
-  //           console.log("SUCCESS");
-  //           }
-  //       });
-        // return false;
+  $(".thanks").addClass("thanksVisible");
+    // ajax
+    // var name = $("#form_name").val();
+    // var email = $("#form_email").val();
+    // var text = $("#msg_text").val();
+    //
+    // PROCESS
+    // $.ajax({
+    //           type: "POST",
+    //           url: "build/about/email.php",
+    //           success: function(){
+    //           // $('.success').fadeIn(1000);
+    //           console.log("SUCCESS");
+    //           }
+    //       });
+    //       return false;
 })
 
 

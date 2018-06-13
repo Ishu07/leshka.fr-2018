@@ -12,9 +12,12 @@
 </div>
 <div class="about">
   <div class="aboutWrapper">
-    <h3 class="switch">Hey!<span class="asterisk">*</span><img class="bubbleAbout bubbleOn switch" src="images/bye.svg"/></h3> <h4>I<a>'m</a> <a>Santa Claus</a>.<br/>
+    <h3 class="switch">Hey!<span class="asterisk">*</span><img class="bubbleAbout bubbleOn switch" src="images/bye.svg"/></h3>
+
+    <h4>I<a>'m</a> <a>Santa Claus</a>.<br/>
   I’ve been looking at your work <a>for whole my lifetime it seems</a> and found your projects <a>on a bench</a>. I would love to <a>select this option</a> to talk about <a>Japanese comercials</a>.</h4>
     <!-- <h4 class="send">your email </h4> -->
+    <div class="thanks"><h4>Thank you for this wonderful email!</h4></div>
     <div class="signWrap">
       <div class="sign">
         <form method="post" name="myemailform" action="build/about/email.php">
@@ -22,7 +25,7 @@
           <input style="display:none" class='imputMessage' type="text" name="form_msg" value="MESSAGE"/>
           <input class='imputSend' type='text' onfocus=this.value='' name='form_email' value='enter your email and send'>
           <!-- <span class="arrow">➩</span> -->
-          <input style="display:visible" class="sendButton" value="➩">
+          <input type="submit" style="display:visible" class="sendButton" value="➩">
         </form>
 
       </div>
