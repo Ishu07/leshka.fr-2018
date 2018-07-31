@@ -36,13 +36,22 @@ Every user can now be part of the process against the Disease by sharing his mos
     <a href="http://i-remember.fr/en" target="_blank" class="button"> launch the website <span class="arrow">➩</span></a>
   </div>
 
-  <div class="wrapper">
+  <!-- <div class="wrapper">
   <div class="separator"></div>
     <video class="full" loop>
       <source src="projects/i-remember/videos/i-remember.mp4" type="video/mp4">
     </video>
-  </div>
+  </div> -->
 
+  <div class="wrapper">
+    <div class="separator"></div>
+    <div class="full">
+      <img class="full lazyload sequencethumb" src="projects/i-remember/img/video_thumb.jpg" data-src=" "/>
+    </div>
+    <div class="youtube" data-embed="S3aLuMIdGkw">
+      <div class="play-button"><div class="playTriangle"></div></div>
+    </div>
+  </div>
 
 
   <div class="wrapper">
