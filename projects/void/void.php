@@ -73,3 +73,10 @@ As a user, you start with a prologue introducing the concept and visual tone. Th
 
 <div class="separator"></div>
 </div>
+
+<div class="full">
+  <img class="full lazyload sequencethumb" src="projects/void/img/_thumb.jpg" data-src=" "/>
+</div>
+<div class="youtube" data-embed="1K8HjDnSZPA">
+  <div class="play-button"><div class="playTriangle"></div></div>
+</div>
