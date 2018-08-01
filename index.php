@@ -27,6 +27,7 @@
   <link rel="stylesheet" href="build/lazyYoutube/lazyYoutube.css">
   <link rel="stylesheet" href="build/lazyload/lazyload.css">
   <link rel="stylesheet" href="css/slideshow.css">
+  <link rel="stylesheet" href="css/mobile.css">
   <link rel="stylesheet" type="text/css" href="build/scroll/scroll.css">
 </head>
 <body>
@@ -59,12 +60,14 @@
 <script src="js/fallowing.js"></script>
 <script src="js/bgColor.js"></script>
 <script src="js/bouing.js"></script>
-<script>
+
+<!-- MOBILE REDIRECTION -->
+<!-- <script>
   var page="home";
   if (screen.width <= 730) {
    window.location = "pages/mobile.php";
    }
-</script>
+</script> -->
 
 
 

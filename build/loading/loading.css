@@ -17,6 +17,12 @@
   margin-top: calc(50vh - 350px);
   font-size: 750px;
 }
+@media (max-width: 600px){
+  .loadingBig{
+    margin-top: calc(50vh - 50px);
+    font-size: 150px;
+  }
+}
 .loadingSmall{
   position: fixed;
   bottom: 50px;
