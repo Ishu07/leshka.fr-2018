@@ -81,13 +81,6 @@
     </h1>
   </div>
 
-  <!-- <div class="introwrap">
-    <h3>Hey!</h3>
-    <h1>I'm a Senior Interactive
-    Art Director & Designer focussed on <a class="toThis" >unique identities</a> and <a class="toThat"> <span class="crazyShit">crazy shit</span><span class="experiences">immersive experiences</span></a>.
-    </h1>
-  </div> -->
-
 </div>
 
 <div class="intoImagesWrap">

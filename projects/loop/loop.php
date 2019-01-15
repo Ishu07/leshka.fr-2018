@@ -5,11 +5,6 @@
   <div class="heading">L</div>
   <h2>Loop</h2>
   <p class="subtitle">Art Direction, Identity & Design at <a href="https://www.allofus.com/" target="_blank">AllofUs</a></p>
-  <!-- <p class="subtitle">A different take on data visualisation:
-a run simulator that combines historical footage and
-data from the 100m sprint finals as a starting point
-to deconstruct the Olympic Games.</p> -->
-<!-- <p class="subtitle">soon on the App Store</a></p> -->
   <div class="wrapper">
     <img class="lazyload full" src="projects/loop/img/loop_logo_thumb.jpg" data-src="projects/loop/img/loop_logo.jpg" />
   </div>
@@ -21,7 +16,6 @@ to deconstruct the Olympic Games.</p> -->
       The tone of voice using trough the App turns around a score. A score that the user tries to raise like in a game.<br/>
       The logo has been built trough 3 axis, the same axis we use to build the score. Like this the logo is generative and personalised.
     </h4>
-    <!-- <a class="button">see in the App Store <span class="arrow">➩</span></a> -->
   </div>
 
   <div class="wrapper">
@@ -52,8 +46,6 @@ to deconstruct the Olympic Games.</p> -->
   <div class="wrapper">
     <div class="big-left" >
       <img class="lazyload full" src="projects/loop/img/loop-design-thumb.png" data-src="projects/loop/img/loop-design1.png" />
-      <!-- <div class="separator"></div>
-      <img class="lazyload full" src="projects/loop/img/loop-design-thumb.png" data-src="projects/loop/img/loop-design2.png" /> -->
     </div>
     <p class="lil-right">
       The Loop app connects to a home energy monitor installed in your home’s electrical and gas panel.<br/><br/>
@@ -61,12 +53,10 @@ to deconstruct the Olympic Games.</p> -->
     </p>
     <p class="lil-right">
       The App allows the user to track and manage their energy consumption. The algorithms connects to all the eligible tarrifs, allows you to accurately preview your pottential consumption and makes it the easiest way to switch your energy provider.
-      <!-- <div class="caption">A project made with love at AllofUs</div> -->
     </p>
   </div>
 
     <div class="wrapper">
-      <!-- <div class="separator"></div> -->
       <h4> <br/></h4>
 
     </div>
