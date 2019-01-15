@@ -24,19 +24,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $headers = "Message from : $email";
   // $test = "MESSAGE TEST";
   // $headers = "Reply-To: $email";
-  mail($to,"new message incoming",$message,$headers);
-
-    // mail("someone@example.com","Message from :" .$name,"Message from :" .$name .$email .$message);
-
-    // mail("robin.leshka@gmail.com", "This is an email from:" .$email, $message);
-
-    // if (mail("robin.leshka@gmail.com", "New email from:" .$email, $message)) {
-    //     echo "Mail Sent.";
-    // }
-    // else {
-    //     echo "failed";
-    // }
-// }
-// mail("robin.leshka@gmail.com","My subject","My message");
-}
+  if ($message=="MESSAGE"){
+    // mail($to,"new SPAM incoming",$message,$headers);
+  } else {
+    mail($to,"new message incoming",$message,$headers);
+  };
+};
 ?>

@@ -96,11 +96,12 @@
 
 <div class="this" id="this">
 
-
   <!-- 51 SPRINTS -->
   <?php include("projects/51sprints/51sprints.php"); ?>
   <!-- RAF SIMONS -->
   <?php include("projects/raf/raf_simons.php"); ?>
+  <!-- LOOP - Trust Power -->
+  <?php include("projects/loop/loop.php"); ?>
   <!-- White Bear -->
   <?php include("projects/whitebear/whitebear.php"); ?>
   <!-- HOGAN -->
