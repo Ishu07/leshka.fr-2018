@@ -1,6 +1,6 @@
 
 <!-- i-Remember -->
-<link rel="stylesheet" href="projects/i-remember/i-remember.css">
+<link rel="stylesheet" id="i-remember" href="projects/i-remember/i-remember.css">
 <div class="project" bgColor="#131313" letterColor="#6f6764" txtColor="#b69c4c">
   <div class="heading">I</div>
   <h2>I remember<br/>

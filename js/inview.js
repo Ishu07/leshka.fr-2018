@@ -1,6 +1,7 @@
 // if we see any bit
 function inView(elem)
 {
+  // console.log("LOOL");
     var docViewTop = $(window).scrollTop();
     var docViewBottom = docViewTop + $(window).height();
 

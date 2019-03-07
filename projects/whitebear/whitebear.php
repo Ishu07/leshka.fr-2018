@@ -1,6 +1,6 @@
 <!-- White Bear -->
 
-<div class="project" bgColor="#fedfa2"  letterColor="#f4d290" txtColor="#333333">
+<div class="project" id="whitebear" bgColor="#fedfa2"  letterColor="#f4d290" txtColor="#333333">
   <div class="heading">W</div>
   <h2>White Bear</h2>
   <p class="subtitle">Art Direction</p>

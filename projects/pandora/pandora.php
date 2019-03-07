@@ -1,7 +1,7 @@
 
 <!-- Pandora -->
 
-<div class="project" bgColor="#fde72b" letterColor="#55b5a6" txtColor="#55b5a6">
+<div class="project" id="pandora" bgColor="#fde72b" letterColor="#55b5a6" txtColor="#55b5a6">
   <div class="heading">P</div>
   <h2>Pandora</h2>
   <p class="subtitle">Art Direction, Design, Sound & some visual code</p>

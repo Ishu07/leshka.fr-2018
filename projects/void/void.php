@@ -1,7 +1,7 @@
 
 <!-- VOID -->
 
-<div class="project" bgColor="#000" letterColor="#1f0000" txtColor="#555">
+<div class="project" id="void" bgColor="#000" letterColor="#1f0000" txtColor="#555">
   <div class="heading">V</div>
   <h2>V o ID</h2>
   <p class="subtitle">Art Direction, Design</p>

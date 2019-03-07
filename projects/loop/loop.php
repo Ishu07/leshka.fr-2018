@@ -1,7 +1,7 @@
 
 <!-- 51 SPRINTS -->
 
-<div class="project" bgColor="#0C1F28" letterColor="#CD0086" txtColor="#fff">
+<div class="project" id="loop" bgColor="#0C1F28" letterColor="#CD0086" txtColor="#fff">
   <div class="heading">L</div>
   <h2>Loop</h2>
   <p class="subtitle">Art Direction, Identity & Design at <a href="https://www.allofus.com/" target="_blank">AllofUs</a></p>

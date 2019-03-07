@@ -1,7 +1,7 @@
 
 <!-- Nike Infinite -->
 
-<div class="project" bgColor="#51f0dc" letterColor="#de0b1a" txtColor="#ff0">
+<div class="project" id="nike-infinite" bgColor="#51f0dc" letterColor="#de0b1a" txtColor="#ff0">
   <div class="heading">N</div>
   <h2>Nike Infinite</h2>
   <p class="subtitle">Art Direction, Design at <a href="http://random.studio/" target="_blank">Random Studio</a></p>

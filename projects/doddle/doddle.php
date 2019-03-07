@@ -1,6 +1,6 @@
 <!-- DODDLE -->
 
-<div class="project" bgColor="#3e2580" letterColor="#3e2580" txtColor="#7e4dc1">
+<div class="project" id="doodle" bgColor="#3e2580" letterColor="#3e2580" txtColor="#7e4dc1">
   <div class="heading"> </div>
   <h2>Doddle</h2>
   <p class="subtitle">Internal Pad Design</p>

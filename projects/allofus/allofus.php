@@ -1,6 +1,6 @@
 <!-- Hogan Club -->
 
-<div class="project"  bgColor="#132828" letterColor="#173838" txtColor="#fff">
+<div class="project" id="allofus"  bgColor="#132828" letterColor="#173838" txtColor="#fff">
   <div class="heading">A</div>
   <h2>AllofUs</h2>
   <p class="subtitle">Templates & Presentations</p>

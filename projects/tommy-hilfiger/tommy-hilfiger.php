@@ -1,7 +1,7 @@
 
 <!-- GiGi -->
 
-<div class="project" bgColor="#3a3d74" letterColor="#cee4fb" txtColor="#fff">
+<div class="project" id="tommy-hilfiger" bgColor="#3a3d74" letterColor="#cee4fb" txtColor="#fff">
   <div class="heading">G</div>
   <h2>A digital shopwall<br/>
 for Tommy Hilfiger</h2>

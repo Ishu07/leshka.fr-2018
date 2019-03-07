@@ -1,5 +1,4 @@
 function video_autoplay() {
-
   // THIS
   if (thisOrThat == "this"){
     for (var i = 0; i <  $('.this video').length; i++) {

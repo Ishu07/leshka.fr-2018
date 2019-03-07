@@ -98,6 +98,44 @@ body{
   cursor: -webkit-image-set(url(../images/cursor1x.png) 1x,url(../images/cursor2x.png) 2x) 0 0,default;
 }
 
+@directURLMargins: 25px;
+#directURL{
+  position: fixed;
+  top: @directURLMargins;
+  bottom: @directURLMargins;
+  left: @directURLMargins;
+  right: @directURLMargins;
+  background: black;
+  z-index: 11;
+  overflow: scroll;
+  transition: all .5s;
+}
+.closeBtn{
+  position: fixed;
+  top: @directURLMargins;
+  right: @directURLMargins;
+  // width: calc(10% - 12px);
+  width: 9%;
+  border: none;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  // cursor: pointer;
+  cursor: url(../images/cursorHand1x.png) 0 0,default;
+  cursor: -webkit-image-set(url(../images/cursorHand1x.png) 1x,url(../images/cursorHand2x.png) 2x) 0 0,default;
+}
+.closeBtn:before{
+	content: "";
+	display: block;
+	padding-top: 100%; 	/* initial ratio of 1:1*/
+}
+.closeBtn svg{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
 // STYLE
 // INTRO
 .intro{

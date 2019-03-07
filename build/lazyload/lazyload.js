@@ -97,8 +97,11 @@
                 threshold: [0]
             };
 
+
+
             this.observer = new IntersectionObserver(function(entries) {
                 entries.forEach(function (entry) {
+
                     if (entry.intersectionRatio > 0) {
                         self.observer.unobserve(entry.target);
                         let src = entry.target.getAttribute(self.settings.src);
@@ -125,6 +128,18 @@
                             entry.target.style.backgroundImage = "url(" + src + ")";
                         }
                     }
+
+                    // load pop-ups
+                    // if($('#directURL').find('.lazyload').length == 1) {
+                    // if(jQuery.contains( $('#directURL'), entry )){
+                    // if(entry.target.parents("#directURL")){
+                    // if($(".lazyload").parents("#directURL")){
+                      // console.log(entry.target.src);
+                    // }
+                    // console.log(entry);
+
+
+
                 });
             }, observerConfig);
 
@@ -186,6 +201,10 @@
 
     return LazyLoad;
 });
+
+
+
+
 //WHEN FULLY LOADED
 // window.addEventListener("load", function(event) {
 // });

@@ -1,7 +1,7 @@
 
 <!-- Teyosh -->
 
-<div class="project" bgColor="#ed87c5" letterColor="#196c8f" txtColor="#fcffe4">
+<div class="project" id="teyosh" bgColor="#ed87c5" letterColor="#196c8f" txtColor="#fcffe4">
   <div class="heading">T</div>
   <h2>TeYosh</h2>
   <p class="subtitle">Art Direction</p>

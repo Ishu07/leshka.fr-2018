@@ -1,6 +1,6 @@
 <!-- TAYLORS -->
 
-<div class="project" bgColor="#cedde9" letterColor="#cedde9" txtColor="#fff">
+<div class="project" id="taylors" bgColor="#cedde9" letterColor="#cedde9" txtColor="#fff">
   <div class="heading"> </div>
   <h2>Taylors</h2>
   <p class="subtitle">Art Direction, Design & Motion</p>

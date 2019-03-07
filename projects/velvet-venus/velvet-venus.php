@@ -1,6 +1,6 @@
 <!-- Hogan Club -->
 
-<div class="project"  bgColor="#420115" letterColor="#520525" txtColor="#ffffdf">
+<div class="project" id="velvet-venus" bgColor="#420115" letterColor="#520525" txtColor="#ffffdf">
   <div class="heading" >V</div>
   <h2>Velvet-Venus</h2>
   <p class="subtitle">Identity & handcrafts</p>

@@ -1,6 +1,6 @@
 <!-- Hermes -->
 
-<div class="project" bgColor="#143652" letterColor="#082e4d" txtColor="#d4ecff">
+<div class="project" id="hermes" bgColor="#143652" letterColor="#082e4d" txtColor="#d4ecff">
   <div class="heading">H</div>
   <h2>Hermes</h2>
   <p class="subtitle">Art Direction, Design & Motion at <a href="http://random.studio/" target="_blank">Random Studio</a></p>
