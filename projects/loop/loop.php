@@ -28,7 +28,7 @@
     projects/loop/img/loop_identity_page6.jpg,
     projects/loop/img/loop_identity_page7.jpg' >
       <div class="full">
-        <img class="full lazyload sequencethumb" src="projects/my_most_beautiful_nightmare/img/_thumb.jpg" data-src=" "/>
+        <img class="full lazyload sequencethumb" src="projects/loop/img/loop_identity_thumb.jpg" data-src=" "/>
       </div>
     </div>
 

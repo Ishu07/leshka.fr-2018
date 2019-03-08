@@ -52,7 +52,7 @@
 <!-- DELETE ME IF I AM OFFLINE -->
 <script src="build/lazyYoutube/lazyYoutube.js"></script>
 <script src="js/intro.js"></script>
-<script src="js/inView.js"></script>
+<script src="js/inview.js"></script>
 <script src="js/slideshow.js"></script>
 <script src="js/video_autoplay.js"></script>
 <!-- DELETE ME TO USE THE EDITOR -->
@@ -103,10 +103,10 @@
 
   <!-- 51 SPRINTS -->
   <?php include("projects/51sprints/51sprints.php"); ?>
-  <!-- Hi-ReS! -->
-  <?php include("projects/hi-res/hi-res.php"); ?>
   <!-- RAF SIMONS -->
   <?php include("projects/raf-simons/raf-simons.php"); ?>
+  <!-- Hi-ReS! -->
+  <?php include("projects/hi-res/hi-res.php"); ?>
   <!-- LOOP - Trust Power -->
   <?php include("projects/loop/loop.php"); ?>
   <!-- White Bear -->

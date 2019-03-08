@@ -4,13 +4,13 @@
 <div class="project" id="51sprints" bgColor="#d8d8d8" letterColor="#ff6148" txtColor="#333">
   <div class="heading">5</div>
   <h2>51 Sprints, a documentary<br/>
-and run simulator</h2>
+    and run simulator</h2>
   <p class="subtitle">Art Direction, Design & Motion at <a href="http://random.studio/" target="_blank">Random Studio</a></p>
   <!-- <p class="subtitle">A different take on data visualisation:
-a run simulator that combines historical footage and
-data from the 100m sprint finals as a starting point
-to deconstruct the Olympic Games.</p> -->
-<p class="subtitle"><a href="http://51sprints.com/">visit the website</a></p>
+  a run simulator that combines historical footage and
+  data from the 100m sprint finals as a starting point
+  to deconstruct the Olympic Games.</p> -->
+  <p class="subtitle"><a href="http://51sprints.com/">visit the website</a></p>
   <div class="wrapper">
     <div class="full">
       <img class="full lazyload sequencethumb" src="projects/51sprints/img/51_sprints_video_thumb.png" data-src=" "/>
@@ -23,13 +23,13 @@ to deconstruct the Olympic Games.</p> -->
   <div class="wrapper">
     <h4>
       51 Sprints, a documentary and run simulator<br/><br/>
-In collaboration with the Nieuwe Instituut and Yuri Veerman, at <a href="http://random.studio/" target="_blank">Random Studio</a> we created a video essay and interactive online experience. 51 Sprints uses the iconic 100-metre sprint as a starting point to visualise the complex web of narratives that lies behind the Olympic Games, through the individual athletes competing in it. By deconstructing the Games using media representation and data, we reveal the untold stories embedded within.
+      In collaboration with the Nieuwe Instituut and Yuri Veerman, at <a href="http://random.studio/" target="_blank">Random Studio</a> we created a video essay and interactive online experience. 51 Sprints uses the iconic 100-metre sprint as a starting point to visualise the complex web of narratives that lies behind the Olympic Games, through the individual athletes competing in it. By deconstructing the Games using media representation and data, we reveal the untold stories embedded within.
     </h4>
     <a class="button">run the simulator <span class="arrow">➩</span></a>
   </div>
 
   <div class="wrapper">
-  <div class="separator"></div>
+    <div class="separator"></div>
     <video class="full" loop>
       <source src="projects/51sprints/videos/1.mp4" type="video/mp4">
     </video>
@@ -40,21 +40,20 @@ In collaboration with the Nieuwe Instituut and Yuri Veerman, at <a href="http://
       <img class="lazyload full" src="projects/51sprints/img/run1_thumb.jpg" data-src="projects/51sprints/img/run1.gif" />
     </div>
     <div class="full">
-    <img class="lazyload full" src="projects/51sprints/img/run2_thumb.jpg" data-src="projects/51sprints/img/run2.gif" />
-  </div>
-  <div class="full">
-    <img class="lazyload full" src="projects/51sprints/img/run3_thumb.jpg" data-src="projects/51sprints/img/run3.gif" />
-  </div>
-  <div class="full">
-    <img class="lazyload full" src="projects/51sprints/img/run4_thumb.jpg" data-src="projects/51sprints/img/run4.gif" />
-  </div>
-  <div class="full">
-    <img class="lazyload full" src="projects/51sprints/img/run5_thumb.jpg" data-src="projects/51sprints/img/run5.gif" />
-  </div>
-  <div class="full">
-    <img class="lazyload full" src="projects/51sprints/img/run6_thumb.jpg" data-src="projects/51sprints/img/run6.gif" />
-  </div>
-
+      <img class="lazyload full" src="projects/51sprints/img/run2_thumb.jpg" data-src="projects/51sprints/img/run2.gif" />
+    </div>
+    <div class="full">
+      <img class="lazyload full" src="projects/51sprints/img/run3_thumb.jpg" data-src="projects/51sprints/img/run3.gif" />
+    </div>
+    <div class="full">
+      <img class="lazyload full" src="projects/51sprints/img/run4_thumb.jpg" data-src="projects/51sprints/img/run4.gif" />
+    </div>
+    <div class="full">
+      <img class="lazyload full" src="projects/51sprints/img/run5_thumb.jpg" data-src="projects/51sprints/img/run5.gif" />
+    </div>
+    <div class="full">
+      <img class="lazyload full" src="projects/51sprints/img/run6_thumb.jpg" data-src="projects/51sprints/img/run6.gif" />
+    </div>
   </div>
 
   <div class="wrapper">
@@ -79,8 +78,8 @@ In collaboration with the Nieuwe Instituut and Yuri Veerman, at <a href="http://
     </video>
     <div class="separator"></div>
     <h4>This project was exhibited at the 2016 Istanbul Biennial, where it was presented into the light of the festival’s theme “Are we human?”. 51 sprints is also part of the research and exhibition program of Het Nieuwe Instituut around the Olympic Games and newly developing bodies.<br/>
-This project was additionally nominated for the 2016 Nederlands Film Festival in the short documentary category.<br/></h4>
-<div class="caption">A project made with love at Random Studio</div>
+      This project was additionally nominated for the 2016 Nederlands Film Festival in the short documentary category.<br/></h4>
+    <div class="caption">A project made with love at Random Studio</div>
   </div>
 
 
