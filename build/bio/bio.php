@@ -29,11 +29,45 @@
       <a href="mailto:robin.leshka@gmail.com">robin.leshka[at]gmail.com</a>
       <br/>
       <a href="callto:+447491618644">+44 (0)749 161 8644</a>
-    </p>
-    <p>
+      <br/>
       <a href="https://www.instagram.com/road_nds/">instagram</a>
       <br/>
       <a href="https://www.youtube.com/channel/UCknpU8tcVe2TDXhWkoiJ-gw?view_as=subscriber">youtube</a>
+    </p>
+    <p>
+      <span class="title">Pride:</span>
+      <br/><br/>
+      My Most Beautiful Nightmare<a href="https://www.awwwards.com/sites/my-most-beautiful-nightmare">AWWWARD</a>, <a href="https://thefwa.com/cases/my-most-beautiful-nightmare">FWA</a>.
+      <br/>
+      Nike Free <a href="https://thefwa.com/cases/nike-free-auxetic-sole-p4">FWA</a>.
+      <br/>
+      51 Sprints <a href="https://www.awwwards.com/sites/51-sprints-the-human-race">AWWWARD</a>, <a href="https://thefwa.com/cases/51-sprints-the-human-race">FWA</a>.
+      <br/>
+      VOID II - Pandora <a href="https://www.awwwards.com/sites/void-chapter-2-pandora">AWWWARD</a>, <a href="https://thefwa.com/cases/void-chapter-2-pandora">FWA of the Month</a>.
+      <br/>
+      Hi-ReS! <a href="https://www.awwwards.com/sites/hi-res-london">AWWWARD</a>, <a href="https://thefwa.com/agency-spotlight/hi-res">FWA</a>.
+      <br/>
+      V o ID <a href="https://www.awwwards.com/sites/void-1">AWWWARD of the Month</a>, <a href="https://thefwa.com/cases/void">FWA of the Month</a>.
+      <br/>
+      I Remember <a href="https://www.awwwards.com/sites/i-remember">AWWWARD of the Month</a>, <a href="https://thefwa.com/cases/i-remember">FWA cutting Edge Award</a>.
+      <br/>
+      WonDiorland <a href="https://www.awwwards.com/sites/wondiorland">AWWWARD</a>, <a href="https://thefwa.com/cases/wondiorland-mobile">FWA</a>.
+      <br/>
+      Plan Erasable Wall <a href="https://www.awwwards.com/sites/plan-erasable-wall">AWWWARD</a>.
+      <br/>
+      03 July <a href="https://www.awwwards.com/sites/03-july">AWWWARD</a>, <a href="https://thefwa.com/cases/03-july">FWA</a>.
+      <br/>
+      Citroën Stratoquest <a href="https://thefwa.com/cases/citro-n-stratoquest">FWA</a>.
+      <br/>
+      Nespresso : Trieste & Napoli <a href="https://thefwa.com/cases/nespresso-trieste-napoli">FWA</a>.
+      <br/>
+      Hungry Now <a href="https://thefwa.com/cases/hungry-now">FWA</a>.
+      <br/>
+      le Shka <a href="https://www.awwwards.com/sites/le-shka">FWA</a>.
+      <br/>
+      Nespresso : Latissima + <a href="https://thefwa.com/cases/nespresso-lattissima">FWA</a>.
+      <br/>
+      Universeries <a href="https://thefwa.com/cases/universeries">FWA</a>.
     </p>
   </div>
 
