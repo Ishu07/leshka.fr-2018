@@ -1,0 +1,82 @@
+.logo{
+  position: fixed;
+  top: 60px;
+  left: 10vw;
+  z-index: 11;
+  /* height: 2em;
+  font-size: 2em; */
+}
+.logo a{
+  text-decoration: none;
+  border-bottom: none;
+}
+
+#popUpBio{
+  position: fixed;
+  top: 25px;
+  bottom: 25px;
+  left: 25px;
+  right: 25px;
+  z-index: 12;
+  overflow: scroll;
+  transition: all .5s;
+  background: #e1cdea !important;
+    opacity: 0;
+    color: #f02207 !important;
+    pointer-events:none;
+}
+#popUpBio p{
+  color: #f02207 !important;
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+#popUpBio h2{
+  color: #f02207 !important;
+  width: 80%;
+  font-size: 3em;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+#popUpBio .title{
+  margin-top: 100px;
+  text-align: center;
+}
+#popUpBio a {
+  color: #19780c !important;
+}
+
+.infos{
+  position: relative;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+.infos a {
+  color: #19780c;
+}
+
+#popUpBio .infos p{
+  width: 50%;
+  line-height: 3em;
+}
+
+
+/* .infos{
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  bottom: 40px;
+  left: 10vw;
+  right: 10vw;
+  z-index: 11;
+  // height: 1em;
+  font-size: 1em;
+} */
+/* .infos p{
+  width: 40vw;
+} */

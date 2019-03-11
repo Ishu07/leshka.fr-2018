@@ -18,19 +18,6 @@ function changeURL() {
   document.title = pageTitle;
 
 }
-
-// function scrollURL() {
-//   scrollUrlPage = "?project=" + targetProject.id;
-//   // scrollUrlPage = "?page=" + "identities" + "&project=" + targetProject.id;
-//   // change the url
-//   window.history.pushState({}, null, newUrl);
-//   // change the title
-//   document.title = "le Shka —> " + currentProject.id;
-//
-// }
-
-
-
 function initScrollUrl(){
     const urlParams = new URLSearchParams(window.location.search);
     var urlPage = urlParams.get('page');
@@ -42,8 +29,15 @@ function initScrollUrl(){
         console.log("URL PROJECT : "+urlProject);
     } else {
         console.log("NO URL PROJECT");
-        $("#directURL").css("display","none")
+        $("#popUp").css("opacity","0");
+        $("#popUp").css("pointer-events","none");
     }
+
+    //close button listener
+    $("#closeImgSVG").click(function() {
+      $("#popUp").css("opacity","0");
+      $("#popUp").css("pointer-events","none");
+    })
 }
 
 function insertPHP(urlProject){
@@ -52,9 +46,9 @@ function insertPHP(urlProject){
     var phpCode = "projects/"+ urlProject +"/"+ urlProject +".php"
     // add the page
     $.post(phpCode, {}, function(result){
-        $("#directURL").append(result);
+        $("#popUp").append(result);
         //put the colors
-        bgColorFuncDirectURL(project);
+        bgColorFuncpopUp(project);
         //LazyLoad
         lazyLoadProject();
         loadLazyYoutube();
@@ -63,11 +57,7 @@ function insertPHP(urlProject){
         // $(".project").scroll = function(){console.log("LOL");};
     }, 'text');
 
-    //close button listener
-    $("#closeImgSVG").click(function() {
-      $("#directURL").css("opacity","0");
-      $("#directURL").css("pointer-events","none");
-    })
+
 }
 
 
@@ -76,7 +66,7 @@ function insertPHP(urlProject){
 function lazyLoadProject(){
     $(".lazyload").each(function( index ) {
         this.src = this.getAttribute("data-src")
-            if ( $(this).parents('#directURL').length == 1 ) {
+            if ( $(this).parents('#popUp').length == 1 ) {
             // console.log("LOL");
             if ($( this ).hasClass("sequencethumb")){
                 $( this ).addClass("fadeOut");
@@ -91,7 +81,7 @@ function lazyLoadProject(){
 
 // AUTO PLAY THE VIDEOS BECAUSE OF THE SCROLL PROBLEM
 function playVideos(){
-    $("#directURL video").each(function(){
+    $("#popUp video").each(function(){
       var media = this;
       // temporary, still bug
       const playPromise = media.play();
@@ -117,7 +107,7 @@ function loadLazyYoutube(){
       for (var i = 0; i < youtube.length; i++) {
         // console.log(youtube[ i ]);
         // console.log($(youtube[ i ]).parents());
-          if ($(youtube[ i ]).parents('#directURL').length == 1 ) {
+          if ($(youtube[ i ]).parents('#popUp').length == 1 ) {
               // if (halfView(youtube)){
                 // console.log("load youtube");
               var source = "https://img.youtube.com/vi/"+ youtube[i].dataset.embed +"/maxresdefault.jpg";

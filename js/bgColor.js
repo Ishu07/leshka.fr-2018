@@ -19,22 +19,22 @@ function bgColorFunc() {
 
 }
 
-function bgColorFuncDirectURL(project) {
+function bgColorFuncpopUp(project) {
           var bgColor = $(project).attr('bgColor')
           var letterColor = $(project).attr('letterColor')
           var txtColor = $(project).attr('txtColor')
-          $('#directURL').css( "background-color", bgColor )
-          $('#directURL .heading').css( "color", letterColor )
-          $('#directURL .mouse-circle').css( "background-color", letterColor )
+          $('#popUp').css( "background-color", bgColor )
+          $('#popUp .heading').css( "color", letterColor )
+          $('#popUp .mouse-circle').css( "background-color", letterColor )
           $("#closeBtnPath").attr("fill",txtColor);
 
-          $("#directURL .rollmeover").css("color",txtColor)
-          $("#directURL .rollmeover").css("background-color",bgColor)
-          $("#directURL .youtube .play-button .playTriangle").css("border-color","transparent transparent transparent" + txtColor)
-          $("#directURL .youtube .play-button").css("background-color",bgColor)
-          $('#directURL p, #directURL h4, #directURL h2, #directURL a').css( "color", txtColor )
-          $("#directURL .button").css("color",bgColor)
-          $("#directURL .button").css("background-color",txtColor)
+          $("#popUp .rollmeover").css("color",txtColor)
+          $("#popUp .rollmeover").css("background-color",bgColor)
+          $("#popUp .youtube .play-button .playTriangle").css("border-color","transparent transparent transparent" + txtColor)
+          $("#popUp .youtube .play-button").css("background-color",bgColor)
+          $('#popUp p, #popUp h4, #popUp h2, #popUp a').css( "color", txtColor )
+          $("#popUp .button").css("color",bgColor)
+          $("#popUp .button").css("background-color",txtColor)
 
 }
 

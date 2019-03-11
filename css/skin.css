@@ -46,7 +46,6 @@ body{
   cursor: url(../images/cursor1x.png) 0 0,default;
   cursor: -webkit-image-set(url(../images/cursor1x.png) 1x,url(../images/cursor2x.png) 2x) 0 0,default;
 }
-
 .intro{
   position: relative;
   min-height: 100vh;

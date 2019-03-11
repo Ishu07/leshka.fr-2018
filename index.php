@@ -45,6 +45,23 @@
 <!-- ABOUT -->
 <?php include("build/about/about.php"); ?>
 
+<!-- BIO -->
+<?php include("build/bio/bio.php"); ?>
+
+<!-- POP UP & DIRECT URL -->
+<div id="popUp">
+  <button class="closeBtn" type="button">
+    <svg id="closeImgSVG" width="128px" height="128px" viewBox="0 0 128 128">
+        <path id="closeBtnPath" stroke="none" stroke-width="1" fill="#0000ff" fill-rule="evenodd" d="M64.0002589,62.4975275 L83.1538932,43.3438932 C83.5444175,42.9533689 84.1775825,42.9533689 84.5681068,43.3438932 C84.9586311,43.7344175 84.9586311,44.3675825 84.5681068,44.7581068 L65.4144547,63.9117589 L84.5681157,83.0659021 C84.9586351,83.4564313 84.9586271,84.0895963 84.5680979,84.4801157 C84.1775687,84.8706351 83.5444037,84.8706271 83.1538843,84.4800979 L64.0002411,65.3259725 L44.8471068,84.4791068 C44.4565825,84.8696311 43.8234175,84.8696311 43.4328932,84.4791068 C43.0423689,84.0885825 43.0423689,83.4554175 43.4328932,83.0648932 L62.5860453,63.9117411 L43.4328843,44.7580979 C43.0423649,44.3675687 43.0423729,43.7344037 43.4329021,43.3438843 C43.8234313,42.9533649 44.4565963,42.9533729 44.8471157,43.3439021 L64.0002589,62.4975275 Z">
+        </path>
+    </svg>
+  </button>
+  <!-- <div id="directURL"></div> -->
+
+</div>
+
+
+
 <div class="vs-section">
 
 <script src="build/lazyload/lazyload.js"></script>
@@ -72,24 +89,15 @@
    }
 </script> -->
 
-<!-- DIRECT URL -->
-<div id="directURL">
-  <button class="closeBtn" type="button">
-    <svg id="closeImgSVG" width="128px" height="128px" viewBox="0 0 128 128">
-        <path id="closeBtnPath" stroke="none" stroke-width="1" fill="#0000ff" fill-rule="evenodd" d="M64.0002589,62.4975275 L83.1538932,43.3438932 C83.5444175,42.9533689 84.1775825,42.9533689 84.5681068,43.3438932 C84.9586311,43.7344175 84.9586311,44.3675825 84.5681068,44.7581068 L65.4144547,63.9117589 L84.5681157,83.0659021 C84.9586351,83.4564313 84.9586271,84.0895963 84.5680979,84.4801157 C84.1775687,84.8706351 83.5444037,84.8706271 83.1538843,84.4800979 L64.0002411,65.3259725 L44.8471068,84.4791068 C44.4565825,84.8696311 43.8234175,84.8696311 43.4328932,84.4791068 C43.0423689,84.0885825 43.0423689,83.4554175 43.4328932,83.0648932 L62.5860453,63.9117411 L43.4328843,44.7580979 C43.0423649,44.3675687 43.0423729,43.7344037 43.4329021,43.3438843 C43.8234313,42.9533649 44.4565963,42.9533729 44.8471157,43.3439021 L64.0002589,62.4975275 Z">
-        </path>
-    </svg>
-  </button>
 
-</div>
 
 <!-- INTRO -->
-
 <div class="intro" letterColor="#aaa">
 
   <div class="introwrap">
     <h3 class="switch">Hey!<span class="asterisk">*</span><img class="bubble" src="images/hello.svg"/></h3>
-    <h1>I'm an Interactive Art Director & Artist focussed on <a class="toThis" >unique identities</a> and <a class="toThat"> <span class="crazyShit">crazy shit</span><span class="experiences">immersive experiences</span></a>.
+    <!-- <h1>I'm an Interactive Art Director & Artist focussed on <a class="toThis" >unique identities</a> and <a class="toThat"> <span class="crazyShit">crazy shit</span><span class="experiences">immersive experiences</span></a>. -->
+    <h1>I'm a lead Creative & Digital Artist focussed on <a class="toThis" >unique identities</a> and <a class="toThat"> <span class="crazyShit">crazy shit</span><span class="experiences">immersive experiences</span></a>.
     </h1>
   </div>
 

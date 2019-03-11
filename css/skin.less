@@ -98,22 +98,23 @@ body{
   cursor: -webkit-image-set(url(../images/cursor1x.png) 1x,url(../images/cursor2x.png) 2x) 0 0,default;
 }
 
-@directURLMargins: 25px;
-#directURL{
+@popUpMargins: 25px;
+#popUp{
   position: fixed;
-  top: @directURLMargins;
-  bottom: @directURLMargins;
-  left: @directURLMargins;
-  right: @directURLMargins;
+  top: @popUpMargins;
+  bottom: @popUpMargins;
+  left: @popUpMargins;
+  right: @popUpMargins;
   background: black;
-  z-index: 11;
+  z-index: 12;
   overflow: scroll;
   transition: all .5s;
+  background: #fccb90;
 }
 .closeBtn{
   position: fixed;
-  top: @directURLMargins;
-  right: @directURLMargins;
+  top: @popUpMargins;
+  right: @popUpMargins;
   // width: calc(10% - 12px);
   width: 9%;
   border: none;
