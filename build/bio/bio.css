@@ -3,8 +3,24 @@
   top: 60px;
   left: 10vw;
   z-index: 11;
+  height: 2em;
+  overflow: hidden;
+  /* background-color: yellow; */
   /* height: 2em;
   font-size: 2em; */
+  cursor: crosshair;
+  cursor: url(../../images/cursorHand1x.png) 0 0,default;
+  cursor: -webkit-image-set(url(../../images/cursorHand1x.png) 1x,url(../../images/cursorHand2x.png) 2x) 0 0,default;
+}
+.logo p{
+  margin: 0em;
+}
+.logoContainer{
+  transition: .2s all;
+  margin-top: 0px;
+}
+.logoHover{
+  margin-top: -26px;
 }
 .logo a{
   text-decoration: none;
@@ -62,6 +78,7 @@
 #popUpBio .infos p{
   width: 50%;
   line-height: 2em;
+  margin-top: 1em;
 }
 #popUpBio .infos p:nth-child(2){
   font-size: 1em;

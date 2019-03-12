@@ -253,6 +253,7 @@ button:focus {
     outline: none;
 }
 .aboutBottom{
+	display: none;
 	animation: all .5 ease;
 	background-color: #04b;
 	position: absolute;
@@ -267,18 +268,18 @@ button:focus {
 }
 .wrapperInfos ul{
 
-		animation: all .5 ease;
+	animation: all .5 ease;
 	/* height: 100%; */
 	width: 50%;
-display: flex;
-flex-wrap: wrap;
-margin-top: 40px;
-margin-bottom: 20px;
-padding: 0px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	padding: 0px;
 }
 .wrapperInfos li{
 	animation: all .5 ease;
 	width: 100%;
-display: flex;
-flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }

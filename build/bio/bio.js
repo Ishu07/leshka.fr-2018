@@ -10,6 +10,17 @@ function bio() {
     $("#popUpBio").css("opacity","1");
     $("#popUpBio").css("pointer-events","auto");
   })
+  // $('.logo').mouseover(function() {
+  //  $( '.logo p' ).toggleClass('logoHover');
+  // });
+  // $('.logo').mouseout(function() {
+  //   $( '.logo p' ).toggleClass('logoHover');
+  // });
+  $(".logo").hover(
+    // BAD BAD
+       function(){ $(".logoContainer").addClass('logoHover') },
+       function(){ $(".logoContainer").removeClass('logoHover') }
+)
 
   // $("#popUp").css("display","none")
 

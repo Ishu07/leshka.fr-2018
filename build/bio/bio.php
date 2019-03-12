@@ -1,7 +1,7 @@
 <!-- Loading -->
 <link rel="stylesheet" href="build/bio/bio.css">
 
-<div class="logo"><p><a href="">Robin Gardeur (leShka™)</a></p></div>
+<div class="logo"><div class="logoContainer"><p>Robin Gardeur (leShka™)</p><p>About me</p></div></div>
 
 <!-- <div class="infos">
   <p><a href="mailto:robin.leshka@gmail.com">robin.leshka[at]gmail.com</a></p>
@@ -17,12 +17,13 @@
         </path>
     </svg>
   </button>
-  <p class="title">about me</p>
+  <!-- <p class="title">about me</p> -->
   <h2 class="introBio">I create high-end digital products combining smart concepts and beautiful designs with the best technology practices.</h2>
   <p>In 2017 I decided to be available in freelance in London to help different companies on and expend my field of competences. It’s at that time that I founded Where the Road-Ends; a company to put on trial my experiements and connect the most talented digital artists together to build cutting-edges products.</p>
   <p>Before that, I was Art Director at <a href="https://random.studio/">Random Studio</a> (Amsterdam), where I started to get my hands on Digital Instalations. I had the chance to be on stage with the rest of the team at <a href="http://resonate.io/2016/artists/random-studio/">Resonate 2016</a> in Belgrade. </p>
   <p>It’s in 2013 that I moved in London to work for <a href="https://vimeo.com/hireslondon">Hi-ReS!</a> where my role was focused on finding creative concepts for rich and innovative experiences. It’s also the place where I learned the most how to code rich experiences in webGL<!-- with <a href="https://twitter.com/ixviii_io?lang=fr">Amelie Rosser</a>--> and produced <a href="http://void.hi-res.net/">V O iD</a>, <a href="http://void-ii.hi-res.net/">VOID-Pandora</a>… which gots us the opportunity to show them on stage for the <a href="https://medium.com/@Degordian/awwwards-conference-amsterdam-2016-review-6fdbf7c2dd2a">Awwwards conference 2015</a> in Amsterdam "make the Internet great again".</p>
   <p>Prior to my experience in London, I worked at <a href="https://www.werkstatt.fr/en/">Werkstatt</a> and <a href="http://www.03july.com/applications/">03July</a> in Paris for two years. During this period, I focussed a lot on finding fine concepts for luxuary brands such as Dior and Kenzo, but it was also for me the time to build my first Apps and discover the beauty of the <a href="http://i-remember.fr/en">most experimental websites</a>.</p>
+  <p>It's in Lyon(FR) that I spent 7 years to study in Art Direction, Visual Design and Technology in the schools of Bellecour and Condé.</p>
   <div class="title">
     <p>Infos</p>
     <p>Pride</p>
