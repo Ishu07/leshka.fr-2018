@@ -40,30 +40,3 @@
   }
 
 }
-
-/* @media (max-height: 600px){
-    .mobile{
-      line-height: 2em;
-    }
-    .mobile h1{
-      font-size: 1.6em;
-      margin-bottom: 50px;
-    }
-    .mobile h3{
-      font-size: 1em;
-      margin-bottom: 20px;
-    }
-}
-
-a{
-  color: #ffb;
-}
-
-*{
-  margin: 0;
-  padding: 0;
-} */
-body {
-  /* background: #f0F; */
-  /* background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%); */
-}
