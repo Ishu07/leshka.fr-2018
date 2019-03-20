@@ -5,6 +5,7 @@
   <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-71310025-1"></script>
 <script>
+  var lowperf=false
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
@@ -32,8 +33,6 @@
 </head>
 <body>
 
-<!-- <div class="header"><h3>Robin Gardeur (leShka)</h3></div> -->
-
 <!-- DELETE ME IF I AM OFFLINE -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
 <script src="build/jquery-2.1.3.min.js"></script>
@@ -56,7 +55,6 @@
         </path>
     </svg>
   </button>
-  <!-- <div id="directURL"></div> -->
 
 </div>
 
@@ -71,15 +69,17 @@
 <script src="js/intro.js"></script>
 <script src="js/inview.js"></script>
 <script src="js/slideshow.js"></script>
-<script src="js/video_autoplay.js"></script>
 <!-- DELETE ME TO USE THE EDITOR -->
 <script src="js/cursor.js"></script>
 <script src="js/link_arrow.js"></script>
-<script src="js/fallowing.js"></script>
 <script src="js/bgColor.js"></script>
 <script src="js/applyOnce.js"></script>
 <script src="js/anchors.js"></script>
 <script src="js/bouing.js"></script>
+
+<!-- DELETE ME IF LOW PERFS -->
+<script src="js/video_autoplay.js"></script>
+<script src="js/fallowing.js"></script>
 
 <!-- MOBILE REDIRECTION -->
 <!-- <script>
@@ -113,20 +113,22 @@
   <?php include("projects/51sprints/51sprints.php"); ?>
   <!-- RAF SIMONS -->
   <?php include("projects/raf-simons/raf-simons.php"); ?>
+  <!-- HOGAN -->
+  <?php include("projects/hogan/hogan.php"); ?>
+  <!-- Jager -->
+  <?php include("projects/jagermeister/jagermeister.php"); ?>
   <!-- Hi-ReS! -->
   <?php include("projects/hi-res/hi-res.php"); ?>
   <!-- LOOP - Trust Power -->
   <?php include("projects/loop/loop.php"); ?>
   <!-- White Bear -->
   <?php include("projects/whitebear/whitebear.php"); ?>
-  <!-- HOGAN -->
-  <?php include("projects/hogan/hogan.php"); ?>
+  <!-- Teyosh -->
+  <?php include("projects/teyosh/teyosh.php"); ?>
   <!-- AllofUs -->
   <?php include("projects/allofus/allofus.php"); ?>
   <!-- Taylors -->
   <?php include("projects/taylors/taylors.php"); ?>
-  <!-- Teyosh -->
-  <?php include("projects/teyosh/teyosh.php"); ?>
   <!-- TODO : REMY MARTIN -->
 
   <!-- TODO : Andere Tijden -->
@@ -163,7 +165,6 @@
   <?php include("projects/my_most_beautiful_nightmare/mymostbeautifulnightmare.php"); ?>
   <!-- Hermes -->
   <?php include("projects/hermes/hermes.php"); ?>
-  <!-- TODO : GIGI -->
   <!-- Teyosh -->
   <?php include("projects/teyosh/teyosh.php"); ?>
   <!-- Awwwards 2016 -->
@@ -175,8 +176,8 @@
 
 <div class="mouse-circle mouse-circle-1"></div>
 
-<script src="build/scroll/personalised.js"></script>
-<script src="build/scroll/build.js"></script>
+<!-- <script src="build/scroll/personalised.js"></script>
+<script src="build/scroll/build.js"></script> -->
 
 </body>
 </html>

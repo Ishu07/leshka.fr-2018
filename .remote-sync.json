@@ -7,7 +7,7 @@
   "useAtomicWrites": false,
   "deleteLocal": false,
   "hostname": "ftp.cluster023.hosting.ovh.net",
-  "target": "leshka",
+  "target": "leshka/site",
   "ignore": [
     ".remote-sync.json",
     ".git/**"

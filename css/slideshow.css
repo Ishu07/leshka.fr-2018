@@ -19,6 +19,9 @@
 .sequence:hover .rollmeover{
   opacity: 0;
 }
+/* div:hover .rollmeover{
+  opacity: 0;
+} */
 
 
 @media (max-width: 730px){

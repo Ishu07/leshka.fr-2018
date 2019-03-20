@@ -211,6 +211,54 @@ h3{
   height: 2em;
   font-size: 2em;
 }
+
+h4{
+  font-weight: normal;
+  text-align: left;
+  font-size: 1.9em;
+  font-family: "LarishNeueSemibold-Regular";
+  letter-spacing: 0.01em;
+  line-height: 1.6em;
+  margin-top: 10px;
+
+}
+
+h5 {
+  font-weight: normal;
+  font-family: "LarishNeueSemibold-Regular";
+  letter-spacing: 0.01em;
+
+  font-size: 1em;
+  text-align: center;
+  margin:auto;
+  margin-bottom: 50px;
+  width: 100%;
+  line-height: 0.5em;
+  text-align: center;
+}
+h5 span {
+  display: inline-block;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap
+}
+h5 span:before,
+h5 span:after {
+  content: "";
+  height: 0.30em;
+  border-bottom: 1px solid white;
+  top: 0;
+  width: 50%;
+  opacity: 0.2;
+}
+h5 span:before {
+  margin-right: 25px;
+}
+h5 span:after {
+  margin-left: 25px;
+}
+
 p{
   line-height: 1.5em;
   margin-bottom: 50px;
@@ -262,16 +310,6 @@ p{
   text-align: left;
   font-size: 1.2em;
 }
-h4{
-  font-weight: normal;
-  text-align: left;
-  font-size: 1.9em;
-  font-family: "LarishNeueSemibold-Regular";
-  letter-spacing: 0.01em;
-  line-height: 1.6em;
-  margin-top: 10px;
-
-}
 br{
   font-size:2.4em;
 }
@@ -295,4 +333,16 @@ br{
   margin-top: 50vh;
   padding: 30vh 0 30vh 0;
   background-color: black;
+}
+
+.seenOnTV{
+  position: absolute;
+  left: -50px;
+  top: -20px;
+  height: 150px;
+  width: 150px;
+  // background-color: yellow;
+  z-index: 10;
+  background-image: url("../images/seenOnTV.png");
+  background-size: contain;
 }

@@ -1,8 +1,6 @@
 function initRollmeover(){
   $(".sequence").each(function( index ){
-
-        // var rollmediv = $( "<div class='rollmeover vs-div' data-speed='0.08'>roll me over.</div>")
-        var rollmediv = $( "<div class='rollmeover'>roll me over.</div>")
+    var rollmediv = $( "<div class='rollmeover'>roll me over.</div>")
     $( this ).append( rollmediv );
   })
 };

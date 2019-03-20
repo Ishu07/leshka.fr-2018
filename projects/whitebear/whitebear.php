@@ -16,7 +16,7 @@
       <p>White Bear is a British lifestyle brand, specialed in furniture designed to enhance and balance working spaces.<br/>
 In the collaboration with Yuriy Starikov, we developed at <a href="http://allofus.com/" target="_blank">AllofUs</a> a new Branding Concept and e-commerce launching.
 <br/><br/>
-        <a href="http://whitebear.com/" target="_blank" class="button">comming very soon <span class="arrow">➩</span></a>
+        <a href="https://www.whitebear.com/" target="_blank" class="button">whitebear.com <span class="arrow">➩</span></a>
       </p>
     </div>
   </div>
