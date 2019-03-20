@@ -63,7 +63,7 @@
       </div>
     </div>
 
-    <a href="projects/jagermeister/gifs" target="_blank" class="button">More GIFs <span class="arrow">➩</span></a></p>
+    <!-- <a href="projects/jagermeister/gifs" target="_blank" class="button">More GIFs <span class="arrow">➩</span></a></p> -->
 
     <!-- <div class="separator"></div> -->
 

@@ -69,6 +69,9 @@
 <script src="js/intro.js"></script>
 <script src="js/inview.js"></script>
 <script src="js/slideshow.js"></script>
+
+<!-- DELETE ME IF LOW PERFS -->
+<script src="js/video_autoplay.js"></script>
 <!-- DELETE ME TO USE THE EDITOR -->
 <script src="js/cursor.js"></script>
 <script src="js/link_arrow.js"></script>
@@ -78,7 +81,6 @@
 <script src="js/bouing.js"></script>
 
 <!-- DELETE ME IF LOW PERFS -->
-<script src="js/video_autoplay.js"></script>
 <script src="js/fallowing.js"></script>
 
 <!-- MOBILE REDIRECTION -->
@@ -109,24 +111,26 @@
 
 <div class="this" id="this">
 
+  <!-- Jager -->
+  <?php include("projects/jagermeister/jagermeister.php"); ?>
+  <!-- LOOP - Trust Power -->
+  <?php include("projects/loop/loop.php"); ?>
   <!-- 51 SPRINTS -->
   <?php include("projects/51sprints/51sprints.php"); ?>
+  <!-- White Bear -->
+  <?php include("projects/whitebear/whitebear.php"); ?>
+  <!-- AllofUs -->
+  <?php include("projects/allofus/allofus.php"); ?>
+
   <!-- RAF SIMONS -->
   <?php include("projects/raf-simons/raf-simons.php"); ?>
   <!-- HOGAN -->
   <?php include("projects/hogan/hogan.php"); ?>
-  <!-- Jager -->
-  <?php include("projects/jagermeister/jagermeister.php"); ?>
+
   <!-- Hi-ReS! -->
   <?php include("projects/hi-res/hi-res.php"); ?>
-  <!-- LOOP - Trust Power -->
-  <?php include("projects/loop/loop.php"); ?>
-  <!-- White Bear -->
-  <?php include("projects/whitebear/whitebear.php"); ?>
   <!-- Teyosh -->
   <?php include("projects/teyosh/teyosh.php"); ?>
-  <!-- AllofUs -->
-  <?php include("projects/allofus/allofus.php"); ?>
   <!-- Taylors -->
   <?php include("projects/taylors/taylors.php"); ?>
   <!-- TODO : REMY MARTIN -->
