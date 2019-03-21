@@ -121,16 +121,16 @@
   <?php include("projects/whitebear/whitebear.php"); ?>
   <!-- AllofUs -->
   <?php include("projects/allofus/allofus.php"); ?>
-
   <!-- RAF SIMONS -->
   <?php include("projects/raf-simons/raf-simons.php"); ?>
   <!-- HOGAN -->
   <?php include("projects/hogan/hogan.php"); ?>
-
   <!-- Hi-ReS! -->
   <?php include("projects/hi-res/hi-res.php"); ?>
   <!-- Teyosh -->
   <?php include("projects/teyosh/teyosh.php"); ?>
+  <!-- 03 July -->
+  <?php include("projects/03july/03july.php"); ?>
   <!-- Taylors -->
   <?php include("projects/taylors/taylors.php"); ?>
   <!-- TODO : REMY MARTIN -->
@@ -139,14 +139,10 @@
 
   <!-- Awwwards 2016 -->
   <?php include("projects/awwwards2016/awwwards2016.php"); ?>
-  <!-- TODO : JAGER -->
-
   <!-- VvV -->
   <?php include("projects/velvet-venus/velvet-venus.php"); ?>
-
   <!-- NESPRESSO U -->
   <?php include("projects/nespresso/nespresso_u.php"); ?>
-
   <!-- Doddle -->
   <?php include("projects/doddle/doddle.php"); ?>
   <!-- FOOTER -->
