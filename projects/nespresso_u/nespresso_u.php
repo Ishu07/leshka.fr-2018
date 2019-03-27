@@ -1,6 +1,6 @@
 <!-- NESPRESSO U -->
 
-<div class="project" id="nespresso" bgColor="#44bfff" letterColor="#0c2f42" txtColor="#fff">
+<div class="project" id="nespresso_u" bgColor="#44bfff" letterColor="#0c2f42" txtColor="#fff">
   <div class="heading">U</div>
   <h2>Nespresso U</h2>
   <p class="subtitle">Art Direction, Design & Motion</p>

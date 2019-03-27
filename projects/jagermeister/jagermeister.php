@@ -21,6 +21,12 @@
 
 
 
+  <?php include("projects/jagermeister/jagermeister-20-20.php"); ?>
+  <div class="separator"></div>
+  <?php include("projects/jagermeister/jagermeister-obelisk.php"); ?>
+  <div class="separator"> </div>
+  <?php include("projects/jagermeister/jagermeister-spice.php"); ?>
+  <div class="separator"> </div>
   <?php include("projects/jagermeister/jagermeister-music.php"); ?>
   <div class="separator"> </div>
   <?php include("projects/jagermeister/jagermeister-says.php"); ?>
@@ -29,12 +35,6 @@
   <div class="separator"> </div>
   <?php include("projects/jagermeister/jagermeister-gifs.php"); ?>
   <div class="separator"> </div>
-  <?php include("projects/jagermeister/jagermeister-spice.php"); ?>
-  <div class="separator"> </div>
-  <?php include("projects/jagermeister/jagermeister-obelisk.php"); ?>
-  <div class="separator"> </div>
   <?php include("projects/jagermeister/jagermeister-com.php"); ?>
   <div class="separator"> </div>
-  <?php include("projects/jagermeister/jagermeister-20-20.php"); ?>
-  <div class="separator"></div>
 </div>

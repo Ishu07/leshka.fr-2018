@@ -52,6 +52,9 @@ function insertPHP(urlProject){
         //LazyLoad
         lazyLoadProject();
         loadLazyYoutube();
+        loadSequence();
+        RollmeoverPopUp();
+        bouingPopUp();
         //Scroll Video Events
         playVideos();
         // $(".project").scroll = function(){console.log("LOL");};
@@ -78,6 +81,56 @@ function lazyLoadProject(){
         }
     });
 }
+
+function loadSequence(){
+
+
+  $("#popUp .sequence").each(function( index ){
+    var sequence = $(this);
+      sequence.data("toload",false);
+      // create images from urls
+      var urls = new Array();
+      // split the sring in array
+      urls = sequence.attr("urls").split(",");;
+      // sequence.append('<div class="full">');
+      for (var i = 0; i < urls.length; i++) {
+        // console.log(urls[i]);
+        sequence.append('<img class="full" src="' + urls[i] +'" />');
+      }
+      // sequence.append('</div>');
+      // diplay only the good one
+      initSeq(sequence);
+    });
+
+
+}
+
+function RollmeoverPopUp(){
+  $("#popUp .sequence").each(function( index ){
+    var rollmediv = $( "<div class='rollmeover'>roll me over.</div>")
+    $( this ).append( rollmediv );
+  })
+};
+
+function bouingPopUp(){
+  $( "#popUp .button" ).addClass("bouing")
+  $( "#popUp .button" ).attr( "offset-hover-max", ".6" );
+  $( "#popUp .button" ).attr( "offset-hover-min", ".5" );
+
+  $( "#popUp .youtube" ).addClass("bouing")
+  $( "#popUp .youtube" ).attr( "offset-hover-max", ".2" );
+  $( "#popUp .youtube" ).attr( "offset-hover-min", ".1" );
+
+  $( "#popUp .sequence" ).addClass("bouing")
+  $( "#popUp .sequence" ).attr( "offset-hover-max", ".35" );
+  $( "#popUp .sequence" ).attr( "offset-hover-min", ".3" );
+
+  $( "#popUp .nobouing" ).removeClass("bouing")
+
+  $( "#popUp .bouing" ).each(bouingMe)
+}
+
+
 
 // AUTO PLAY THE VIDEOS BECAUSE OF THE SCROLL PROBLEM
 function playVideos(){

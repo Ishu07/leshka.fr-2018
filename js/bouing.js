@@ -13,7 +13,10 @@ function initBouing(){
 
   $(".nobouing").removeClass("bouing")
 
-$(".bouing").each(function() {
+  $(".bouing").each(bouingMe)
+}
+
+function bouingMe(){
   // console.log($(this));
                     var e = $(this),
                         t = !1,
@@ -68,13 +71,13 @@ $(".bouing").each(function() {
                         t = !1)
                       // }
                     })
-})
-
-
-
-
-
 }
+
+
+
+
+
+
 $( document ).ready(function() {
     initBouing();
 });

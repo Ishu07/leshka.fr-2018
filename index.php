@@ -111,12 +111,15 @@
 
 <div class="this" id="this">
 
-  <!-- Jager -->
-  <?php include("projects/jagermeister/jagermeister.php"); ?>
+
   <!-- LOOP - Trust Power -->
   <?php include("projects/loop/loop.php"); ?>
   <!-- 51 SPRINTS -->
   <?php include("projects/51sprints/51sprints.php"); ?>
+  <!-- Jager -->
+  <?php include("projects/jagermeister/jagermeister.php"); ?>
+  <!-- 03 July -->
+  <?php include("projects/03july/03july.php"); ?>
   <!-- White Bear -->
   <?php include("projects/whitebear/whitebear.php"); ?>
   <!-- AllofUs -->
@@ -129,8 +132,6 @@
   <?php include("projects/hi-res/hi-res.php"); ?>
   <!-- Teyosh -->
   <?php include("projects/teyosh/teyosh.php"); ?>
-  <!-- 03 July -->
-  <?php include("projects/03july/03july.php"); ?>
   <!-- Taylors -->
   <?php include("projects/taylors/taylors.php"); ?>
   <!-- TODO : REMY MARTIN -->
@@ -142,7 +143,7 @@
   <!-- VvV -->
   <?php include("projects/velvet-venus/velvet-venus.php"); ?>
   <!-- NESPRESSO U -->
-  <?php include("projects/nespresso/nespresso_u.php"); ?>
+  <?php include("projects/nespresso_u/nespresso_u.php"); ?>
   <!-- Doddle -->
   <?php include("projects/doddle/doddle.php"); ?>
   <!-- FOOTER -->
