@@ -154,6 +154,8 @@
 <div class="that">
   <!-- Nike Infinite -->
   <?php include("projects/nike-infinite/nike-infinite.php"); ?>
+  <!-- New Born -->
+  <?php include("projects/new_born/new_born.php"); ?>
   <!-- Gigi -->
   <?php include("projects/tommy-hilfiger/tommy-hilfiger.php"); ?>
   <!-- VOID -->
