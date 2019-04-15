@@ -28,49 +28,49 @@ setInterval(link_arrow, 120);
       }
       if (count_arrow==1){
         $(".arrow").html("➫")
-        $(".that .button").css("color","#FE00D6")
-        $(".that .button").css("background-color","#14CBC0")
+        $(".that .button:hover").css("color","#FE00D6")
+        $(".that .button:hover").css("background-color","#14CBC0")
         $(".this .button:hover").css("color","#FE00D6")
         $(".this .button:hover").css("background-color","#14CBC0")
         if (circleOver == true){
-          $(".mouse-circle").css("background-color","#14CBC0")
+          // $(".mouse-circle").css("background-color","#14CBC0")
         }
         $(".that .rollmeover").css("color","#FE00D6")
         $(".that .rollmeover").css("background-color","#14CBC0")
-        $(".that .youtube .play-button .playTriangle").css("border-color","transparent transparent transparent #FE00D6")
-        $(".that .youtube .play-button").css("background-color","#14CBC0")
+        $(".that .youtube:hover .play-button .playTriangle").css("border-color","transparent transparent transparent #FE00D6")
+        $(".that .youtube:hover .play-button").css("background-color","#14CBC0")
         $(".this .youtube:hover .play-button .playTriangle").css("border-color","transparent transparent transparent #FE00D6")
         $(".this .youtube:hover .play-button").css("background-color","#14CBC0")
       }
       else if (count_arrow==2){
         $(".arrow").html("➩")
-        $(".that .button").css("color","#FED419")
-        $(".that .button").css("background-color","#B11298")
+        $(".that .button:hover").css("color","#FED419")
+        $(".that .button:hover").css("background-color","#B11298")
         $(".this .button:hover").css("color","#FED419")
         $(".this .button:hover").css("background-color","#B11298")
         if (circleOver == true){
-          $(".mouse-circle").css("background-color","#B11298")
+          // $(".mouse-circle").css("background-color","#B11298")
         }
         $(".that .rollmeover").css("color","#FED419")
         $(".that .rollmeover").css("background-color","#B11298")
-        $(".that .youtube .play-button .playTriangle").css("border-color","transparent transparent transparent #FED419")
-        $(".that .youtube .play-button").css("background-color","#B11298")
+        $(".that .youtube:hover .play-button .playTriangle").css("border-color","transparent transparent transparent #FED419")
+        $(".that .youtube:hover .play-button").css("background-color","#B11298")
         $(".this .youtube:hover .play-button .playTriangle").css("border-color","transparent transparent transparent #FED419")
         $(".this .youtube:hover .play-button").css("background-color","#B11298")
       }
       else if (count_arrow==3){
         $(".arrow").html("➬")
-        $(".that .button").css("color","#1BFEC7")
-        $(".that .button").css("background-color","#FE531B")
+        $(".that .button:hover").css("color","#1BFEC7")
+        $(".that .button:hover").css("background-color","#FE531B")
         $(".this .button:hover").css("color","#1BFEC7")
         $(".this .button:hover").css("background-color","#FE531B")
         if (circleOver == true){
-          $(".mouse-circle").css("background-color","#FE531B")
+          // $(".mouse-circle").css("background-color","#FE531B")
         }
         $(".that .rollmeover").css("color","#1BFEC7")
         $(".that .rollmeover").css("background-color","#FE531B")
-        $(".that .youtube .play-button .playTriangle").css("border-color","transparent transparent transparent #1BFEC7")
-        $(".that .youtube .play-button").css("background-color","#FE531B")
+        $(".that .youtube:hover .play-button .playTriangle").css("border-color","transparent transparent transparent #1BFEC7")
+        $(".that .youtube:hover .play-button").css("background-color","#FE531B")
         $(".this .youtube:hover .play-button .playTriangle").css("border-color","transparent transparent transparent #1BFEC7")
         $(".this .youtube:hover .play-button").css("background-color","#FE531B")
       }

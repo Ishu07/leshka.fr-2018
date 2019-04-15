@@ -7,9 +7,9 @@ function initBouing(){
   $( ".youtube" ).attr( "offset-hover-max", ".2" );
   $( ".youtube" ).attr( "offset-hover-min", ".1" );
 
-  $(".sequence").addClass("bouing")
-  $( ".sequence" ).attr( "offset-hover-max", ".35" );
-  $( ".sequence" ).attr( "offset-hover-min", ".3" );
+  // $(".sequence").addClass("bouing")
+  // $( ".sequence" ).attr( "offset-hover-max", ".35" );
+  // $( ".sequence" ).attr( "offset-hover-min", ".3" );
 
   $(".nobouing").removeClass("bouing")
 

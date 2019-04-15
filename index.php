@@ -114,6 +114,8 @@
 
   <!-- LOOP - Trust Power -->
   <?php include("projects/loop/loop.php"); ?>
+  <!-- RAF SIMONS -->
+  <?php include("projects/raf-simons/raf-simons.php"); ?>
   <!-- 51 SPRINTS -->
   <?php include("projects/51sprints/51sprints.php"); ?>
   <!-- Jager -->
@@ -124,8 +126,6 @@
   <?php include("projects/whitebear/whitebear.php"); ?>
   <!-- AllofUs -->
   <?php include("projects/allofus/allofus.php"); ?>
-  <!-- RAF SIMONS -->
-  <?php include("projects/raf-simons/raf-simons.php"); ?>
   <!-- HOGAN -->
   <?php include("projects/hogan/hogan.php"); ?>
   <!-- Hi-ReS! -->
